@@ -6,4 +6,4 @@ subtitle: env | grep PATH
 - [UH Department of Computer Science](https://www.uh.edu/nsm/computer-science/)
 - [Computational Physiology Laboratory](https://cpl.uh.edu/contact.php)
 - Houston, TX
-- mailto: zhuko.v.italy@gmail.com
+- <zhuko.v.italy@gmail.com>
