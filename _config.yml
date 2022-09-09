@@ -14,7 +14,11 @@ author: Vitalii Zhukov
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+   Contacts: "contacts"
+   Links: "links"
+   Teaching: "teaching"
    About Me: "aboutme"
+   
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
