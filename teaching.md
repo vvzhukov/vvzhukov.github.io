@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Teaching
-subtitle: Why you'd want to go on a date with me
+subtitle: ls /usr/lib
 ---
 ### Statistical methods in research
 - [Class web, Statistical methods in research](https://cpl.uh.edu/courses/statistical-methods-research/)
