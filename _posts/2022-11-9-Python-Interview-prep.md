@@ -28,7 +28,7 @@ List of used resources:
 11. walkccc.me  
 
 
-**Data structures**
+**Data structures**  
 Hash set, map: [implementation](https://docs.google.com/document/d/1vG6sD1L0phvNqfElF2qiq7Uto1XT_dMiLXJZXNCS-n8/edit)  
 Stacks: [implementation using 2 stacks](https://docs.google.com/document/d/11fkHGH_O2q8k5SyfD6nLWw43k3esZCiL_esMsHVZFP8/edit)  
 Queues: [priority queue implementation](https://docs.google.com/document/d/1A1j0g4stoAHPws4NJNdPAJvOi_y2SuKV2ExIs4O36kE/edit) collections.deque, heapq.heapify  
@@ -86,7 +86,7 @@ n-choose-k problems and their ilk = (k!)/n!(k-n)!
 [Text justification](https://leetcode.com/problems/text-justification/discuss/24891/Concise-python-solution-10-lines.) (string, cut text in blocks)  
 [Time to notify all](https://leetcode.com/problems/time-needed-to-inform-all-employees/) (list managers, list inform times)
 
-**Combination sum**
+**Combination sum**  
 [39\. Combination Sum](https://leetcode.com/problems/combination-sum/discuss/310038/Simple-Python-DFS-solutions-for-similar-backtrack-problems) (list, all combinations leading to sum) [40\. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/discuss/310039/Simple-Python-DFS-solutions-for-8-backtrack-problems) (list, all combinations, used once) [216\. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/discuss/310040/Simple-Python-DFS-solutions-for-8-backtrack-problems) (k numbers, n sum, all valid combinations) [77\. Combinations](https://leetcode.com/problems/combinations/discuss/1023998/Simple-Python-DFS-solutions-for-similar-backtrack-problems) (all combinations of k numbers from \[1:n\]) [46\. Permutation](https://leetcode.com/problems/permutations/discuss/309478/Simple-Python-DFS-solution) (all permutations of list) [47\. Permutation II](https://leetcode.com/problems/permutations-ii/discuss/309479/Simple-Python-DFS-solution) (all unique permutations of list) [267\. Palindrome Permutation II](https://github.com/xiaoningning/LeetCode-python/blob/master/267%20Palindrome%20Permutation%20II.py) (string) [78\. Subsets](https://leetcode.com/problems/subsets/discuss/310034/Simple-Python-DFS-solutions-for-8-backtrack-problems) (list, all possible subsets) [90\. Subsets II](https://leetcode.com/problems/subsets-ii/discuss/310037/Simple-Python-DFS-solutions-for-8-backtrack-problems) (list, all possible subsets, no duplicates)  
 **Two sum**[3Sum](https://leetcode.com/problems/3sum/) [4Sum](https://leetcode.com/problems/4sum/) [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/) [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) [Count Good Meals](https://leetcode.com/problems/count-good-meals/) [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)  
   
