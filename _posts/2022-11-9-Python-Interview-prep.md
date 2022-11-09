@@ -1,3 +1,14 @@
+---
+layout: post
+title: Interview prepare list
+subtitle: Common interview problems & solutions
+gh-repo: daattali/beautiful-jekyll
+gh-badge: [star, fork, follow]
+tags: [interview]
+comments: true
+---
+
+
 {: .box-note}
 Used to prerp for the Internship interview @ Google, summer 2021.
 Language: Python 3
