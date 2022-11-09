@@ -10,8 +10,23 @@ comments: true
 
 
 {: .box-note}
-Used to prerp for the Internship interview @ Google, summer 2021.
+Used to prerp for the Internship interview @ Google, summer 2021.  
 Language: Python 3
+
+[Google doc files may be found in archive](https://github.com/vvzhukov/vvzhukov.github.io/blob/master/docs/Interview_prep_files.zip)  
+List of used resources:  
+1. leetcode.com  
+2. stackoverflow.com  
+3. geeksforgeeks.org  
+4. medium.com  
+5. tutorialspoint.com  
+6. programiz.com  
+7. goodtecher.com  
+8. baihuqian.github.io  
+9. zhenyu0519.github.io  
+10. nikgrozev.com  
+11. walkccc.me  
+
 
 **Data structures**
 Hash set, map: [implementation](https://docs.google.com/document/d/1vG6sD1L0phvNqfElF2qiq7Uto1XT_dMiLXJZXNCS-n8/edit)  
