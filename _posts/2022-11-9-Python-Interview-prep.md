@@ -10,7 +10,7 @@ comments: true
 
 
 {: .box-note}
-Used to prerp for the Internship interview @ Google, summer 2021.  
+Used to prepare for the Internship interview @ Google, Summer 2021.  
 Language: Python 3  
 
 [Google doc files may be found in archive](https://github.com/vvzhukov/vvzhukov.github.io/blob/master/docs/Interview_prep_files.zip)  
