@@ -14,7 +14,6 @@ splay tree,
 AVL tree: [implementation](https://www.geeksforgeeks.org/avl-tree-set-1-insertion/)  
 min/max heaps: [maxh implementation](https://www.geeksforgeeks.org/max-heap-in-python/)  
   
-
 Graphs: [implementation](https://docs.google.com/document/d/1_7qUHojwm-0aIU_F5HPxypeBkAbWfTXqdTWwDwv1a2M/edit), [distance](https://www.askpython.com/python/examples/distance-between-nodes-unweighted-graph), [search](https://www.educative.io/edpresso/how-to-implement-depth-first-search-in-python), connectivity, [cycle-detection](https://docs.google.com/document/d/1RLHLDKgwo8k-Qe36_WsL38WbKXy4Glkrgy2EagL5Www/edit), [BFS and DFS](https://docs.google.com/document/d/136fqPao_ijfl4XyiySN7CUbZBoJDHC7yJv0Tn4OCcns/edit), [deep copy](https://docs.google.com/document/d/14A7WePuerLRU2F96g1u1DVQgg-Ak-fXIfUxHUxwqqak/edit)  
 [MST minimum spanning tree (Prim’s)](https://docs.google.com/document/d/1IKCB2VW64lnpncy5MwiyseE93MMNs1aBF882jfcdMwA/edit)  
 [MST Kruskal’s](https://docs.google.com/document/d/1XwL2hcLuqyLdkGxFPoJjemZgVT7aweCOhg12MZAkCO4/edit)  
@@ -24,15 +23,13 @@ adjacency lists: find edge – O(d), d = degree of vertex; undir space O(2e), di
 
 
 **Other algorithms**  
-
 Sorting: [Quick](https://docs.google.com/document/d/1WR6jxHbo5rBaH9MRgfEWw6gTIHEszz2i7MEsGLBcA8g/edit), [Merge](https://docs.google.com/document/d/1IB-_MNrL7lSekBaU63FXx-vEDfrtcp-7HA9we5GrSY4/edit), [Counting](https://www.geeksforgeeks.org/counting-sort/), [Bucket](https://www.geeksforgeeks.org/bucket-sort-2/)  
 NP-complete problems - nondeterministic polynomial-time complete. Quick verification, hard to find solution in poly-time.  
 Good card shuffling algorithm ([just shuffle](https://www.tutorialspoint.com/python-program-to-shuffle-deck-of-cards), las vegas, monte carlo)  
 [Random](https://stackoverflow.com/a/28721505)  
-~~~
+
 
 **OS**  
-~~~
 processes – instance of a program which is executed by one or many threads  
 threads – smallest sequence of instructions which can be executed independently  
 concurrency issues, locks,  
@@ -63,7 +60,8 @@ n-choose-k problems and their ilk = (k!)/n!(k-n)!
 [Text justification](https://leetcode.com/problems/text-justification/discuss/24891/Concise-python-solution-10-lines.) (string, cut text in blocks)  
 [Time to notify all](https://leetcode.com/problems/time-needed-to-inform-all-employees/) (list managers, list inform times)
 
-**Combination sum**[39\. Combination Sum](https://leetcode.com/problems/combination-sum/discuss/310038/Simple-Python-DFS-solutions-for-similar-backtrack-problems) (list, all combinations leading to sum) [40\. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/discuss/310039/Simple-Python-DFS-solutions-for-8-backtrack-problems) (list, all combinations, used once) [216\. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/discuss/310040/Simple-Python-DFS-solutions-for-8-backtrack-problems) (k numbers, n sum, all valid combinations) [77\. Combinations](https://leetcode.com/problems/combinations/discuss/1023998/Simple-Python-DFS-solutions-for-similar-backtrack-problems) (all combinations of k numbers from \[1:n\]) [46\. Permutation](https://leetcode.com/problems/permutations/discuss/309478/Simple-Python-DFS-solution) (all permutations of list) [47\. Permutation II](https://leetcode.com/problems/permutations-ii/discuss/309479/Simple-Python-DFS-solution) (all unique permutations of list) [267\. Palindrome Permutation II](https://github.com/xiaoningning/LeetCode-python/blob/master/267%20Palindrome%20Permutation%20II.py) (string) [78\. Subsets](https://leetcode.com/problems/subsets/discuss/310034/Simple-Python-DFS-solutions-for-8-backtrack-problems) (list, all possible subsets) [90\. Subsets II](https://leetcode.com/problems/subsets-ii/discuss/310037/Simple-Python-DFS-solutions-for-8-backtrack-problems) (list, all possible subsets, no duplicates)  
+**Combination sum**
+[39\. Combination Sum](https://leetcode.com/problems/combination-sum/discuss/310038/Simple-Python-DFS-solutions-for-similar-backtrack-problems) (list, all combinations leading to sum) [40\. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/discuss/310039/Simple-Python-DFS-solutions-for-8-backtrack-problems) (list, all combinations, used once) [216\. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/discuss/310040/Simple-Python-DFS-solutions-for-8-backtrack-problems) (k numbers, n sum, all valid combinations) [77\. Combinations](https://leetcode.com/problems/combinations/discuss/1023998/Simple-Python-DFS-solutions-for-similar-backtrack-problems) (all combinations of k numbers from \[1:n\]) [46\. Permutation](https://leetcode.com/problems/permutations/discuss/309478/Simple-Python-DFS-solution) (all permutations of list) [47\. Permutation II](https://leetcode.com/problems/permutations-ii/discuss/309479/Simple-Python-DFS-solution) (all unique permutations of list) [267\. Palindrome Permutation II](https://github.com/xiaoningning/LeetCode-python/blob/master/267%20Palindrome%20Permutation%20II.py) (string) [78\. Subsets](https://leetcode.com/problems/subsets/discuss/310034/Simple-Python-DFS-solutions-for-8-backtrack-problems) (list, all possible subsets) [90\. Subsets II](https://leetcode.com/problems/subsets-ii/discuss/310037/Simple-Python-DFS-solutions-for-8-backtrack-problems) (list, all possible subsets, no duplicates)  
 **Two sum**[3Sum](https://leetcode.com/problems/3sum/) [4Sum](https://leetcode.com/problems/4sum/) [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/) [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) [Count Good Meals](https://leetcode.com/problems/count-good-meals/) [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)  
   
 **Subarray, Submatrix**  
