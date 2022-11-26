@@ -56,9 +56,9 @@ Good card shuffling algorithm ([just shuffle](https://www.tutorialspoint.com/pyt
 
 
 **OS**  
-processes – instance of a program which is executed by one or many threads  
-threads – smallest sequence of instructions which can be executed independently  
-concurrency issues, locks,  
+Processes – instance of a program which is executed by one or many threads  
+Threads – smallest sequence of instructions which can be executed independently  
+Concurrency issues, locks,  
 Deadlock - situation in which processes/threads block each other due to resource acquisition and none of the processes makes any progress as they wait for the resource held by the other process  
 conditions: mutual exclusion, hold and wait, no preemption, circular wait  
 Livelock - Livelock is a deadlock-like situation in which processes block each other with a repeated state change yet make no progress.  
@@ -183,7 +183,6 @@ Backtracking problems: [Combinations/permutations/subset/combination sum](https:
 [Combinations of a RGBY](https://leetcode.com/discuss/interview-question/1850189/Googleor-Phone-screen) (list, top k sum combinations)
 
 **Language**  
-Max int variable  
   
 List comprehension _newList_ **_\=_** **_\[_** _expression(element)_ **_for_** _element_ **_in_** _oldList_ **_if_** _condition **\]**_   
 Iterators - iterator protocol: \_\_iter\_\_() and \_\_next\_\_(). [Custom iterator](https://www.programiz.com/python-programming/iterator)  
