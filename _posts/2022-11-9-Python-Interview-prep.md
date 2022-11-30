@@ -55,7 +55,7 @@ Good card shuffling algorithm ([just shuffle](https://www.tutorialspoint.com/pyt
 [Random](https://stackoverflow.com/a/28721505)  
 
 
-**OS**  
+**OS**  Some very basic things  
 Processes – instance of a program which is executed by one or many threads  
 Threads – smallest sequence of instructions which can be executed independently  
 Concurrency issues, locks,  
@@ -202,3 +202,9 @@ During interview:
 3\. **Analyze various solutions** and tradeoffs before starting to code  
 4\. Plan and implement your solution  
 5\. **Test your solution**, including corner and edge cases
+
+
+**Bonus**  
+Here are two ref links for the f00bAr challenge from 10^100 company:
+"https://f00bar.withg00gle.com/?eid=j1xPb" (replace 0 with o)
+"https://f00bar.withg00gle.com/?eid=GQqyC" (replace 0 with o)
