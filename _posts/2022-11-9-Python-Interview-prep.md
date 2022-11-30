@@ -183,7 +183,6 @@ Backtracking problems: [Combinations/permutations/subset/combination sum](https:
 [Combinations of a RGBY](https://leetcode.com/discuss/interview-question/1850189/Googleor-Phone-screen) (list, top k sum combinations)
 
 **Language**  
-  
 List comprehension _newList_ **_\=_** **_\[_** _expression(element)_ **_for_** _element_ **_in_** _oldList_ **_if_** _condition **\]**_   
 Iterators - iterator protocol: \_\_iter\_\_() and \_\_next\_\_(). [Custom iterator](https://www.programiz.com/python-programming/iterator)  
 Lambda functions – anonymous functions, called by ‘\_’ (lambda x: x + 1)(2); high level functions: high\_ord\_func = lambda x, func: x + func(x); high\_ord\_func(2, lambda x: x \* x)  
@@ -195,7 +194,6 @@ Prep google docs:
 
   
 During interview:
-
 0\. Overexplain staff  
 1\. **Ask clarification questions** to make sure you understand the problem correctly  
 2\. **Discuss any assumptions** you're planning to make to solve the problem  
@@ -205,6 +203,6 @@ During interview:
 
 
 **Bonus**  
-Here are two ref links for the f00bAr challenge from 10^100 company:
-"https://f00bar.withg00gle.com/?eid=j1xPb" (replace 0 with o)
-"https://f00bar.withg00gle.com/?eid=GQqyC" (replace 0 with o)
+Here are two ref links for the f00bAr challenge from 10^100 company:  
+"https://f00bar.withg00gle.com/?eid=j1xPb" (replace 0 with o)  
+"https://f00bar.withg00gle.com/?eid=GQqyC" (replace 0 with o)  
