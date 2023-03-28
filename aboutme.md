@@ -9,3 +9,5 @@ Fields of interest:
 - Data Sicence 
 - Project Managment 
 - Science of Science
+
+- [CV](https://github.com/vvzhukov/vvzhukov.github.io/blob/master/docs/VZ_CV.pdf)
