@@ -202,9 +202,9 @@ two days.
 """
 
 reviews = [review_1, review_2, review_3, review_4]
+```
 
-
-
+```python
 for i in range(len(reviews)):
     prompt = f"""
     Your task is to generate a short summary of a product \ 
@@ -218,7 +218,6 @@ for i in range(len(reviews)):
 
     response = get_completion(prompt)
     print(i, response, "\n")
-
 
 ```
 
