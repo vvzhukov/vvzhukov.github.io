@@ -127,10 +127,10 @@ Parameter of the model responsible for the 'randomness' of the output.
 The higher the temperature the more chances to get uniques response.
 
 ### Example
-My favourite drink is: lemonade [53%], water [30%], rum [17%]  
+My favourite drink is: lemonade [53%], **water** [30%], _rum_ [17%]  
 Temperature = 0 -> lemonade, lemonade, lemonade  
-Temperature = 0.3 -> lemonade, water, lemonade  
-Temperature = 0.7 -> rum, water, lemonade  
+Temperature = 0.3 -> lemonade, **water**, lemonade  
+Temperature = 0.7 -> _rum_, **water**, lemonade  
 
 #### References
 - [deeplearning.ai courses](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
