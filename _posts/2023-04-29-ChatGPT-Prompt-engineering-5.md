@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ChatGPT Prompt engineering V
-subtitle: Prompt inferring
+subtitle: Prompt transforming
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [ChatGPT, LLM, Python]
