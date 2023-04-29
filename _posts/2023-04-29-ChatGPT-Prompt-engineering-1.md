@@ -334,5 +334,5 @@ openai.api_key = "sk-..."
 #### References
 - [deeplearning.ai courses](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 - [deeplearning.ai prompt engineering](https://learn.deeplearning.ai/chatgpt-prompt-eng)
-- [chatgpt] (https://chat.openai.com)
-- [chatgpt docs] (https://platform.openai.com/docs/introduction)
+- [chatgpt](https://chat.openai.com)
+- [chatgpt docs](https://platform.openai.com/docs/introduction)
