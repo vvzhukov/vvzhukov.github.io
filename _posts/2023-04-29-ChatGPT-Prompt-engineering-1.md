@@ -111,7 +111,9 @@ then simply write \"No steps provided.\"
 response = get_completion(prompt)
 print("Completion for Text 1:")
 print(response)
+```
 
+```python
 text_2 = f"
 The sun is shining brightly today, and the birds are \
 singing. It's a beautiful day to go for a \ 
@@ -301,8 +303,11 @@ Actual solution:
 response = get_completion(prompt)
 print(response)
 ``
+```
+
 ## Model Limitations: Hallucinations
 - Boie is a real company, the product name is not real.
+
 ```python
 prompt = f"""
 Tell me about AeroGlide UltraSlim Smart Toothbrush by Boie
@@ -310,6 +315,7 @@ Tell me about AeroGlide UltraSlim Smart Toothbrush by Boie
 response = get_completion(prompt)
 print(response)
 ```
+
 #### Notes on using the OpenAI API
 To install the OpenAI Python library:
 ```
