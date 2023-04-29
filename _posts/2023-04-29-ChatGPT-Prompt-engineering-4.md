@@ -62,7 +62,9 @@ Review text: '''{lamp_review}'''
 """
 response = get_completion(prompt)
 print(response)
+```
 
+```python
 prompt = f"""
 What is the sentiment of the following product review, 
 which is delimited with triple backticks?
@@ -196,9 +198,14 @@ Text sample: '''{story}'''
 """
 response = get_completion(prompt)
 print(response)
+```
 
+```python
 response.split(sep=',')
 
+```
+
+```python
 topic_list = [
     "nasa", "local government", "engineering", 
     "employee satisfaction", "federal government"
@@ -222,6 +229,9 @@ Text sample: '''{story}'''
 response = get_completion(prompt)
 print(response)
 
+```
+
+```python
 topic_dict = {i.split(': ')[0]: int(i.split(': ')[1]) for i in response.split(sep='\n')}
 if topic_dict['nasa'] == 1:
     print("ALERT: New NASA story!")
