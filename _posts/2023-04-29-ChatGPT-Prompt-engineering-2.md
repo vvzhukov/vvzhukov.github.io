@@ -75,7 +75,8 @@ SEAT
 COUNTRY OF ORIGIN
 - Italy
 """
-
+```
+```python
 prompt = f"""
 Your task is to help a marketing team create a 
 description for a retail website of a product based 
@@ -110,8 +111,8 @@ Technical specifications: ```{fact_sheet_chair}```
 """
 response = get_completion(prompt)
 print(response)
-
-
+```
+```python
 len(response)
 ``` 
 
@@ -138,7 +139,9 @@ Technical specifications: ```{fact_sheet_chair}```
 """
 response = get_completion(prompt)
 print(response)
+```
 
+```python
 prompt = f"""
 Your task is to help a marketing team create a 
 description for a retail website of a product based 
@@ -198,9 +201,10 @@ Technical specifications: ```{fact_sheet_chair}```
 
 response = get_completion(prompt)
 print(response)
-
+```
 ## Load Python libraries to view HTML
 
+```python
 from IPython.display import display, HTML
 
 display(HTML(response))
