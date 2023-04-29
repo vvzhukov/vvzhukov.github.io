@@ -43,7 +43,7 @@ def get_completion(prompt, model="gpt-3.5-turbo",temperature=0): # Andrew mentio
 sentiment = "negative"
 ```
 
-# review for a blender
+### review for a blender
 
 ```python
 review = f"""
@@ -127,10 +127,10 @@ Parameter of the model responsible for the 'randomness' of the output.
 The higher the temperature the more chances to get uniques response.
 
 ### Example
-My favourite drink is: lemonade [53%], water [30%], rum [17%]
-Temperature = 0 -> lemonade, lemonade, lemonade
-Temperature = 0.3 -> lemonade, water, lemonade
-Temperature = 0.7 -> rum, water, lemonade
+My favourite drink is: lemonade [53%], water [30%], rum [17%]  
+Temperature = 0 -> lemonade, lemonade, lemonade  
+Temperature = 0.3 -> lemonade, water, lemonade  
+Temperature = 0.7 -> rum, water, lemonade  
 
 #### References
 - [deeplearning.ai courses](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
