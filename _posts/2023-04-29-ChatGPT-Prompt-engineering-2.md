@@ -89,7 +89,8 @@ print(response)
 ```
 
 ## Issue 1: The text is too long 
-- Limit the number of words/sentences/characters.
+- Limit the number of words/sentences/characters. 
+
 ```python
 prompt = f"""
 Your task is to help a marketing team create a 
@@ -109,9 +110,11 @@ print(response)
 
 
 len(response)
-```
+``` 
+
 ## Issue 2. Text focuses on the wrong details
-- Ask it to focus on the aspects that are relevant to the intended audience.
+- Ask it to focus on the aspects that are relevant to the intended audience. 
+
 ```python
 prompt = f"""
 Your task is to help a marketing team create a 
@@ -155,9 +158,11 @@ Technical specifications: ```{fact_sheet_chair}```
 """
 response = get_completion(prompt)
 print(response)
-```
+``` 
+
 ## Issue 3. Description needs a table of dimensions
-- Ask it to extract information and organize it in a table.
+- Ask it to extract information and organize it in a table. 
+
 ```python
 prompt = f"""
 Your task is to help a marketing team create a 
