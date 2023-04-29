@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ChatGPT Prompt engineering
+title: ChatGPT Prompt engineering I
 subtitle: Intro to get familiar with the prompt strategies
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
@@ -12,7 +12,7 @@ comments: true
 
 ## Setup
 #### Load the API key and Python libs.
-
+```python
 import openai
 import os
 
@@ -20,12 +20,11 @@ from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv())
 
 openai.api_key  = os.getenv('OPENAI_API_KEY')
-
+```
 #### helper function
 We will use OpenAI's `gpt-3.5-turbo` model and the [chat completions endpoint](https://platform.openai.com/docs/guides/chat). 
-
 Helper function will make it easier to use prompts and look at the generated outputs:
-
+```python
 def get_completion(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
     response = openai.ChatCompletion.create(
@@ -34,7 +33,7 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
         temperature=0, # this is the degree of randomness of the model's output
     )
     return response.choices[0].message["content"]
-
+```
 ## Prompting Principles
 - **Principle 1: Write clear and specific instructions**
 - **Principle 2: Give the model time to “think”**
@@ -42,8 +41,8 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
 ### Tactics
 
 #### Tactic 1: Use delimiters to clearly indicate distinct parts of the input
-- Delimiters can be anything like: ```, """, < >, `<tag> </tag>`, `:`
-
+- Delimiters can be anything like: ``(x3), """, < >, `<tag> </tag>`, `:`
+```python
 text = f"""
 You should express what you want a model to do by \ 
 providing instructions that are as clear and \ 
@@ -59,14 +58,14 @@ more detailed and relevant outputs.
 prompt = f"""
 Summarize the text delimited by triple backticks \ 
 into a single sentence.
-```{text}```
+``{text}``
 """
 response = get_completion(prompt)
 print(response)
-
+```
 #### Tactic 2: Ask for a structured output
 - JSON, HTML
-
+```python
 prompt = f"""
 Generate a list of three made-up book titles along \ 
 with their authors and genres. 
@@ -75,9 +74,9 @@ book_id, title, author, genre.
 """
 response = get_completion(prompt)
 print(response)
-
+```
 #### Tactic 3: Ask the model to check whether conditions are satisfied
-
+```python
 text_1 = f"""
 Making a cup of tea is easy! First, you need to get some \ 
 water boiling. While that's happening, \ 
@@ -137,9 +136,9 @@ then simply write \"No steps provided.\"
 response = get_completion(prompt)
 print("Completion for Text 2:")
 print(response)
-
+```
 #### Tactic 4: "Few-shot" prompting
-
+```python
 prompt = f"""
 Your task is to answer in a consistent style.
 
@@ -154,11 +153,11 @@ the most intricate tapestry begins with a solitary thread.
 """
 response = get_completion(prompt)
 print(response)
-
+```
 ### Principle 2: Give the model time to “think” 
 
 #### Tactic 1: Specify the steps required to complete a task
-
+```python
 text = f"""
 In a charming village, siblings Jack and Jill set out on \ 
 a quest to fetch water from a hilltop \ 
@@ -188,9 +187,9 @@ Text:
 response = get_completion(prompt_1)
 print("Completion for prompt 1:")
 print(response)
-
+```
 #### Ask for output in a specified format
-
+```python
 prompt_2 = f"""
 Your task is to perform the following actions: 
 1 - Summarize the following text delimited by 
@@ -212,9 +211,9 @@ Text: <{text}>
 response = get_completion(prompt_2)
 print("\nCompletion for prompt 2:")
 print(response)
-
+```
 #### Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion
-
+```python
 prompt = f"""
 Determine if the student's solution is correct or not.
 
@@ -239,10 +238,10 @@ Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
 """
 response = get_completion(prompt)
 print(response)
-
+```
 #### Note that the student's solution is actually not correct.
 #### We can fix this by instructing the model to work out its own solution first.
-
+```python
 prompt = f"""
 Your task is to determine if the student's solution \
 is correct or not.
@@ -301,34 +300,26 @@ Actual solution:
 """
 response = get_completion(prompt)
 print(response)
-
+```
 ## Model Limitations: Hallucinations
 - Boie is a real company, the product name is not real.
-
+```python
 prompt = f"""
 Tell me about AeroGlide UltraSlim Smart Toothbrush by Boie
 """
 response = get_completion(prompt)
 print(response)
-
-## Try experimenting on your own!
-
-
-
-#### Notes on using the OpenAI API outside of this classroom
-
+```
+#### Notes on using the OpenAI API
 To install the OpenAI Python library:
 ```
 !pip install openai
 ```
-
 The library needs to be configured with your account's secret key, which is available on the [website](https://platform.openai.com/account/api-keys). 
-
 You can either set it as the `OPENAI_API_KEY` environment variable before using the library:
  ```
  !export OPENAI_API_KEY='sk-...'
  ```
-
 Or, set `openai.api_key` to its value:
 
 ```
