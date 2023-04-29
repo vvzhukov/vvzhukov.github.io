@@ -11,7 +11,8 @@ comments: true
 {: .box-note}
 
 ## Setup
-#### Load the API key and Python libs.
+#### Load the API key and Python libs. 
+
 ```python
 import openai
 import os
@@ -23,7 +24,8 @@ openai.api_key  = os.getenv('OPENAI_API_KEY')
 ```
 #### helper function
 We will use OpenAI's `gpt-3.5-turbo` model and the [chat completions endpoint](https://platform.openai.com/docs/guides/chat). 
-Helper function will make it easier to use prompts and look at the generated outputs:
+Helper function will make it easier to use prompts and look at the generated outputs: 
+
 ```python
 def get_completion(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
@@ -41,7 +43,8 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
 ### Tactics
 
 #### Tactic 1: Use delimiters to clearly indicate distinct parts of the input
-- Delimiters can be anything like: ``(x3), """, < >, `<tag> </tag>`, `:`
+- Delimiters can be anything like: ``(x3), """, < >, `<tag> </tag>`, `:` 
+
 ```python
 text = f"""
 You should express what you want a model to do by \ 
@@ -64,7 +67,8 @@ response = get_completion(prompt)
 print(response)
 ```
 #### Tactic 2: Ask for a structured output
-- JSON, HTML
+- JSON, HTML 
+
 ```python
 prompt = f"""
 Generate a list of three made-up book titles along \ 
@@ -75,9 +79,10 @@ book_id, title, author, genre.
 response = get_completion(prompt)
 print(response)
 ```
-#### Tactic 3: Ask the model to check whether conditions are satisfied
+#### Tactic 3: Ask the model to check whether conditions are satisfied 
+
 ```python
-text_1 = f"""
+text_1 = f""
 Making a cup of tea is easy! First, you need to get some \ 
 water boiling. While that's happening, \ 
 grab a cup and put a tea bag in it. Once the water is \ 
@@ -87,8 +92,8 @@ few minutes, take out the tea bag. If you \
 like, you can add some sugar or milk to taste. \ 
 And that's it! You've got yourself a delicious \ 
 cup of tea to enjoy.
-"""
-prompt = f"""
+""
+prompt = f""
 You will be provided with text delimited by triple quotes. 
 If it contains a sequence of instructions, \ 
 re-write those instructions in the following format:
@@ -102,12 +107,12 @@ If the text does not contain a sequence of instructions, \
 then simply write \"No steps provided.\"
 
 \"\"\"{text_1}\"\"\"
-"""
+""
 response = get_completion(prompt)
 print("Completion for Text 1:")
 print(response)
 
-text_2 = f"""
+text_2 = f""
 The sun is shining brightly today, and the birds are \
 singing. It's a beautiful day to go for a \ 
 walk in the park. The flowers are blooming, and the \ 
@@ -117,8 +122,8 @@ Some are having picnics, while others are playing \
 games or simply relaxing on the grass. It's a \ 
 perfect day to spend time outdoors and appreciate the \ 
 beauty of nature.
-"""
-prompt = f"""
+""
+prompt = f""
 You will be provided with text delimited by triple quotes. 
 If it contains a sequence of instructions, \ 
 re-write those instructions in the following format:
@@ -132,12 +137,14 @@ If the text does not contain a sequence of instructions, \
 then simply write \"No steps provided.\"
 
 \"\"\"{text_2}\"\"\"
-"""
+""
 response = get_completion(prompt)
 print("Completion for Text 2:")
 print(response)
 ```
-#### Tactic 4: "Few-shot" prompting
+
+#### Tactic 4: "Few-shot" prompting 
+
 ```python
 prompt = f"""
 Your task is to answer in a consistent style.
@@ -153,10 +160,12 @@ the most intricate tapestry begins with a solitary thread.
 """
 response = get_completion(prompt)
 print(response)
-```
+``` 
+
 ### Principle 2: Give the model time to “think” 
 
-#### Tactic 1: Specify the steps required to complete a task
+#### Tactic 1: Specify the steps required to complete a task 
+
 ```python
 text = f"""
 In a charming village, siblings Jack and Jill set out on \ 
@@ -182,13 +191,15 @@ keys: french_summary, num_names.
 Separate your answers with line breaks.
 
 Text:
-```{text}```
+``{text}``
 """
 response = get_completion(prompt_1)
 print("Completion for prompt 1:")
 print(response)
 ```
-#### Ask for output in a specified format
+
+#### Ask for output in a specified format 
+
 ```python
 prompt_2 = f"""
 Your task is to perform the following actions: 
@@ -211,8 +222,10 @@ Text: <{text}>
 response = get_completion(prompt_2)
 print("\nCompletion for prompt 2:")
 print(response)
-```
-#### Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion
+``` 
+
+#### Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion 
+
 ```python
 prompt = f"""
 Determine if the student's solution is correct or not.
@@ -238,9 +251,11 @@ Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
 """
 response = get_completion(prompt)
 print(response)
-```
+``` 
+
 #### Note that the student's solution is actually not correct.
-#### We can fix this by instructing the model to work out its own solution first.
+#### We can fix this by instructing the model to work out its own solution first. 
+
 ```python
 prompt = f"""
 Your task is to determine if the student's solution \
@@ -253,30 +268,15 @@ Don't decide if the student's solution is correct until
 you have done the problem yourself.
 
 Use the following format:
-Question:
-```
-question here
-```
-Student's solution:
-```
-student's solution here
-```
-Actual solution:
-```
-steps to work out the solution and your solution here
-```
-Is the student's solution the same as actual solution \
-just calculated:
-```
-yes or no
-```
-Student grade:
-```
-correct or incorrect
-```
+Question: # question here
+Student's solution: # student's solution here
+Actual solution: # steps to work out the solution and your solution here
+# Is the student's solution the same as actual solution \
+just calculated: # yes or no
+Student grade: # correct or incorrect
 
 Question:
-```
+``
 I'm building a solar power installation and I need help \
 working out the financials. 
 - Land costs $100 / square foot
@@ -286,21 +286,21 @@ me a flat $100k per year, and an additional $10 / square \
 foot
 What is the total cost for the first year of operations \
 as a function of the number of square feet.
-``` 
+`` 
 Student's solution:
-```
+``
 Let x be the size of the installation in square feet.
 Costs:
 1. Land cost: 100x
 2. Solar panel cost: 250x
 3. Maintenance cost: 100,000 + 100x
 Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
-```
+``
 Actual solution:
 """
 response = get_completion(prompt)
 print(response)
-```
+``
 ## Model Limitations: Hallucinations
 - Boie is a real company, the product name is not real.
 ```python
@@ -331,3 +331,8 @@ openai.api_key = "sk-..."
 - In the course, we are using a backslash `\` to make the text fit on the screen without inserting newline '\n' characters.
 - GPT-3 isn't really affected whether you insert newline characters or not.  But when working with LLMs in general, you may consider whether newline characters in your prompt may affect the model's performance.
 
+#### References
+https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
+https://learn.deeplearning.ai/chatgpt-prompt-eng
+https://chat.openai.com
+https://platform.openai.com/docs/introduction
