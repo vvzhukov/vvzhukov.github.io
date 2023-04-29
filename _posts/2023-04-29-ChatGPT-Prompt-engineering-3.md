@@ -10,6 +10,10 @@ comments: true
 
 {: .box-note}
 
+## Previous guides
+- [ChatGPT Prompt engineering I: Intro to get familiar with the prompt strategies.](https://vvzhukov.github.io/2023-04-29-ChatGPT-Prompt-engineering-1/)
+- [ChatGPT Prompt engineering II: Prompt development strategies](https://vvzhukov.github.io/2023-04-29-ChatGPT-Prompt-engineering-2/)
+
 ## Setup
 
 ```python
