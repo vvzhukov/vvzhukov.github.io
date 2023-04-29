@@ -332,7 +332,7 @@ openai.api_key = "sk-..."
 - GPT-3 isn't really affected whether you insert newline characters or not.  But when working with LLMs in general, you may consider whether newline characters in your prompt may affect the model's performance.
 
 #### References
-https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
-https://learn.deeplearning.ai/chatgpt-prompt-eng
-https://chat.openai.com
-https://platform.openai.com/docs/introduction
+- [deeplearning.ai courses](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+- [deeplearning.ai prompt engineering](https://learn.deeplearning.ai/chatgpt-prompt-eng)
+- [chatgpt] (https://chat.openai.com)
+- [chatgpt docs] (https://platform.openai.com/docs/introduction)
