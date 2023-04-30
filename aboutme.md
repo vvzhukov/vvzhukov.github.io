@@ -11,5 +11,7 @@ Fields of interest:
 - Project Managment 
 - Science of Science
 
-
-[CV](https://github.com/vvzhukov/vvzhukov.github.io/blob/master/docs/VZ_CV.pdf)
+Pet projects:
+- SCalendar (iOS app, Swift)
+- iOrator (iOS app, Swift)
+- RESponder (Automated real estate secretary, Python)
