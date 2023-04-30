@@ -37,7 +37,7 @@ def get_completion(prompt, model="gpt-3.5-turbo",temperature=0): # Andrew mentio
     return response.choices[0].message["content"]
 ```
 
-## Customize the automated reply to a customer email given the sentiment from the lesson on "inferring", and the original customer message, customize the email
+Customize the automated reply to a customer email given the sentiment from the lesson on "inferring", and the original customer message, customize the email.
 
 ```python
 sentiment = "negative"
