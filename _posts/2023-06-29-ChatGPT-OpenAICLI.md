@@ -47,7 +47,7 @@ openai api fine_tunes.list
 P.S. curl could be also handy when you are working with OpenAI API:
 ```bash
 curl https://api.openai.com/v1/completions \
-  -H "Authorization: Bearer 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" \
+  -H "Authorization: Bearer <OPENAI_API_KEY>" \
   -H "Content-Type: application/json" \
   -d '{"prompt": "What Vitalii loves in the day?", "model": "curie:ft-responder-2023-06-28-04-36-35"}'
 ```
