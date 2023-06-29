@@ -49,5 +49,5 @@ P.S. curl could be also handy when you are working with OpenAI API:
 curl https://api.openai.com/v1/completions \
   -H "Authorization: Bearer <OPENAI_API_KEY>" \
   -H "Content-Type: application/json" \
-  -d '{"prompt": "What Vitalii loves in the day?", "model": "curie:ft-responder-2023-06-28-04-36-35"}'
+  -d '{"prompt": "Why do I weven write these guides? :)", "model": "curie:ft-responder-2023-06-28-04-36-35"}'
 ```
