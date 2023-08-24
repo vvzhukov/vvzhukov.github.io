@@ -10,8 +10,3 @@ Fields of interest:
 - Speech recognition & LLM
 - Project Managment 
 - Science of Science
-
-Pet projects:
-- SCalendar (iOS app, Swift)
-- iOrator (iOS app, Swift)
-- RESponder (Automated real estate secretary, Python)
