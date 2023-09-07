@@ -30,7 +30,7 @@ To overcome these restrictions, we will employ the well-known 'Divide and Conque
 Subsequently, these summarizations will undergo further analysis to produce the 'final summarization.' You have the flexibility to use any number of layers in this process, but bear in 
 mind that employing more layers will yield a more generalized summarization result.
 
-To prevent clustering or selection bias, you can employ techniques like random sampling and/or random sampling with overlapping. Now, let's delve into the specific implementation of this approach.
+To prevent clustering or selection bias, you can employ techniques like mixing, random sampling and/or random sampling with overlapping. Now, let's delve into the specific implementation of this approach.
 
 ```python
 import json
