@@ -5,8 +5,11 @@ subtitle: cat /etc/issue
 ---
 
 Fields of interest: 
-- Software Development
-- Data Sicence
-- Speech recognition & LLM
-- Project Managment 
-- Science of Science
+- Real-time monitoring systems
+- Business automation, management
+- iOS development
+- Statistical methods in research
+- Human performance, Science of science
+- LLM
+
+Please check my [CV](https://vvzhukov.github.io/links/) for more details.
