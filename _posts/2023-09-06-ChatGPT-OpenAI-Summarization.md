@@ -10,7 +10,7 @@ comments: true
 
 {: .box-note}
 
-## Guide purpose
+## Purpose of the guide
 In the context of tasks involving data summarization and analysis, you may encounter challenges related to the limitations of the Large Language Model (LLM) and API bandwidth. 
 This guide aims to provide you with a practical solution based on the Divide and Conquer algorithm, which can serve as a universal approach for addressing such issues. 
 
