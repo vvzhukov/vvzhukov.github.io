@@ -10,7 +10,7 @@ comments: true
 
 {: .box-note}
 
-## Guide purpose
+## Purpose of the guide
 Use this guide if you faced any issues with setting up the environment for openai CLI / toolbox.
 [openai API reference](https://platform.openai.com/docs/api-reference/introduction)
 
