@@ -99,7 +99,7 @@ feed_show_tags: true
 post_search: true
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "LLM, API, Python, Prompt Engineering, Blog"
 
 # --- Colours / background image --- #
 
@@ -251,7 +251,7 @@ exclude:
   - LICENSE
   - README.md
   - screenshot.png
-  - docs/
+  # - docs/
 
 plugins:
   - jekyll-paginate
