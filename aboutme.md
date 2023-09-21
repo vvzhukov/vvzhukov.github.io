@@ -12,4 +12,5 @@ Fields of interest:
 - Human performance, Science of science
 - LLM
 
-Please check my [CV](https://vvzhukov.github.io/links/) for more details.
+Please check my CV for more details.
+<object data="{{ site.url }}{{ site.baseurl }}/docs/VZ_CV.pdf" width="1000" height="1000" type="application/pdf"></object>
