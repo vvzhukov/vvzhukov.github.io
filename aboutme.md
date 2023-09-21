@@ -4,7 +4,7 @@ title: About me
 subtitle: cat /etc/issue
 ---
 
-Fields of interest: 
+Areas of interest: 
 - Real-time monitoring systems
 - Business automation, management
 - iOS development
