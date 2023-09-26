@@ -4,8 +4,8 @@ title: About me
 subtitle: cat /etc/issue
 ---
 
-**Researcher, Software Engineer** 
-with a background in project and team managment.  
+**Researcher, Software Engineer**  
+with a background in the project and team managment.  
 
 Areas of interest: 
 - Real-time monitoring systems
@@ -16,10 +16,8 @@ Areas of interest:
 - LLM  
 
 
-
 **Teacher & Mentor**  
 "Ask the student if the teacher is good." - Chinese Proverb  
-
 Here I cherry picked some of my students comments:  
 >- 'Great work by Vitalii!!'  
 >- 'TA hours of Vitali are excellent.'  
@@ -32,6 +30,7 @@ Here I cherry picked some of my students comments:
 >- 'Vitalii is very helpful and overall the team is very friendly and accomodating.'  
 >- 'Thank you professor, Vitalii and Fettah for this amazing semester.'  
 >- 'The Professor, Vitalii, and Kiran helped us a lot, and I'm very thankful for them, I liked this class so much that I recommend it to some friends.'
+
 ...  
 All student comments may be found at the corresponding classes web pages.  
 Please check it out before enrolling my classes :)  
