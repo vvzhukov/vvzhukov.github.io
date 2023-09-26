@@ -33,6 +33,7 @@ Here I cherry picked some of my students comments:
 
 ...  and my favourite
 >- 'Thank you so much for your reference. I attended the interview and I got the job offer 🙂 Thank you again for your help and support.'  
+  
 ...  
 
 All student comments may be found at the corresponding classes web pages.  
