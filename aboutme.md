@@ -4,8 +4,8 @@ title: About me
 subtitle: cat /etc/issue
 ---
 
-**Researcher, Software Engineer**  
-with a background in the project and team managment.  
+**Researcher and Software Engineer**  
+with a background in project and team management.  
 
 Areas of interest: 
 - Real-time monitoring systems
