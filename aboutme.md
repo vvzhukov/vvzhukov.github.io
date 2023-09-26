@@ -4,7 +4,7 @@ title: About me
 subtitle: cat /etc/issue
 ---
 
-Researcher, Software Engineer with a background in project and team managment.
+**Researcher, Software Engineer** with a background in project and team managment.
 
 Areas of interest: 
 - Real-time monitoring systems
@@ -12,9 +12,9 @@ Areas of interest:
 - iOS development
 - Statistical methods in research
 - Human performance, Science of science
-- LLM
+- LLM  
 
-Teacher & Mentor  
+**Teacher & Mentor**  
 
 "Ask the student if the teacher is good." - Chinese Proverb
 Here I cherry picked some of my students comments:  
