@@ -14,8 +14,10 @@ Areas of interest:
 - Human performance, Science of science
 - LLM
 
->"Ask the student if the teacher is good." - Chinese Proverb  
+>"Ask the student if the teacher is good." - Chinese Proverb
+>
 Here I cherry picked some of my students comments:  
+
 >'Great work by Vitalii!!'  
 >'TA hours of Vitali are excellent.'  
 >'Great help from Vitalii for homework.'  
@@ -26,8 +28,10 @@ Here I cherry picked some of my students comments:
 >'Like the material being covered, the real world data analysis project, and practical help being provided by Vitali!'  
 >'Vitalii is very helpful and overall the team is very friendly and accomodating.'  
 >'Thank you professor, Vitalii and Fettah for this amazing semester.'  
->'The Professor, Vitalii, and Kiran helped us a lot, and I'm very thankful for them, I liked this class so much that I recommend it to some friends.'  
-...
+>'The Professor, Vitalii, and Kiran helped us a lot, and I'm very thankful for them, I liked this class so much that I recommend it to some friends.'
+ 
+...  
+
 All student comments may be found at the corresponding classes web pages. 
 
 Please check my CV for more details.
