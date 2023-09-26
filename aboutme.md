@@ -39,5 +39,5 @@ Here I cherry picked some of my students comments:
 All student comments may be found at the corresponding classes web pages.  
 Please check it out before enrolling my classes :)  
 
-Please check my CV for more details.
+And finally my CV for more details:
 <object data="{{ site.url }}{{ site.baseurl }}/docs/VZ_CV.pdf" width="1000" height="1000" type="application/pdf"></object>
