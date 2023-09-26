@@ -4,7 +4,9 @@ title: About me
 subtitle: cat /etc/issue
 ---
 
-**Researcher, Software Engineer** with a background in project and team managment.
+**Researcher, Software Engineer** 
+with a background in project and team managment.  
+
 Areas of interest: 
 - Real-time monitoring systems
 - Business automation, management
@@ -16,7 +18,8 @@ Areas of interest:
 
 
 **Teacher & Mentor**  
-"Ask the student if the teacher is good." - Chinese Proverb
+"Ask the student if the teacher is good." - Chinese Proverb  
+
 Here I cherry picked some of my students comments:  
 >- 'Great work by Vitalii!!'  
 >- 'TA hours of Vitali are excellent.'  
