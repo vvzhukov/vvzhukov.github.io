@@ -31,7 +31,10 @@ Here I cherry picked some of my students comments:
 >- 'Thank you professor, Vitalii and Fettah for this amazing semester.'  
 >- 'The Professor, Vitalii, and Kiran helped us a lot, and I'm very thankful for them, I liked this class so much that I recommend it to some friends.'
 
+...  and my favourite
+>- 'Thank you so much for your reference. I attended the interview and I got the job offer 🙂 Thank you again for your help and support.'  
 ...  
+
 All student comments may be found at the corresponding classes web pages.  
 Please check it out before enrolling my classes :)  
 
