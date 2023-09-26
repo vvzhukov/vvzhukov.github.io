@@ -4,7 +4,7 @@ title: About me
 subtitle: cat /etc/issue
 ---
 
-**Researcher and Software Engineer**  
+**Researcher & Software Engineer**  
 with a background in project and team management.  
 
 Areas of interest: 
