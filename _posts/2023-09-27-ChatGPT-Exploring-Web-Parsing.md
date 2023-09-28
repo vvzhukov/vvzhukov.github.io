@@ -11,9 +11,7 @@ comments: true
 {: .box-note}
 
 ## Purpose of the guide
-In a world where information is abundant on the web, ChatGPT's new web parsing features are a game-changer. This latest update allows the AI model  
-to not only understand and generate text but also extract valuable data from websites, making it a versatile tool for a wide range of tasks. In this  
-blog post, we'll dive into the exciting world of ChatGPT's web parsing capabilities with some code examples.   
+In a world where information is abundant on the web, ChatGPT's new web parsing features are a game-changer. This latest update allows the AI model to not only understand and generate text but also extract valuable data from websites, making it a versatile tool for a wide range of tasks. In this blog post, we'll dive into the exciting world of ChatGPT's web parsing capabilities with some code examples.   
 [openai API reference](https://platform.openai.com/docs/api-reference/introduction)  
 
 # What Can ChatGPT Do with Web Parsing?
