@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exploring the New Web Parsing Features of ChatGPT
+title: Exploring the Web Parsing Features (GPT-3.5)
 subtitle: Fetch content, Summarizing Articles, Comparing products and more
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
