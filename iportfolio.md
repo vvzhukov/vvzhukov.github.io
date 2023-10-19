@@ -33,7 +33,7 @@ Highlights:
 
 **Other relevant skills**
 - Got some experience in web-development
-- Adobe Photoshop and Vegas Pro
+- Figma, Sketch, ColorHunt, Adobe Photoshop and Vegas Pro
 
 
 TODO
