@@ -20,11 +20,11 @@ Highlights:
 
 
 ## 2020, ScholarDay ![image tooltip here](/assets/img/port1_1_icon.png){: width="50" }
-Explore the birthdays of renowned scholars, discover their groundbreaking inventions through interactive links, and enjoy captivating cartoon artwork in this educational calendar app.  
+Explore the birthdays of renowned scholars, discover their groundbreaking inventions through interactive links, and enjoy captivating cartoon artwork.  
 (UIKit, BackgroundTasks, QuickLook, UserNotification)  
 
 ![image tooltip here](/assets/img/port1_2_splash.png){: width="170" }
-![image tooltip here](/assets/img/port2_3_main.png){: width="170" }
+![image tooltip here](/assets/img/port1_3_main.png){: width="170" }
 
 Features
 - Interactive calendar with information and links to the famous scholars
