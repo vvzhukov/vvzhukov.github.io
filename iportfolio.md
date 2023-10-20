@@ -37,11 +37,11 @@ Features
 Coloring game,  
 (UIKit, EventKit, MobileCoreServices, simd, PhotosUI)  
 
-![image tooltip here](/assets/img/port4_1_main.png){: width="150" }
-![image tooltip here](/assets/img/port4_2_main.png){: width="150" }
-![image tooltip here](/assets/img/port4_3_main.png){: width="150" }
-![image tooltip here](/assets/img/port4_4_main.png){: width="150" }
-![image tooltip here](/assets/img/port4_5_main.png){: width="150" }  
+![image tooltip here](/assets/img/port4_1_main.png){: width="135" }
+![image tooltip here](/assets/img/port4_2_main.png){: width="135" }
+![image tooltip here](/assets/img/port4_3_main.png){: width="135" }
+![image tooltip here](/assets/img/port4_4_main.png){: width="135" }
+![image tooltip here](/assets/img/port4_5_main.png){: width="135" }  
 Features
 - Interactive calendar with information and links to the famous scholars
 - User notifications about new upcoming events
