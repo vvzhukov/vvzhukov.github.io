@@ -29,7 +29,19 @@ Explore the birthdays of renowned scholars, discover their groundbreaking invent
 
 ![image tooltip here](/assets/img/port1_2_splash.png){: width="170" }
 ![image tooltip here](/assets/img/port1_3_main.png){: width="170" }
+Features
+- Interactive calendar with information and links to the famous scholars
+- User notifications about new upcoming events
 
+## 2021, ColoringGame ✍️🎲
+Coloring game,  
+(UIKit, EventKit, MobileCoreServices, simd, PhotosUI)  
+
+![image tooltip here](/assets/img/port4_1_main.png){: width="150" }
+![image tooltip here](/assets/img/port4_2_main.png){: width="150" }
+![image tooltip here](/assets/img/port4_3_main.png){: width="150" }
+![image tooltip here](/assets/img/port4_4_main.png){: width="150" }
+![image tooltip here](/assets/img/port4_5_main.png){: width="150" }  
 Features
 - Interactive calendar with information and links to the famous scholars
 - User notifications about new upcoming events
@@ -42,7 +54,6 @@ Your ultimate speech companion with real-time speech detection, volume and pace 
 ![image tooltip here](/assets/img/port0_3_main.png){: width="170" }
 ![image tooltip here](/assets/img/port0_4_rec.png){: width="170" }
 ![image tooltip here](/assets/img/port0_5_rdy.png){: width="170" }
-
 Features
 - Realtime speech recognition
 - 'Filler' words detecition
@@ -57,21 +68,6 @@ Mini game, dice game variation in GameofThrones universe. Designed as a class ex
 ![image tooltip here](/assets/img/port3_2_fight.png){: height="290" width="135" }
 ![image tooltip here](/assets/img/port3_3_score.png){: height="290" width="135" }
 ![image tooltip here](/assets/img/port3_4_flip.png){: width="270" }
-
-Features
-- 2 players dice game
-- Dragon knowledgebnase
-- Score tracking
-
-## 2023, HoD ![image tooltip here](/assets/img/port3_0_icon.png){: width="50" }
-Mini game, dice game variation in GameofThrones universe. Designed as a class exercise. 
-(TabBar, Auto Layout)  
-
-![image tooltip here](/assets/img/port3_1_main.png){: height="290" width="135" }
-![image tooltip here](/assets/img/port3_2_fight.png){: height="290" width="135" }
-![image tooltip here](/assets/img/port3_3_score.png){: height="290" width="135" }
-![image tooltip here](/assets/img/port3_4_flip.png){: width="270" }
-
 Features
 - 2 players dice game
 - Dragon knowledgebnase
