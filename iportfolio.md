@@ -26,7 +26,9 @@ Highlights:
 
 *2022*
 > Eznews  
-## iOrator  
+
+
+## iOrator 👀
 ![image tooltip here](/assets/img/port0_1_icon.png){: width="50" } Your ultimate speech companion with real-time speech detection, volume and pace checks, word and filler word counters, and seamless recording control.  
 
 ![image tooltip here](/assets/img/port0_2_splash.png){: width="200" }
