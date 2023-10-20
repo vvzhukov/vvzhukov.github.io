@@ -45,6 +45,34 @@ Features
 - Word counter / Filler word counter / Pace control
 - On-device and remote (Apple servers) speech recognition
 
+## 2023, HoD ![image tooltip here](/assets/img/port0_1_icon.png){: width="50" }
+Your ultimate speech companion with real-time speech detection, volume and pace checks, word and filler word counters, and seamless recording control.  
+(UIKit, Speech, Foundation, AVFoundation, NaturealLanguage)  
+
+![image tooltip here](/assets/img/port0_2_splash.png){: width="170" }
+![image tooltip here](/assets/img/port0_3_main.png){: width="170" }
+![image tooltip here](/assets/img/port0_4_rec.png){: width="170" }
+![image tooltip here](/assets/img/port0_5_rdy.png){: width="170" }
+
+Features
+- Realtime speech recognition
+- 'Filler' words detecition
+- Word counter / Filler word counter / Pace control
+- On-device and remote (Apple servers) speech recognition
+
+## 2023, iOrator ![image tooltip here](/assets/img/port3_0_icon.png){: width="50" }
+mini game, Your ultimate speech companion with real-time speech detection, volume and pace checks, word and filler word counters, and seamless recording control.  
+(UIKit, Speech, Foundation, AVFoundation, NaturealLanguage)  
+
+![image tooltip here](/assets/img/port3_0_icon.png){: width="170" }
+![image tooltip here](/assets/img/port3_1_main.png){: width="170" }
+![image tooltip here](/assets/img/port3_3_fight.png){: width="170" }
+![image tooltip here](/assets/img/port3_4_flip.png){: width="432" }
+
+Features
+- 
+-
+-
 
 
 > PMC
