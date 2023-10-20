@@ -31,10 +31,10 @@ Highlights:
 ## iOrator ![image tooltip here](/assets/img/port0_1_icon.png){: width="50" }
 Your ultimate speech companion with real-time speech detection, volume and pace checks, word and filler word counters, and seamless recording control.  
 (UIKit, Speech, Foundation, AVFoundation, NaturealLanguage)  
-![image tooltip here](/assets/img/port0_2_splash.png){: width="180" }
-![image tooltip here](/assets/img/port0_3_main.png){: width="180" }
-![image tooltip here](/assets/img/port0_4_rec.png){: width="180" }
-![image tooltip here](/assets/img/port0_5_rdy.png){: width="180" }
+![image tooltip here](/assets/img/port0_2_splash.png){: width="170" }
+![image tooltip here](/assets/img/port0_3_main.png){: width="170" }
+![image tooltip here](/assets/img/port0_4_rec.png){: width="170" }
+![image tooltip here](/assets/img/port0_5_rdy.png){: width="170" }
 
 Features
 - Realtime speech recognition
