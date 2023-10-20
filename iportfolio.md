@@ -46,12 +46,12 @@ Features
 - On-device and remote (Apple servers) speech recognition
 
 ## 2023, HoD ![image tooltip here](/assets/img/port3_0_icon.png){: width="50" }
-mini game, Your ultimate speech companion with real-time speech detection, volume and pace checks, word and filler word counters, and seamless recording control.  
-(UIKit, Speech, Foundation, AVFoundation, NaturealLanguage)  
+Mini game, ... .  
+(-, -, -, -, -)  
 
 ![image tooltip here](/assets/img/port3_1_main.png){: width="170" }
 ![image tooltip here](/assets/img/port3_3_fight.png){: width="170" }
-![image tooltip here](/assets/img/port3_4_flip.png){: width="430" }
+![image tooltip here](/assets/img/port3_4_flip.png){: width="340" }
 
 Features
 - 
