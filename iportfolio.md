@@ -28,8 +28,8 @@ Highlights:
 > Eznews  
 
 
-## iOrator 👀
-![image tooltip here](/assets/img/port0_1_icon.png){: width="50" }{: style="float: left"} Your ultimate speech companion with real-time speech detection, volume and pace checks, word and filler word counters, and seamless recording control.  
+## iOrator 👀 ![image tooltip here](/assets/img/port0_1_icon.png){: width="50" }
+![image tooltip here](/assets/img/port0_1_icon.png){: width="50" }{: .img-left} Your ultimate speech companion with real-time speech detection, volume and pace checks, word and filler word counters, and seamless recording control.  
 
 ![image tooltip here](/assets/img/port0_2_splash.png){: width="150" }
 ![image tooltip here](/assets/img/port0_3_main.png){: width="150" }
