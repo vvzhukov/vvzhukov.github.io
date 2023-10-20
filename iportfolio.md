@@ -27,22 +27,18 @@ Highlights:
 *2022*
 > Eznews  
 ## iOrator  
-Bla bla bla
+![image tooltip here](/assets/img/port0_1_icon.png){: width="50" } Your ultimate speech companion with real-time speech detection, volume and pace checks, word and filler word counters, and seamless recording control.  
 
-![image tooltip here](/assets/img/port0_1_icon.png){: width="50" }
 ![image tooltip here](/assets/img/port0_2_splash.png){: width="200" }
 ![image tooltip here](/assets/img/port0_3_main.png){: width="200" }
 ![image tooltip here](/assets/img/port0_4_rec.png){: width="200" }
-![image tooltip here](/assets/img/port0_5_rdy.png){: width="200" }
-
+![image tooltip here](/assets/img/port0_5_rdy.png){: width="200" }  
 
 Features
-- A refreshed Home Screen
-- Updated UI
-- App-wide consistency in Buttons/Textfield/Sheet styles
-- To make it a bit more fun, I've added the ability for users to customize each trip with a color and icon
-- I incorporated the Queue-Times API to show Disneyland's current wait times on the Home Screen
-- More to come!
+- Realtime speech recognition
+- 'Filler' words detecition
+- Word counter / Filler word counter / Pace control
+- On-device and remote (Apple servers) speech recognition
 
 *2023*
 > PMC
