@@ -7,7 +7,7 @@ subtitle: sudo make APPLICATIONS="iBoot" TARGETS="n41 n42"...
 **Hello and thank you for checking out my portfolio!**
 I have been developing iOS applications for the last _"\\(Calendar(identifier: .gregorian).dateComponents([.year], from: .now).year-2020)"_ years :) I had an honor to teach 'Ubiquotos computing' class together with [Dr. Ioannis Pavlidis](https://www.linkedin.com/in/ioannis-t-pavlidis/) at the University of Houston. That was one of my favourite classes and a lot of my students share this opinion. Here you may see some highlights of my work including pet projects, assignments, prototypes and experiments. Code is available upon request, some projects are [publcially available](https://github.com/vvzhukov/COSC4355_public_files).
 
-Highlights: 
+**Highlights** 
 - UIKit / SwiftUI
 - list/collection UI rendering
 - API calls (including OpenAI integrations)
@@ -16,7 +16,11 @@ Highlights:
 - credentials processing
 - JSON/XML/Protobuf
 - accessibility
-- iWatch
+- iWatch  
+
+**Other relevant skills**
+- Got some experience in web-development
+- Figma, Sketch, ColorHunt, Adobe Photoshop and Vegas Pro  
 
 
 ## 2020, ScholarDay ![image tooltip here](/assets/img/port1_1_icon.png){: width="50" }
@@ -59,15 +63,16 @@ Features
 - Dragon knowledgebnase
 - Score tracking
 
+## 2023, HoD ![image tooltip here](/assets/img/port3_0_icon.png){: width="50" }
+Mini game, dice game variation in GameofThrones universe. Designed as a class exercise. 
+(TabBar, Auto Layout)  
 
-> PMC
-> Eznews  
+![image tooltip here](/assets/img/port3_1_main.png){: height="290" width="135" }
+![image tooltip here](/assets/img/port3_2_fight.png){: height="290" width="135" }
+![image tooltip here](/assets/img/port3_3_score.png){: height="290" width="135" }
+![image tooltip here](/assets/img/port3_4_flip.png){: width="270" }
 
-**Other relevant skills**
-- Got some experience in web-development
-- Figma, Sketch, ColorHunt, Adobe Photoshop and Vegas Pro
-
-
-TODO
-- add add screenshots, video?
-- add apps from the class
+Features
+- 2 players dice game
+- Dragon knowledgebnase
+- Score tracking
