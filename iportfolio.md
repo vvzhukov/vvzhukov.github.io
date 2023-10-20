@@ -26,7 +26,7 @@ Highlights:
 
 *2022*
 > Eznews  
-## iOrator <img src="/assets/img/port0_1_icon.png", width="50"/>
+## iOrator <p> <img src="/assets/img/port0_1_icon.png", width="50"/> </p>
 Here are a few updates I've been hacking away at for Magic Budget. This update is yet to be ready for the App Store, but here's a sneak peek at some new things coming to Magic Budget in the next update!
 
 <p align="center">
