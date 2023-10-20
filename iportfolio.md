@@ -21,8 +21,8 @@ I have been developing iOS applications for the last _"\\(Calendar(identifier: .
 **Other relevant skills**
 - Got some experience in web-development
 - Figma, Sketch, ColorHunt, Adobe Photoshop and Vegas Pro  
-
-
+  
+  
 ## 2020, ScholarDay ![image tooltip here](/assets/img/port1_1_icon.png){: width="50" }
 Explore the birthdays of renowned scholars, discover their groundbreaking inventions through interactive links, and enjoy captivating cartoon artwork.  
 (UIKit, BackgroundTasks, QuickLook, UserNotification)  
@@ -32,7 +32,8 @@ Explore the birthdays of renowned scholars, discover their groundbreaking invent
 Features
 - Interactive calendar with information and links to the famous scholars
 - User notifications about new upcoming events
-
+  
+  
 ## 2021, ColoringGame ✍️🎲
 Coloring game,  
 (UIKit, EventKit, MobileCoreServices, simd, PhotosUI)  
@@ -45,7 +46,8 @@ Coloring game,
 Features
 - Interactive calendar with information and links to the famous scholars
 - User notifications about new upcoming events
-
+  
+  
 ## 2022, iOrator ![image tooltip here](/assets/img/port0_1_icon.png){: width="50" }
 Your ultimate speech companion with real-time speech detection, volume and pace checks, word and filler word counters, and seamless recording control.  
 (UIKit, Speech, Foundation, AVFoundation, NaturealLanguage)  
@@ -59,7 +61,8 @@ Features
 - 'Filler' words detecition
 - Word counter / Filler word counter / Pace control
 - On-device and remote (Apple servers) speech recognition
-
+  
+  
 ## 2023, HoD ![image tooltip here](/assets/img/port3_0_icon.png){: width="50" }
 Mini game, dice game variation in GameofThrones universe. Designed as a class exercise. 
 (TabBar, Auto Layout)  
@@ -72,7 +75,8 @@ Features
 - 2 players dice game
 - Dragon knowledgebnase
 - Score tracking
-
+  
+  
 ## 2023, Study Materials 🎓📖
 .... 
 (-, - -)  
