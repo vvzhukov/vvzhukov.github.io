@@ -49,9 +49,9 @@ Features
 Mini game, ... .  
 (-, -, -, -, -)  
 
-![image tooltip here](/assets/img/port3_1_main.png){: height="300" width="135" }
-![image tooltip here](/assets/img/port3_2_fight.png){: height="300" width="135" }
-![image tooltip here](/assets/img/port3_3_score.png){: height="300" width="135" }
+![image tooltip here](/assets/img/port3_1_main.png){: height="290" width="135" }
+![image tooltip here](/assets/img/port3_2_fight.png){: height="290" width="135" }
+![image tooltip here](/assets/img/port3_3_score.png){: height="290" width="135" }
 ![image tooltip here](/assets/img/port3_4_flip.png){: width="270" }
 
 Features
