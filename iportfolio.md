@@ -49,6 +49,7 @@ Features
 - Image regions identification and coloring
 - Roll back / forward
 - Custom colors
+- Hide / show borders
   
   
 ## 2022, iOrator ![image tooltip here](/assets/img/port0_1_icon.png){: width="50" }
