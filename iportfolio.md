@@ -3,7 +3,6 @@ layout: page
 title: iOS portfolio
 subtitle: sudo make APPLICATIONS="iBoot" TARGETS="n41 n42"...
 ---
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
 **Hello and thank you for checking out my portfolio!**
 I have been developing iOS applications for the last _"\\(Calendar(identifier: .gregorian).dateComponents([.year], from: .now).year-2020)"_ years :) I had an honor to teach 'Ubiquotos computing' class together with [Dr. Ioannis Pavlidis](https://www.linkedin.com/in/ioannis-t-pavlidis/) at the University of Houston. That was one of my favourite classes and a lot of my students share this opinion. Here you may see some highlights of my work including pet projects, assignments, prototypes and experiments. Code is available upon request, some projects are [publcially available](https://github.com/vvzhukov/COSC4355_public_files).
@@ -81,6 +80,7 @@ Features
 ## 2023, Study Materials 🎓📖
 .... 
 (-, - -)  
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
 carousels:
   - images: 
