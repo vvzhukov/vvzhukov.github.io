@@ -28,7 +28,8 @@ Explore the birthdays of renowned scholars, discover their groundbreaking invent
 (UIKit, BackgroundTasks, QuickLook, UserNotification)  
 
 ![image tooltip here](/assets/img/port1_2_splash.png){: width="170" }
-![image tooltip here](/assets/img/port1_3_main.png){: width="170" }
+![image tooltip here](/assets/img/port1_3_main.png){: width="170" }  
+
 Features
 - Interactive calendar with information and links to the famous scholars
 - User notifications about new upcoming events
@@ -43,6 +44,7 @@ Coloring game,
 ![image tooltip here](/assets/img/port4_3_main.png){: width="135"; margin-right: "10"; }
 ![image tooltip here](/assets/img/port4_4_main.png){: width="135"; margin-right: "10"; }
 ![image tooltip here](/assets/img/port4_5_main.png){: width="135"; }  
+
 Features
 - Interactive calendar with information and links to the famous scholars
 - User notifications about new upcoming events
@@ -55,7 +57,8 @@ Your ultimate speech companion with real-time speech detection, volume and pace 
 ![image tooltip here](/assets/img/port0_2_splash.png){: width="170" }
 ![image tooltip here](/assets/img/port0_3_main.png){: width="170" }
 ![image tooltip here](/assets/img/port0_4_rec.png){: width="170" }
-![image tooltip here](/assets/img/port0_5_rdy.png){: width="170" }
+![image tooltip here](/assets/img/port0_5_rdy.png){: width="170" }  
+
 Features
 - Realtime speech recognition
 - 'Filler' words detecition
