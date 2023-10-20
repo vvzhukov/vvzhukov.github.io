@@ -36,7 +36,7 @@ Features
   
   
 ## 2021, ColoringGame ✍️🎲
-Coloring game,  automatically converts images to layered objects with different regions for coloring.  
+Unleash your creativity with the magic of automatic image-to-layer conversion, allowing you to effortlessly color various regions and bring your pictures to life.    
 (UIKit, EventKit, MobileCoreServices, simd, PhotosUI)  
 
 ![image tooltip here](/assets/img/port4_1_main.png){: width="135" }
