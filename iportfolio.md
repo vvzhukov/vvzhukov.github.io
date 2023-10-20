@@ -27,14 +27,14 @@ Highlights:
 *2022*
 > Eznews  
 ## iOrator  
-<img src="/assets/img/port0_1_icon.png", width="50"/> Here are a few updates I've been hacking away at for Magic Budget. This update is yet to be ready for the App Store, but here's a sneak peek at some new things coming to Magic Budget in the next update!
+Bla bla bla
 
-<p align="center">
-<img src="/assets/img/port0_2_splash.png", width="200"/>  
-<img src="/assets/img/port0_3_main.png", width="200"/>  
-<img src="/assets/img/port0_4_rec.png", width="200"/>  
-<img src="/assets/img/port0_5_rdy.png", width="200"/>  
-</p>
+![image tooltip here](/assets/img/port0_1_icon.png)
+![image tooltip here](/assets/img/port0_2_splash.png)
+![image tooltip here](/assets/img/port0_3_main.png)
+![image tooltip here](/assets/img/port0_4_rec.png)
+![image tooltip here](/assets/img/port0_5_rdy.png)
+
 
 Features
 - A refreshed Home Screen
