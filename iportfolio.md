@@ -19,18 +19,15 @@ Highlights:
 - iWatch
 
 
-*2020*
-> SCalendar
+## 2020, SCalendar ![image tooltip here](/assets/img/port0_1_icon.png){: width="50" }
 
-*2021*
-
-*2022*
 > Eznews  
 
 
-## iOrator ![image tooltip here](/assets/img/port0_1_icon.png){: width="50" }
+## 2022, iOrator ![image tooltip here](/assets/img/port0_1_icon.png){: width="50" }
 Your ultimate speech companion with real-time speech detection, volume and pace checks, word and filler word counters, and seamless recording control.  
 (UIKit, Speech, Foundation, AVFoundation, NaturealLanguage)  
+
 ![image tooltip here](/assets/img/port0_2_splash.png){: width="170" }
 ![image tooltip here](/assets/img/port0_3_main.png){: width="170" }
 ![image tooltip here](/assets/img/port0_4_rec.png){: width="170" }
@@ -44,7 +41,6 @@ Features
 
 
 
-*2023*
 > PMC
 
 **Other relevant skills**
