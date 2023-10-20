@@ -36,7 +36,7 @@ Features
   
   
 ## 2021, ColoringGame ✍️🎲
-Coloring game,  
+Coloring game,  automatically converts images to layered objects with different regions for coloring.
 (UIKit, EventKit, MobileCoreServices, simd, PhotosUI)  
 
 ![image tooltip here](/assets/img/port4_1_main.png){: width="135" }
@@ -46,8 +46,9 @@ Coloring game,
 ![image tooltip here](/assets/img/port4_5_main.png){: width="135" }  
 
 Features
-- Interactive calendar with information and links to the famous scholars
-- User notifications about new upcoming events
+- Image regions identification and coloring
+- Roll back / forward
+- Custom colors
   
   
 ## 2022, iOrator ![image tooltip here](/assets/img/port0_1_icon.png){: width="50" }
