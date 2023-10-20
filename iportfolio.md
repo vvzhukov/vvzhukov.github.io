@@ -19,10 +19,16 @@ Highlights:
 - iWatch
 
 
-## 2020, SCalendar ![image tooltip here](/assets/img/port0_1_icon.png){: width="50" }
+## 2020, ScholarDay ![image tooltip here](/assets/img/port1_1_icon.png){: width="50" }
+Explore the birthdays of renowned scholars, discover their groundbreaking inventions through interactive links, and enjoy captivating cartoon artwork in this educational calendar app.  
+(UIKit, BackgroundTasks, QuickLook, UserNotification)  
 
-> Eznews  
+![image tooltip here](/assets/img/port1_2_splash.png){: width="170" }
+![image tooltip here](/assets/img/port2_3_main.png){: width="170" }
 
+Features
+- Interactive calendar with information and links to the famous scholars
+- User notifications about new upcoming events
 
 ## 2022, iOrator ![image tooltip here](/assets/img/port0_1_icon.png){: width="50" }
 Your ultimate speech companion with real-time speech detection, volume and pace checks, word and filler word counters, and seamless recording control.  
@@ -42,6 +48,7 @@ Features
 
 
 > PMC
+> Eznews  
 
 **Other relevant skills**
 - Got some experience in web-development
