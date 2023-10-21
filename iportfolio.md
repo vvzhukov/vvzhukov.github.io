@@ -68,7 +68,7 @@ Your ultimate speech companion with real-time speech detection, volume and pace 
 - On-device and remote (Apple servers) speech recognition
   
   
-## 2020 - 2023, HoD ![image tooltip here](/assets/img/port3_0_icon.png){: width="50" }
+## 2023, HoD ![image tooltip here](/assets/img/port3_0_icon.png){: width="50" }
 Mini game, dice game variation in GameofThrones universe. Designed as a class exercise. 
 (TabBar, Auto Layout)  
 
@@ -83,7 +83,7 @@ Mini game, dice game variation in GameofThrones universe. Designed as a class ex
 - Score tracking
   
   
-## 2023, Various study materials 🎓📖
+## 2020 - 2023, Various study materials 🎓📖
 ....  
 (SwiftUI, UIKit, UIAlertController, UIStackView, MapKit, CLLocationManager, Gesture Recognizer, Local Notifications, Core Image,  Core ML, NLP...)  
 
