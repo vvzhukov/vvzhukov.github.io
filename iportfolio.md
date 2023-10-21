@@ -87,18 +87,18 @@ Mini game, dice game variation in GameofThrones universe. Designed as a class ex
 ....  
 (SwiftUI, UIKit, UIAlertController, UIStackView, MapKit, CLLocationManager, Gesture Recognizer, Local Notifications, Core Image,  Core ML, NLP...)  
 
-![image tooltip here](/assets/img/port_etc_1.png){: width="170" }
-![image tooltip here](/assets/img/port_etc_2.png){: width="170" }
-![image tooltip here](/assets/img/port_etc_3.png){: width="170" }
-![image tooltip here](/assets/img/port_etc_4.png){: width="170" }  
+![image tooltip here](/assets/img/port_etc_1.png){: height="350" width="170" }
+![image tooltip here](/assets/img/port_etc_2.png){: height="350" width="170" }
+![image tooltip here](/assets/img/port_etc_3.png){: height="350" width="170" }
+![image tooltip here](/assets/img/port_etc_4.png){: height="350" width="170" }  
 
-![image tooltip here](/assets/img/port_etc_5.png){: width="170" }
-![image tooltip here](/assets/img/port_etc_6.png){: width="170" }
-![image tooltip here](/assets/img/port_etc_7.png){: width="170" }
-![image tooltip here](/assets/img/port_etc_8.png){: width="170" }
+![image tooltip here](/assets/img/port_etc_5.png){: height="350" width="170" }
+![image tooltip here](/assets/img/port_etc_6.png){: height="350" width="170" }
+![image tooltip here](/assets/img/port_etc_7.png){: height="350" width="170" }
+![image tooltip here](/assets/img/port_etc_8.png){: height="350" width="170" }
 
-![image tooltip here](/assets/img/port_etc_9.png){: width="170" }
-![image tooltip here](/assets/img/port_etc_10.png){: width="170" }
-![image tooltip here](/assets/img/port_etc_13.png){: width="170" }
-![image tooltip here](/assets/img/port_etc_14.png){: width="170" }
+![image tooltip here](/assets/img/port_etc_9.png){: height="350" width="170" }
+![image tooltip here](/assets/img/port_etc_10.png){: height="350" width="170" }
+![image tooltip here](/assets/img/port_etc_13.png){: height="350" width="170" }
+![image tooltip here](/assets/img/port_etc_14.png){: height="350" width="170" }
 
