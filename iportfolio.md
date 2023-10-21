@@ -30,7 +30,7 @@ Explore the birthdays of renowned scholars, discover their groundbreaking invent
 ![image tooltip here](/assets/img/port1_2_splash.png){: width="170" }
 ![image tooltip here](/assets/img/port1_3_main.png){: width="170" }  
 
-Features
+**Features**
 - Interactive calendar with information and links to the famous scholars
 - User notifications about new upcoming events
   
@@ -45,7 +45,7 @@ Unleash your creativity with the magic of automatic image-to-layer conversion, a
 ![image tooltip here](/assets/img/port4_4_main.png){: width="135" }
 ![image tooltip here](/assets/img/port4_5_main.png){: width="135" }  
 
-Features
+**Features**
 - Image regions identification and coloring
 - Roll back / forward
 - Custom colors
@@ -61,7 +61,7 @@ Your ultimate speech companion with real-time speech detection, volume and pace 
 ![image tooltip here](/assets/img/port0_4_rec.png){: width="170" }
 ![image tooltip here](/assets/img/port0_5_rdy.png){: width="170" }  
 
-Features
+**Features**
 - Realtime speech recognition
 - 'Filler' words detecition
 - Word counter / Filler word counter / Pace control
@@ -77,23 +77,28 @@ Mini game, dice game variation in GameofThrones universe. Designed as a class ex
 ![image tooltip here](/assets/img/port3_3_score.png){: height="290" width="135" }
 ![image tooltip here](/assets/img/port3_4_flip.png){: width="270" }  
 
-Features
+**Features**
 - 2 players dice game
 - Dragon knowledgebnase
 - Score tracking
   
   
-## 2023, Study Materials 🎓📖
-.... 
-(-, - -)  
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+## 2023, Various study materials 🎓📖
+....  
+(SwiftUI, UIKit, UIAlertController, UIStackView, MapKit, CLLocationManager, Gesture Recognizer, Local Notifications, Core Image,  Core ML, NLP...)  
 
-carousels:
-  - images: 
-    - image: /assets/img/port3_1_main.png
-    - image: /assets/img/port3_1_main.png
-    - image: /assets/img/port3_1_main.png
-  - images: 
-    - image: /assets/img/port3_1_main.png
-    - image: /assets/img/port3_1_main.png
-    - image: /assets/img/port3_1_main.png
+![image tooltip here](/assets/img/port_etc_1.png){: width="170" }
+![image tooltip here](/assets/img/port_etc_2.png){: width="170" }
+![image tooltip here](/assets/img/port_etc_3.png){: width="170" }
+![image tooltip here](/assets/img/port_etc_4.png){: width="170" }  
+
+![image tooltip here](/assets/img/port_etc_5.png){: width="170" }
+![image tooltip here](/assets/img/port_etc_6.png){: width="170" }
+![image tooltip here](/assets/img/port_etc_7.png){: width="170" }
+![image tooltip here](/assets/img/port_etc_8.png){: width="170" }
+
+![image tooltip here](/assets/img/port_etc_9.png){: width="170" }
+![image tooltip here](/assets/img/port_etc_10.png){: width="170" }
+![image tooltip here](/assets/img/port_etc_13.png){: width="170" }
+![image tooltip here](/assets/img/port_etc_14.png){: width="170" }
+
