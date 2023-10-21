@@ -68,7 +68,7 @@ Your ultimate speech companion with real-time speech detection, volume and pace 
 - On-device and remote (Apple servers) speech recognition
   
   
-## 2023, HoD ![image tooltip here](/assets/img/port3_0_icon.png){: width="50" }
+## 2020 - 2023, HoD ![image tooltip here](/assets/img/port3_0_icon.png){: width="50" }
 Mini game, dice game variation in GameofThrones universe. Designed as a class exercise. 
 (TabBar, Auto Layout)  
 
