@@ -26,7 +26,8 @@ I have been developing iOS applications for the last 4 years. In addition to app
 ## 2020, ScholarDay ![image tooltip here](/assets/img/port1_1_icon.png){: width="50" }
 Explore the birthdays of renowned scholars, discover their groundbreaking inventions through interactive links, and enjoy captivating cartoon artwork.  
 (UIKit, BackgroundTasks, QuickLook, UserNotification)  
-
+Idea: [Dr. Ioannis Pavlidis](https://scholar.google.com/citations?user=E3oBkwwAAAAJ&hl=en)  
+Art: [Dr. Ergun Akleman](https://scholar.google.com/citations?user=T5-M6YMAAAAJ&hl=en)  
 ![image tooltip here](/assets/img/port1_2_splash.png){: width="170" }
 ![image tooltip here](/assets/img/port1_3_main.png){: width="170" }  
 
@@ -38,7 +39,8 @@ Explore the birthdays of renowned scholars, discover their groundbreaking invent
 ## 2021, ColoringGame ✍️🎲
 Unleash your creativity with the magic of automatic image-to-layer conversion, allowing you to effortlessly color various regions and bring your pictures to life.    
 (UIKit, EventKit, MobileCoreServices, simd, PhotosUI)  
-
+Idea: [Dr. Ioannis Pavlidis](https://scholar.google.com/citations?user=E3oBkwwAAAAJ&hl=en)  
+Art: [Dr. Ergun Akleman](https://scholar.google.com/citations?user=T5-M6YMAAAAJ&hl=en)  
 ![image tooltip here](/assets/img/port4_1_main.png){: width="135" }
 ![image tooltip here](/assets/img/port4_2_main.png){: width="135" }
 ![image tooltip here](/assets/img/port4_3_main.png){: width="135" }
