@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DevDay: GPT-4 Turbo, Assistants API, new modalities
+title: GPT-4 Turbo, Assistants API, new modalities
 subtitle: GPT-4 Turbo, Updated GPT-3.5 Turbo, Assistants API and more
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
