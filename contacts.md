@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VZ Contacts
+title: Contacts
 subtitle: env | grep PATH
 ---
 - [UH Department of Computer Science](https://www.uh.edu/nsm/computer-science/)
