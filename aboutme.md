@@ -40,4 +40,4 @@ All student comments may be found at the corresponding classes web pages.
 Please check it out before enrolling my classes :)  
 
 And finally my CV for more details:
-<object data="{{ site.url }}{{ site.baseurl }}/docs/VitaliiZhukov_CV.pdf" width="1100" height="1600" type="application/pdf"></object>
+<object data="{{ site.url }}{{ site.baseurl }}/docs/VitaliiZhukov_CV_SE.pdf" width="1100" height="1600" type="application/pdf"></object>
