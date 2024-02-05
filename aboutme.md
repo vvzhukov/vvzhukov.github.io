@@ -39,5 +39,7 @@ Here I cherry picked some of my students comments:
 All student comments may be found at the corresponding classes web pages.  
 Please check it out before enrolling my classes :)  
 
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="45b3629d-b916-4d3d-91d1-573785b8647f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
 And finally my CV for more details:
 <object data="{{ site.url }}{{ site.baseurl }}/docs/VitaliiZhukov_CV_SE.pdf" width="1100" height="1600" type="application/pdf"></object>
