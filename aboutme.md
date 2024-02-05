@@ -19,7 +19,8 @@ Areas of interest:
 
 **Teacher & Mentor**  
 "Ask the student if the teacher is good." - Chinese Proverb  
-Here I cherry picked some of my students comments:  
+<details> 
+  <summary>Here I cherry picked some of my students comments. </summary>
 >- 'Great work by Vitalii!!'  
 >- 'TA hours of Vitali are excellent.'  
 >- 'Great help from Vitalii for homework.'  
@@ -40,6 +41,7 @@ Here I cherry picked some of my students comments:
 All student comments may be found at the corresponding classes web pages.  
 Please check it out before enrolling my classes :)  
 
+</details>
 
 And finally my CV for more details:
 <object data="{{ site.url }}{{ site.baseurl }}/docs/VitaliiZhukov_CV_SE.pdf" width="1100" height="1600" type="application/pdf"></object>  
