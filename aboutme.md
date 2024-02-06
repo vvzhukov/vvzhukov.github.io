@@ -44,7 +44,7 @@ Please check it out before enrolling my classes :)
 </details>
 
 And finally my CV for more details:
-<object data="{{ site.url }}{{ site.baseurl }}/docs/VitaliiZhukov_CV_SE.pdf#toolbar=0&navpanes=0&scrollbar=0" width="1100" height="1200" type="application/pdf"></object>  
+<object data="{{ site.url }}{{ site.baseurl }}/docs/VitaliiZhukov_CV_SE.pdf#toolbar=0&navpanes=0&scrollbar=0" width="1100" height="900" type="application/pdf"></object>  
 
 
 **Badges and recent achievements**  
