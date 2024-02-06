@@ -44,7 +44,7 @@ Please check it out before enrolling my classes :)
 </details>
 
 And finally my CV for more details:
-<object data="{{ site.url }}{{ site.baseurl }}/docs/VitaliiZhukov_CV_SE.pdf#toolbar=0&navpanes=0&scrollbar=0" width="1000" height="1100" type="application/pdf"></object>  
+<object data="{{ site.url }}{{ site.baseurl }}/docs/VitaliiZhukov_CV_SE.pdf#toolbar=0&navpanes=0&scrollbar=0" width="1000" height="1050" type="application/pdf"></object>  
 
 
 **Badges and recent achievements**  
@@ -57,7 +57,7 @@ And finally my CV for more details:
         <div data-iframe-width="270" data-iframe-height="270" data-share-badge-id="f102cb06-19a4-4cd9-9aaa-387803d50991" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
       </td>
       <td style="border: none; padding: 10px;">
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="aeca2e16-b02d-4149-9fa9-4f33e52a56dd" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        <div data-iframe-width="270" data-iframe-height="270" data-share-badge-id="aeca2e16-b02d-4149-9fa9-4f33e52a56dd" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
       </td>
     </tr>
 </table>
