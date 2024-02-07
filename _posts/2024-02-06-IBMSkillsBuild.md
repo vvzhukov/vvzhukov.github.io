@@ -102,4 +102,4 @@ No doubts, you may find the material available online (or even ask chatGPT about
 If you read till the end, I encourage you to share your thoughts or experiences with IBM SkillsBuild or other learnign platforms.
 
 P.S. Written with a help of GPT-4.0  
-P.S.2. I have implemented Google Analytics engine (Hello to my ~bots~ readers from Italy and Germany) to this blog so in the next post i will review the basic features and describe the how-to guide.
+P.S.2. I have implemented Google Analytics engine to this blog (Hello to my ~bots~ readers from Italy and Germany) so in the next post we  will review the basic features and the how-to guide.
