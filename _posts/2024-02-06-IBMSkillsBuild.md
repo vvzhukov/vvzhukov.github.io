@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exploring IBM SkillsBuild: A Review of AI Fundamentials, Data Fundamentials, and Cybersecurity Fundamentials courses
+title: Exploring IBM SkillsBuild.
 subtitle: Good way to refresh/build your knowledge in the field.
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
