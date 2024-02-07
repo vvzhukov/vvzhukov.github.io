@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exploring IBM SkillsBuild.
-subtitle: Good way to refresh/build your knowledge in the field.
+subtitle: A good tool to refresh/build your knowledge in the field or a timewaste?
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [Study, AI, DataScience, CyberSecurity, LLM]
