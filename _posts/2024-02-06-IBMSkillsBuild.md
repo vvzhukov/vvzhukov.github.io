@@ -96,8 +96,7 @@ Things I knew (highlights):
 - Encryption  
 
 # Summary
-I would recommend these classes and the platform to people who are new to the disciplines or undergrads or to someone who want to formalize/structure their knowledge.  
-No doubts, you may find the material available online (or even ask chatGPT about it), but why would you want to reinvent the bycicle?
+I would recommend these classes and the platform to people who are new to the disciplines or undergrads or to someone who want to formalize/structure their knowledge. No doubts, you may find the material available online (or even ask chatGPT about it), but why would you want to reinvent the bycicle?
 
 If you read till the end, I encourage you to share your thoughts or experiences with IBM SkillsBuild or other learnign platforms.
 
