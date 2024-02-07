@@ -39,20 +39,20 @@ wonderful diagrams and course structure. However it is not perfect and I would h
 - IBM is trying to sell their products (which is expected and also is not a draw back since the classes I reviewed are free)
    
 Special thanks to the x2 speed for the existing videos.
-Overall the platform is good quality, on par with some Coursera, Udacity and others.
+Overall the platform is good quality, on par with Coursera, Udacity and others.
 
 # Classes  
 ## Data Fundamentials  
 7 hours suggested length, took me around 2.5 hrs.  
 
-Things I learned:  
+Things I learned:
 - CRISPDM: Cross-Industry Standard Process for Data Mining  
 - KDD: Knowledge Discovery in Database  
 - SEMMA: Sample Explore Modify model Assess  
 - 5 V's of Big Data: volume, value, variety, velocity, and veracity  
 - IBM Watson Studio  
 
-Things I knew (highlights):  
+Things I knew (highlights):
 - Data types  
 - Data analysis techniques  
 - General data pipelines  
