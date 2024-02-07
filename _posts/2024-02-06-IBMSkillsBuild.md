@@ -10,7 +10,7 @@ comments: true
 
 {: .box-note}
 
-# IBM Skills Build or should you invest your free time in self education?
+# Is IBM Skills Build good? Should you invest your time in self education?
 Lately I took some time to investigate IBM online knowledge platform - IBM SkillsBuild. In this post I will briefly cover my impressions, 
 advantages and disadvantages of the platform in general and courses in particular. I took threee classes: Artificial Intellegence, Data, and Cybersecurity, all on Fundamentials level.  The reasons I picked these classes are following: they are relevant to my career path, they are interesting for me and I also wanted a good-looking badge :)  
 <table style="border-collapse: collapse;">
@@ -96,7 +96,7 @@ Things I knew (highlights):
 - Encryption  
 
 # Summary
-I would recommend these classes and the platform to people who are new to the disciplines or undergrads or to someone who want to formalize/structure their knowledge. No doubts, you may find the material available online (or even ask chatGPT about it), but why would you want to reinvent the bycicle?
+I would recommend these classes and the platform to people who are new to the disciplines or undergrads or to someone who want to formalize/structure their knowledge. No doubts, you may find the material available online (or even ask chatGPT about it), but why would you want to reinvent the bycicle? Also IBM Badges might be a good CV filler (together with the suggested skills). 
 
 If you read till the end, I encourage you to share your thoughts or experiences with IBM SkillsBuild or other learnign platforms.
 
