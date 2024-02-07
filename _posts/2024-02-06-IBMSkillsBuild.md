@@ -29,15 +29,15 @@ advantages and disadvantages of the platform in general and courses in particula
 
 
 # Skills Build Platform
-Overall I got Surprisingly good impressions. Repetitivness of material throught the course, different industry examples and case studies, 
-wonderful diagrams and course structure.  
-However it is not perfect and I would highlight the following drawbacks:
+Overall I got surprisingly good impressions. Repetitivness of material throught the course, different industry examples and case studies, 
+wonderful diagrams and course structure. However it is not perfect and I would highlight the following drawbacks:  
 - basic material (that might be not a draw back due to the level of the course)
 - few practical assignments (incluing coding)
 - small number of videos, but the quality of the videos is actually high
 - limited pool of quiz questions and their nature/complexity
 - more structured and straight-forward specialisations (medium/advanced complexity for general public)
 - IBM is trying to sell their products (which is expected and also is not a draw back since the classes I reviewed are free)
+   
 Special thanks to the x2 speed for the existing videos.
 Overall the platform is good quality, on par with some Coursera, Udacity and others.
 
