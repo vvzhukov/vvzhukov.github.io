@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exploring IBM SkillsBuild.
+title: Exploring IBM SkillsBuild
 subtitle: A good tool to refresh/build your knowledge in the field or a timewaste?
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
