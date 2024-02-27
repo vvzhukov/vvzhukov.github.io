@@ -113,6 +113,6 @@ Thank you for reading my blog, all the 100+ unique visitors!
 
 ## References
 This post is written under
-1. [GA instructions]([https://learn.deeplearning.ai/llmops/lesson/1/introduction](https://support.google.com/analytics/answer/9304153)
+1. [GA instructions](https://learn.deeplearning.ai/llmops/lesson/1/introduction)
 2. [GA review](https://developers.google.com/analytics/learn/beginners#:~:text=Google%20Analytics%20collects%20data%20from,for%20your%20specific%20use%20cases.)
 P.S. Written with a help of GPT-3.5
