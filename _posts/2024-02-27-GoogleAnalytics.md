@@ -27,6 +27,7 @@ Here are couple screenshots for this blog data:
 ![GA4 screen #1](/assets/img/GA_screenshot1.png)  
 ![GA4 screen #2](/assets/img/GA_screenshot2.png)  
 
+
 ## Setting up the Google Analytics Account  
 
 ### Create an Analytics account  
@@ -110,9 +111,14 @@ Where ID1, ID2 and ID3 are gtag, Google Analytics ID, and Google Tag Manager ID.
 Lastly please give some time once you will setup everything. For me it took around 40 hours + to get first data.
 Thank you for reading my blog, all the 100+ unique visitors!  
 
+Topics to cover later:  
+- Security / injections  
+- Digital fingerprint / anonymisation (hello cookies :)  
+- Data insights and conclusions  
+- Search engine optimisation  
 
 ## References
 This post is written under
 1. [GA instructions](https://learn.deeplearning.ai/llmops/lesson/1/introduction)
-2. [GA review](https://developers.google.com/analytics/learn/beginners#:~:text=Google%20Analytics%20collects%20data%20from,for%20your%20specific%20use%20cases.)
+2. [GA review](https://developers.google.com/analytics/learn/beginners#:~:text=Google%20Analytics%20collects%20data%20from,for%20your%20specific%20use%20cases.)  
 P.S. Written with a help of GPT-3.5
