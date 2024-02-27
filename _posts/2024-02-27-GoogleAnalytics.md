@@ -24,9 +24,8 @@ What can you do with the data you will get?
 'Hi' to my single reader from Georgia :)
 
 Here are couple screenshots for this blog data:  
-![GA4 screen #1](/assets/img/GA_screenshot1.png)  
-![GA4 screen #2](/assets/img/GA_screenshot2.png)  
-
+![GA4 screen #1](https://github.com/vvzhukov/vvzhukov.github.io/blob/master/assets/img/GA_screenshot1.PNG?raw=true)){: .mx-auto.d-block :}   
+![GA4 screen #2](https://github.com/vvzhukov/vvzhukov.github.io/blob/master/assets/img/GA_screenshot2.PNG?raw=true)){: .mx-auto.d-block :}  
 
 ## Setting up the Google Analytics Account  
 
