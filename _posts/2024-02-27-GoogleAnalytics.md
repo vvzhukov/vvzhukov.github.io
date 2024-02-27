@@ -23,7 +23,7 @@ What can you do with the data you will get?
 - Play around with the analytics and research how does it work (my case)  
 'Hi' to my single reader from Georgia :)
 
-Here are couple screenshots for this blog data:  
+Here are couple screenshots from the reporting interface:  
 ![GA4 screen #1](https://github.com/vvzhukov/vvzhukov.github.io/blob/master/assets/img/GA_screenshot1.PNG?raw=true)    
 ![GA4 screen #2](https://github.com/vvzhukov/vvzhukov.github.io/blob/master/assets/img/GA_screenshot2.PNG?raw=true)   
 
