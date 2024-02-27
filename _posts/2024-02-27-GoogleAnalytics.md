@@ -112,9 +112,9 @@ Thank you for reading my blog, all the 100+ unique visitors!
 
 Topics to cover later:  
 - Security / injections  
-- Digital fingerprint / anonymisation (hello cookies :)  
+- Digital fingerprint / anonymization (hello cookies :)  
 - Data insights and conclusions  
-- Search engine optimisation  
+- Search engine optimization  
 
 ## References
 This post is written under
