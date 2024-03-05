@@ -167,6 +167,6 @@ Topics to cover later:
 - Phrases distances (context change: hot topic vs hot weather)
 
 ## References
-1. [OpenAI: visualizing embeddings](https://learn.deeplearning.ai/courses/google-cloud-vertex-ai/lesson/4/visualizing-embeddings)
-2. [GA review](https://developers.google.com/analytics/learn/beginners#:~:text=Google%20Analytics%20collects%20data%20from,for%20your%20specific%20use%20cases.)  
+1. [OpenAI: visualizing embeddings](https://learn.deeplearning.ai/courses/google-cloud-vertex-ai/lesson/4/visualizing-embeddings)  
+2. [Google: Text embeddings]([https://developers.google.com/analytics/learn/beginners#:~:text=Google%20Analytics%20collects%20data%20from,for%20your%20specific%20use%20cases.](https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/text-embeddings)https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/text-embeddings)  
 P.S. Written with a help of GPT-3.5
