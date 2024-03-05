@@ -24,7 +24,12 @@ The complete list of words is as follows:
 - Intellect: "Smart","Stupid","Intelligent","Ignorant"
 - Mood: "Happy","Sad","Relaxed","Tense"
 
-I examined the evolution of text embedded models, specifically comparing the oldest (gecko@001) to the newest models available on VertexAI.
+I examined the evolution of text embedded models, specifically comparing the oldest (gecko@001) to the newest (gecko@003) models available on VertexAI.
+|textembedding-gecko model |	Release date|	Discontinuation date |
+|textembedding-gecko@003 |	December 12, 2023 |	Not applicable |
+|textembedding-gecko@002 |	November 2, 2023 |	Not applicable |
+|textembedding-gecko-multilingual@001 |	November 2, 2023 |	Not applicable |
+|textembedding-gecko@001 |	June 7, 2023 |	Not applicable |
 
 ## Metrics
 Understandably we are loosing a lot of precision when trying to reduce the number of dimensions from 768 to just 2.  
@@ -34,7 +39,7 @@ That might be one of the weak points of the research, however I utilized the fol
 - Manhattan distances
 
 ## Results
-The comparison yielded the following results:
+The comparison yielded the following results (old model at the left, new model at the right):
 ![Comparison Results](https://github.com/vvzhukov/vvzhukov.github.io/blob/master/assets/img/embeddings_comparison.PNG?raw=true)
 
 Two notable conclusions emerged from the observations:
