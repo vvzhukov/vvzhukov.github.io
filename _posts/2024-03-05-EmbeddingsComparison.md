@@ -19,10 +19,10 @@ sparked my interest in this domain.
 For the analysis, I selected eight pairs of qualitative words, each representing distinct domains such as temperature, 
 physical dimensions, intellect, and mood. The pairs include antonyms for each domain, like 'Hot-Cold' and 'Freezing-Boiling' for temperature. 
 The complete list of words is as follows:
-- Temperature: "Hot","Cold","Freezing","Boiling"
-- Physical dimensions: "Long","Short","Wide","Narrow"
-- Intellect: "Smart","Stupid","Intelligent","Ignorant"
-- Mood: "Happy","Sad","Relaxed","Tense"
+- Temperature: Hot,Cold,Freezing,Boiling
+- Physical dimensions: Long,Short,Wide,Narrow
+- Intellect: Smart,Stupid,Intelligent,Ignorant
+- Mood: Happy,Sad,Relaxed,Tense
 
 I examined the evolution of text embedded models, specifically comparing the oldest (gecko@001) to the newest (gecko@003) models available on VertexAI.  
 
