@@ -34,6 +34,7 @@ I examined the evolution of text embedded models, specifically comparing the old
 |**textembedding-gecko@001** |	June 7, 2023 |	Not applicable |
 
 ## Metrics
+![Embeddings](https://github.com/vvzhukov/vvzhukov.github.io/blob/master/assets/img/embed_1.PNG?raw=true)
 Understandably we are loosing a lot of precision when trying to reduce the number of dimensions from 768 to just 2.  
 That might be one of the weak points of the research, however I utilized the following distance measures:
 - Principal component analyzis, PCA2 (reduction from 768 features to 2)
