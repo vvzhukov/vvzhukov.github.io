@@ -1,10 +1,29 @@
 ---
 layout: page
-title: iOS portfolio
-subtitle: sudo make APPLICATIONS="iBoot" TARGETS="n41 n42"...
+title: Portfolio
+subtitle: wget vvzhukov.github.io/pet-2.zip && unzip pet-2.zip | cat ~/.skills
 ---
 
-**Hello and thank you for checking out my portfolio!**
+**Hello and thank you for checking out my portfolio page!**
+Here you may find different samples of my work.
+
+# Data Science #
+Tools used:
+Data descriptive, visualizations:
+Modeling:
+Vector databases:
+LLM
+RAG
+
+Projects:
+- [Human performance models](https://github.com/vvzhukov/Modeling-of-Competitive-Human-Performance)  
+- [Psychology schools analysis](https://github.com/vvzhukov/Convergence-in-Affective-and-Cognitive-Sciences)  
+- [Statistical Methods in Research repository](https://github.com/vvzhukov/COSC6323_public_files/tree/main)  
+- [Automatic real-estate email parsing and responding](https://github.com/vvzhukov/RESponder)  
+- [Cybersecurity QA system (MITTR ATTCK QA)](https://github.com/vvzhukov/QAsystem_MITTR_AttCK)  
+- [TensorFlow / Keras main functionality guide & samples](https://github.com/vvzhukov/TensorFlow_guide)  
+  
+# iOS development #
 I have been developing iOS applications for the last 4 years. In addition to application development, I had the honor of co-teaching the 'Ubiquitous Computing' class with [Dr. Ioannis Pavlidis](https://www.linkedin.com/in/ioannis-t-pavlidis/) at the University of Houston. This was one of my favorite classes, and many of my students share this opinion. Here, you can see some highlights of my work, including pet projects, assignments, prototypes, and experiments. Code is available upon request, and some projects are [publicly available](https://github.com/vvzhukov/COSC4355_public_files).
 
 **Highlights** 
