@@ -8,7 +8,7 @@ subtitle: curl -sL vvzhukov.github.io/proj2 | tar xz; cat ~/.skills
 Here you may find different samples of my work.
 
 # Data Science #  
-Data manipulation: TBD 
+Data manipulation: TBD  
 Data descriptive, visualizations: TBD  
 Modeling: TBD  
 Vector databases: TBD  
