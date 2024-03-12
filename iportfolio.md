@@ -8,13 +8,10 @@ subtitle: curl -sL vvzhukov.github.io/proj2 | tar xz; cat ~/.skills
 Here you may find different samples of my work.
 
 # Data Science #  
-Data manipulation: TBD  
-Data descriptive, visualizations: TBD  
-Modeling: TBD  
-Vector databases: TBD  
-LLM: TBD  
-RAG: TBD  
-APIs & Cloud solutions: TBD  
+Data manipulation: pandas, numpy, tidyverse, json, csv, xml   
+Data descriptive, visualizations: ggplot2, ggpubr, matplotlib  
+Models: TensorFlow/Keras, SKlearn, Seaborn plm, lme4  
+APIs & Cloud solutions: GoogleCloud, VertexAI, OpenAI, BigQuery  
 
 - [Human performance models](https://github.com/vvzhukov/Modeling-of-Competitive-Human-Performance)  
   R (TBD)    
