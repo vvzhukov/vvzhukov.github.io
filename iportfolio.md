@@ -7,8 +7,7 @@ subtitle: curl -sL vvzhukov.github.io/proj2 | tar xz; cat ~/.skills
 **Hello and thank you for checking out my portfolio page!**
 Here you may find different samples of my work.
 
-
-# Data Science # 
+# Data Science #  
 Data manipulation: TBD 
 Data descriptive, visualizations: TBD  
 Modeling: TBD  
@@ -17,7 +16,6 @@ LLM: TBD
 RAG: TBD  
 APIs & Cloud solutions: TBD  
 
-Projects:
 - [Human performance models](https://github.com/vvzhukov/Modeling-of-Competitive-Human-Performance)  
   R (TBD)    
 - [Psychology schools analysis](https://github.com/vvzhukov/Convergence-in-Affective-and-Cognitive-Sciences)  
