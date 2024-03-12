@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Portfolio
-subtitle: wget vvzhukov.github.io/pet-2.zip && unzip pet-2.zip | cat ~/.skills
+subtitle: curl -sL vvzhukov.github.io/proj2 | tar xz; cat ~/.skills
 ---
 
 **Hello and thank you for checking out my portfolio page!**
