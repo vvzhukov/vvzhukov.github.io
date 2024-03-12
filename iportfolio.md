@@ -8,30 +8,29 @@ subtitle: wget vvzhukov.github.io/pet-2.zip && unzip pet-2.zip | cat ~/.skills
 Here you may find different samples of my work.
 
 
-# Data Science #
-Tools used:  
-Data manipulation:  
-Data descriptive, visualizations:  
-Modeling:  
-Vector databases:  
-LLM:  
-RAG:  
-APIs & Cloud solutions:  
+# Data Science # 
+Data manipulation: TBD 
+Data descriptive, visualizations: TBD  
+Modeling: TBD  
+Vector databases: TBD  
+LLM: TBD  
+RAG: TBD  
+APIs & Cloud solutions: TBD  
 
 Projects:
 - [Human performance models](https://github.com/vvzhukov/Modeling-of-Competitive-Human-Performance)  
-  R ()    
-- [Psychology schools analysis](https://github.com/vvzhukov/Convergence-in-Affective-and-Cognitive-Sciences)
-  R ()  
-- [Statistical Methods in Research](https://github.com/vvzhukov/COSC6323_public_files/tree/main)
-  R ()  
-- [Automatic real-estate email parsing and responding](https://github.com/vvzhukov/RESponder)
-  Pyton ()  
-- [Cybersecurity QA system (MITTR ATTCK QA)](https://github.com/vvzhukov/QAsystem_MITTR_AttCK)
+  R (TBD)    
+- [Psychology schools analysis](https://github.com/vvzhukov/Convergence-in-Affective-and-Cognitive-Sciences)  
+  R (TBD)  
+- [Statistical Methods in Research](https://github.com/vvzhukov/COSC6323_public_files/tree/main)  
+  R (dplyr, ggplot2, GGally, tidyverse, caret, MASS, ggpubr, forecast, tseries, xlsx, XML, car, wordcloud, RColorBrewer, lmtest, plm, lme4)   
+- [Automatic real-estate email parsing and responding](https://github.com/vvzhukov/RESponder)  
+  Pyton (json, csv, logging, redminelib, openai)  
+- [Cybersecurity QA system (MITTR ATTCK QA)](https://github.com/vvzhukov/QAsystem_MITTR_AttCK)  
   Python (deeplake, vertexai, pandas, sklearn)
-- [TensorFlow / Keras main functionality guide & samples](https://github.com/vvzhukov/TensorFlow_guide)
+- [TensorFlow / Keras main functionality guide & samples](https://github.com/vvzhukov/TensorFlow_guide)  
   Python (tensorflow, numpy, matplotlib, pandas)  
-- [Embedding distance changes in latest Google models](https://vvzhukov.github.io/2024-03-05-EmbeddingsComparison/)
+- [Embedding distance changes in latest Google models](https://vvzhukov.github.io/2024-03-05-EmbeddingsComparison/)  
   Python (sklearn, vertexai, numpy, matplotlib)  
   
 # iOS Development #
