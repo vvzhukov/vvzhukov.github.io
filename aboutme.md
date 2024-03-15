@@ -8,9 +8,9 @@ subtitle: cat /etc/issue
 with a background in project and team management.  
 
 Areas of interest: 
-- Image recognition, Speech recognition, Transformer Models, Language Models
-- Business automation, management
-- Human performance, Science of science
+- Image recognition, Speech recognition, Transformer Models, Language Models, Generative AI  
+- Business automation, Management  
+- Human performance, Science of science  
 
 **Badges and recent achievements**  
 <table style="border-collapse: collapse;">
