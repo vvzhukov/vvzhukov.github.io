@@ -66,33 +66,22 @@ And finally my CV for more details:
 <div class="profile-badges">
 <div class="profile-badge">
 <a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8323552"><img alt="Badge for Responsible AI: Applying AI Principles with Google Cloud" src="https://cdn.qwiklabs.com/Q%2FScwWC%2Fvpq%2BTQSLrzQ64SWm7j69wpa%2FVQL9ZZ8yYY0%3D" width="240" height="260">
-</a><span class="ql-title-medium l-mts">
-Responsible AI: Applying AI Principles with Google Cloud
-</span>
-<span class="ql-body-medium l-mbs">
-Earned Mar 14, 2024 EDT
-</span>
+</a>
 </div>
 
 <div class="profile-badge">
 <a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8320183"><img alt="Badge for Introduction to Responsible AI" src="https://cdn.qwiklabs.com/n%2BsmudNIf4qVLKIg3%2B3YfAu9xtbdV4awLlI2dXdfmUA%3D" width="240" height="260">
-</a><span class="ql-title-medium l-mts">
-Introduction to Responsible AI
-</span>
+</a>
 </div>
 
 <div class="profile-badge">
 <a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8320109"><img alt="Badge for Introduction to Large Language Models" src="https://cdn.qwiklabs.com/Q4p8W8RjqG4NV4dpXY3ZhkGNnew12IqoiexKVvOtCQw%3D" width="240" height="260">
-</a><span class="ql-title-medium l-mts">
-Introduction to Large Language Models
-</span>
+</a>
 </div>
 
 <div class="profile-badge">
 <a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8319725"><img alt="Badge for Introduction to Generative AI" src="https://cdn.qwiklabs.com/RshPhz3CtNIya%2F8v2wDfRsaWLitOB3yRV73Oqq1iAtQ%3D" width="240" height="260">
-</a><span class="ql-title-medium l-mts">
-Introduction to Generative AI
-</span>
+</a>
 </div>
 
 </div>
