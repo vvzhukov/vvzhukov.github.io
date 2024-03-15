@@ -1,13 +1,10 @@
 ---
 layout: page
-title: About me
+title: Researcher / Software Engineer / Data Scientist
 subtitle: cat /etc/issue
 ---
 
-**Researcher / Software Engineer / Data Scientist**  
-with a background in project and team management.  
-
-Areas of interest: 
+**Areas of interest**  
 - Image recognition, Speech recognition, Transformer Models, Language Models, Generative AI  
 - Business automation, Management  
 - Human performance, Science of science  
