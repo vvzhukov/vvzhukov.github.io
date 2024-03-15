@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Researcher / Software Engineer / Data Scientist
+title: About me
 subtitle: cat /etc/issue
 ---
 
-**Areas of interest**  
+**Researcher / Software Engineer / Data Scientist**  
 - Image recognition, Speech recognition, Transformer Models, Language Models, Generative AI  
 - Business automation, Management  
 - Human performance, Science of science  
