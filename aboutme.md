@@ -79,9 +79,6 @@ Earned Mar 14, 2024 EDT
 </a><span class="ql-title-medium l-mts">
 Introduction to Responsible AI
 </span>
-<span class="ql-body-medium l-mbs">
-Earned Mar 14, 2024 EDT
-</span>
 </div>
 
 <div class="profile-badge">
@@ -89,18 +86,12 @@ Earned Mar 14, 2024 EDT
 </a><span class="ql-title-medium l-mts">
 Introduction to Large Language Models
 </span>
-<span class="ql-body-medium l-mbs">
-Earned Mar 14, 2024 EDT
-</span>
 </div>
 
 <div class="profile-badge">
 <a class="badge-image" href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8319725"><img alt="Badge for Introduction to Generative AI" src="https://cdn.qwiklabs.com/RshPhz3CtNIya%2F8v2wDfRsaWLitOB3yRV73Oqq1iAtQ%3D" width="240" height="260">
 </a><span class="ql-title-medium l-mts">
 Introduction to Generative AI
-</span>
-<span class="ql-body-medium l-mbs">
-Earned Mar 14, 2024 EDT
 </span>
 </div>
 
