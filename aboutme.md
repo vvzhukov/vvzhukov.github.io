@@ -15,7 +15,7 @@ subtitle: cat /etc/issue
       <td style="border: none; padding: 10px;">
 
         <div>
-        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8323552"><img alt="Badge for Responsible AI: Applying AI Principles with Google Cloud" src="https://cdn.qwiklabs.com/Q%2FScwWC%2Fvpq%2BTQSLrzQ64SWm7j69wpa%2FVQL9ZZ8yYY0%3D" width="240" height="170">
+        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8323552"><img alt="Badge for Responsible AI: Applying AI Principles with Google Cloud" src="https://cdn.qwiklabs.com/Q%2FScwWC%2Fvpq%2BTQSLrzQ64SWm7j69wpa%2FVQL9ZZ8yYY0%3D" width="240" height="165">
         </a>
         </div>
         
@@ -23,7 +23,7 @@ subtitle: cat /etc/issue
       <td style="border: none; padding: 10px;">
       
         <div>
-        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8320183"><img alt="Badge for Introduction to Responsible AI" src="https://cdn.qwiklabs.com/n%2BsmudNIf4qVLKIg3%2B3YfAu9xtbdV4awLlI2dXdfmUA%3D" width="240" height="170">
+        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8320183"><img alt="Badge for Introduction to Responsible AI" src="https://cdn.qwiklabs.com/n%2BsmudNIf4qVLKIg3%2B3YfAu9xtbdV4awLlI2dXdfmUA%3D" width="240" height="165">
         </a>
         </div>
 
@@ -31,7 +31,7 @@ subtitle: cat /etc/issue
       <td style="border: none; padding: 10px;">
       
         <div>
-        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8320109"><img alt="Badge for Introduction to Large Language Models" src="https://cdn.qwiklabs.com/Q4p8W8RjqG4NV4dpXY3ZhkGNnew12IqoiexKVvOtCQw%3D" width="240" height="170">
+        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8320109"><img alt="Badge for Introduction to Large Language Models" src="https://cdn.qwiklabs.com/Q4p8W8RjqG4NV4dpXY3ZhkGNnew12IqoiexKVvOtCQw%3D" width="240" height="165">
         </a>
         </div>
         
@@ -39,7 +39,7 @@ subtitle: cat /etc/issue
       <td style="border: none; padding: 10px;">  
       
         <div>
-        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8319725"><img alt="Badge for Introduction to Generative AI" src="https://cdn.qwiklabs.com/RshPhz3CtNIya%2F8v2wDfRsaWLitOB3yRV73Oqq1iAtQ%3D" width="240" height="170">
+        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8319725"><img alt="Badge for Introduction to Generative AI" src="https://cdn.qwiklabs.com/RshPhz3CtNIya%2F8v2wDfRsaWLitOB3yRV73Oqq1iAtQ%3D" width="240" height="165">
         </a>
         </div>
 
@@ -61,11 +61,8 @@ subtitle: cat /etc/issue
 </table>  
 
 
-CV for more details:
+**CV for more details**
 <object data="{{ site.url }}{{ site.baseurl }}/docs/VitaliiZhukov_CV_SE.pdf#toolbar=0&navpanes=0&scrollbar=0" width="1000" height="1050" type="application/pdf"></object>  
-
-
-
 
 
 **Teacher & Mentor**  
