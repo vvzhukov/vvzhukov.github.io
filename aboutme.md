@@ -69,7 +69,8 @@ CV for more details:
 
 
 **Teacher & Mentor**  
-"Ask the student if the teacher is good." - Chinese Proverb  
+
+"Ask the student if the teacher is good." - Chinese Proverb
 <details> 
   <summary>Here I cherry picked some of my students comments. </summary>
 >- 'Great work by Vitalii!!'  
