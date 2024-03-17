@@ -13,10 +13,10 @@ Data descriptive, visualizations: ggplot2, ggpubr, matplotlib
 Models: TensorFlow/Keras, SKlearn, Seaborn plm, lme4  
 APIs & Cloud solutions: GoogleCloud, VertexAI, OpenAI, BigQuery  
 
-- [Human performance models](https://github.com/vvzhukov/Modeling-of-Competitive-Human-Performance)  
-  R (TBD)    
-- [Psychology schools analysis](https://github.com/vvzhukov/Convergence-in-Affective-and-Cognitive-Sciences)  
-  R (TBD)  
+- [Human performance research](https://github.com/vvzhukov/Modeling-of-Competitive-Human-Performance)  
+  R (ggplot2, igraph, moments, poweRlaw, car, MASS, STAND, EnvStats, pander)    
+- [Affective and cognitive sciences research](https://github.com/vvzhukov/Convergence-in-Affective-and-Cognitive-Sciences)  
+  R (dplyr, stats, forecast, sjPlot, tidyverse, wordcloud2, networkD3, superml, lsa, olsrr)  
 - [Statistical Methods in Research](https://github.com/vvzhukov/COSC6323_public_files/tree/main)  
   R (dplyr, ggplot2, GGally, tidyverse, caret, MASS, ggpubr, forecast, tseries, xlsx, XML, car, wordcloud, RColorBrewer, lmtest, plm, lme4)   
 - [Automatic real-estate email parsing and responding](https://github.com/vvzhukov/RESponder)  
