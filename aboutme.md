@@ -57,7 +57,9 @@ subtitle: cat /etc/issue
 
       </td>
     </tr>
+</table>   
 
+<table style="border-collapse: collapse;">
     <tr>
       <td style="border: none; padding: 10px;">
         <div data-iframe-width="270" data-iframe-height="270" data-share-badge-id="45b3629d-b916-4d3d-91d1-573785b8647f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
