@@ -42,6 +42,13 @@ subtitle: cat /etc/issue
         <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8319725"><img alt="Badge for Introduction to Generative AI" src="https://cdn.qwiklabs.com/RshPhz3CtNIya%2F8v2wDfRsaWLitOB3yRV73Oqq1iAtQ%3D" width="240" height="165">
         </a>
         </div>
+        
+      </td>
+      <td style="border: none; padding: 10px;"> 
+
+        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8361826"><img alt="Badge for Conversational AI on Vertex AI and Dialogflow CX" src="https://cdn.qwiklabs.com/fjdlMJrxQS7Z6zYqLcUUlaEaVijarKcq9ee9V9wo%2FRE%3D" width="240" height="165">
+        </a>
+        </div>
 
       </td>
     </tr>
