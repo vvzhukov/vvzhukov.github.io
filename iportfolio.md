@@ -20,7 +20,7 @@ APIs & Cloud solutions: GoogleCloud, VertexAI, OpenAI, BigQuery
 - [Statistical Methods in Research](https://github.com/vvzhukov/COSC6323_public_files/tree/main)  
   R (dplyr, ggplot2, GGally, tidyverse, caret, MASS, ggpubr, forecast, tseries, xlsx, XML, car, wordcloud, RColorBrewer, lmtest, plm, lme4, olsrr)   
 - [Automatic real-estate email parsing and responding](https://github.com/vvzhukov/RESponder)  
-  Pyton (json, csv, logging, redminelib, openai)  
+  Python (json, csv, logging, redminelib, openai)  
 - [Cybersecurity QA system (MITTR ATTCK QA)](https://github.com/vvzhukov/QAsystem_MITTR_AttCK)  
   Python (deeplake, vertexai, pandas, sklearn)
 - [TensorFlow / Keras main functionality guide & samples](https://github.com/vvzhukov/TensorFlow_guide)  
