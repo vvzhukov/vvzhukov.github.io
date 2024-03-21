@@ -10,7 +10,7 @@ subtitle: cat /etc/issue
 - Human performance, Science of science  
 
 **Badges and recent achievements**  
-<table style="border-collapse: collapse; overflow-x:auto;"">
+<table style="border-collapse: collapse; overflow-x:auto;">
     <tr>
       <td style="border: none; padding: 10px;">
         <div data-iframe-width="200" data-iframe-height="180">
