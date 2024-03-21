@@ -10,7 +10,7 @@ subtitle: cat /etc/issue
 - Human performance, Science of science  
 
 **Badges and recent achievements**  
-<table style="border-collapse: collapse; overflow-x:auto; width: auto;">
+<table style="border-collapse: collapse; overflow-x:auto; width: 1200;">
     <tr>
       <td style="border: none; padding: 10px;">
         <div data-iframe-width="200" data-iframe-height="180">
@@ -49,7 +49,7 @@ subtitle: cat /etc/issue
 
       <td style="border: none; padding: 10px;"> 
         <div data-iframe-width="120">
-        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8399722"><img alt="Badge for Prompt Design in Vertex AI" src="https://cdn.qwiklabs.com/GDVGByqhjlVp6OOvMLuEfCXvSAFBh33BQ2IvLZFaO6A%3D" width="200">
+        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8399722"><img alt="Badge for Prompt Design in Vertex AI" src="https://cdn.qwiklabs.com/GDVGByqhjlVp6OOvMLuEfCXvSAFBh33BQ2IvLZFaO6A%3D" width="200" height="180">
         </a>
         </div>
       </td>  
