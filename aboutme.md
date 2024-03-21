@@ -49,7 +49,7 @@ subtitle: cat /etc/issue
 
       <td style="border: none; padding: 10px;"> 
         <div>
-        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8399722"><img alt="Badge for Prompt Design in Vertex AI" src="https://cdn.qwiklabs.com/GDVGByqhjlVp6OOvMLuEfCXvSAFBh33BQ2IvLZFaO6A%3D" width="260" height="165">
+        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8399722"><img alt="Badge for Prompt Design in Vertex AI" src="https://cdn.qwiklabs.com/GDVGByqhjlVp6OOvMLuEfCXvSAFBh33BQ2IvLZFaO6A%3D" width="200">
         </a>
         </div>
       </td>  
