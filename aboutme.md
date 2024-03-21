@@ -32,9 +32,11 @@ subtitle: cat /etc/issue
         </a>
         </div>        
       </td>
-      
+    </tr>
 </table>  
+
 <table style="border-collapse: collapse; overflow-x:auto; ">
+     <tr>
       <td style="border: none; padding: 10px;">    
         <div data-iframe-width="200" data-iframe-height="180">
         <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8319725"><img alt="Badge for Introduction to Generative AI" src="https://cdn.qwiklabs.com/RshPhz3CtNIya%2F8v2wDfRsaWLitOB3yRV73Oqq1iAtQ%3D" width="200" height="180">
