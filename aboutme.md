@@ -14,7 +14,7 @@ subtitle: cat /etc/issue
     <tr>
       <td style="border: none; padding: 10px;">
         <div data-iframe-width="200" data-iframe-height="180">
-        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8323552"><img alt="Badge for Responsible AI: Applying AI Principles with Google Cloud" src="https://cdn.qwiklabs.com/Q%2FScwWC%2Fvpq%2BTQSLrzQ64SWm7j69wpa%2FVQL9ZZ8yYY0%3D">
+        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8323552"><img alt="Badge for Responsible AI: Applying AI Principles with Google Cloud" src="https://cdn.qwiklabs.com/Q%2FScwWC%2Fvpq%2BTQSLrzQ64SWm7j69wpa%2FVQL9ZZ8yYY0%3D" height="150">
         </a>
         </div>        
       </td>
