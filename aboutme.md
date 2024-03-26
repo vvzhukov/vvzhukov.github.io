@@ -87,10 +87,10 @@ subtitle: cat /etc/issue
 <table style="border-collapse: collapse;">
 <tr>
     <td style="border: none; padding: 10px;">
-        
+    <a href="https://learn.deeplearning.ai/accomplishments/94d9b080-7dc4-49b9-80ad-23278a61f235?usp=sharing">    
     <figure class="pl-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-8 w-8"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"></path></svg></figure>
-    <div class="h-12 w-12 flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="flex-shrink-0 rounded-full bg-success text-white h-full w-full p-2"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path></svg></div>   
-        
+    <p class="card-title">ChatGPT Prompt Engineering for Developers</p>
+    </a>    
     </td>
 </tr>    
 </table>  
