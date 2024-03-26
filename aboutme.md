@@ -33,9 +33,7 @@ subtitle: cat /etc/issue
         </div>        
       </td>
     </tr>
-</table>  
 
-<table style="border-collapse: collapse; overflow-x:auto; ">
      <tr>
       <td style="border: none; padding: 10px;">    
         <div data-iframe-width="200" data-iframe-height="180">
@@ -59,9 +57,7 @@ subtitle: cat /etc/issue
       </td>  
       
     </tr>
-</table>   
 
-<table style="border-collapse: collapse; overflow-x:auto; ">
      <tr>
       <td style="border: none; padding: 10px;">    
         <div data-iframe-width="200" data-iframe-height="180">         
