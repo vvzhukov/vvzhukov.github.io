@@ -10,7 +10,7 @@ subtitle: cat /etc/issue
 - Human performance, Science of science  
 
 **Badges and recent achievements**  
-<table style="border-collapse: collapse; overflow-x:auto; ">
+<table style="border-collapse: collapse;">
     <tr>
       <td style="border: none; padding: 10px;">
         <div data-iframe-width="200" data-iframe-height="180">
@@ -73,13 +73,13 @@ subtitle: cat /etc/issue
 <table style="border-collapse: collapse;">
     <tr>
       <td style="border: none; padding: 10px;">
-        <div data-iframe-width="270" data-iframe-height="270" data-share-badge-id="45b3629d-b916-4d3d-91d1-573785b8647f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        <div data-iframe-width="200" data-iframe-height="200" data-share-badge-id="45b3629d-b916-4d3d-91d1-573785b8647f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
       </td>
       <td style="border: none; padding: 10px;">
-        <div data-iframe-width="270" data-iframe-height="270" data-share-badge-id="f102cb06-19a4-4cd9-9aaa-387803d50991" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        <div data-iframe-width="200" data-iframe-height="200" data-share-badge-id="f102cb06-19a4-4cd9-9aaa-387803d50991" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
       </td>
       <td style="border: none; padding: 10px;">
-        <div data-iframe-width="270" data-iframe-height="270" data-share-badge-id="aeca2e16-b02d-4149-9fa9-4f33e52a56dd" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        <div data-iframe-width="200" data-iframe-height="200" data-share-badge-id="aeca2e16-b02d-4149-9fa9-4f33e52a56dd" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
       </td>
     </tr>
 </table>  
