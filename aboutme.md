@@ -87,7 +87,7 @@ subtitle: cat /etc/issue
 <table style="border-collapse: collapse;">
 <tr>
     <td style="border: none; padding: 10px;">
-        <img alt="DLAI Logo" loading="lazy" width="680" height="320" decoding="async" data-nimg="1" class="mx-auto" srcset="https://learn.deeplearning.ai/_next/image?url=%2Fassets%2Fdlai-celebration-bg.png&amp;w=750&amp;q=75 1x, /_next/image?url=%2Fassets%2Fdlai-celebration-bg.png&amp;w=1920&amp;q=75 2x" src="https://learn.deeplearning.ai/_next/image?url=%2Fassets%2Fdlai-celebration-bg.png&amp;w=1920&amp;q=75" style="color: transparent;">
+        <img alt="DLAI Logo" loading="lazy" width="180" height="40" decoding="async" data-nimg="1" style="color:transparent" srcset="https://learn.deeplearning.ai/_next/image?url=%2Fassets%2Fdlai-logo.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fassets%2Fdlai-logo.png&amp;w=384&amp;q=75 2x" src="https://learn.deeplearning.ai/_next/image?url=%2Fassets%2Fdlai-logo.png&amp;w=384&amp;q=75">
     </td>
         
     <td style="border: none; padding: 10px;">
