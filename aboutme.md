@@ -87,9 +87,12 @@ subtitle: cat /etc/issue
 <table style="border-collapse: collapse;">
 <tr>
     <td style="border: none; padding: 10px;">
+        <figure class="pl-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-8 w-8"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"></path></svg></figure>
+    </td
+        
+    <td style="border: none; padding: 10px;">
         <div data-iframe-width="200" data-iframe-height="180">
             <a href="https://learn.deeplearning.ai/accomplishments/94d9b080-7dc4-49b9-80ad-23278a61f235?usp=sharing">    
-                <figure class="pl-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-8 w-8"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"></path></svg></figure>
                 <p class="card-title">ChatGPT Prompt Engineering for Developers</p>
             </a>    
         </div> 
@@ -98,7 +101,6 @@ subtitle: cat /etc/issue
     <td style="border: none; padding: 10px;">
         <div data-iframe-width="200" data-iframe-height="180">
             <a href="https://learn.deeplearning.ai/accomplishments/638176bb-c6f1-491a-82f9-06be792f3641?usp=sharing">    
-                <figure class="pl-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-8 w-8"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"></path></svg></figure>
                 <p class="card-title">Understanding and Applying Text Embeddings</p>
             </a>    
         </div> 
@@ -107,7 +109,6 @@ subtitle: cat /etc/issue
     <td style="border: none; padding: 10px;">
         <div data-iframe-width="200" data-iframe-height="180">
             <a href="https://learn.deeplearning.ai/accomplishments/d2158a99-41c2-4cef-a35d-c29aa9ebd831?usp=sharing">    
-                <figure class="pl-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-8 w-8"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"></path></svg></figure>
                 <p class="card-title">LLMOps</p>
             </a>    
         </div> 
@@ -116,7 +117,6 @@ subtitle: cat /etc/issue
     <td style="border: none; padding: 10px;">
         <div data-iframe-width="200" data-iframe-height="180">
             <a href="https://learn.deeplearning.ai/accomplishments/2c155268-5f29-421a-8926-9de84f89795a?usp=sharing">    
-                <figure class="pl-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-8 w-8"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"></path></svg></figure>
                 <p class="card-title">Building Applications with Vector Databases</p>
             </a>    
         </div> 
