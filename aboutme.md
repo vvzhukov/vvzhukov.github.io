@@ -96,27 +96,12 @@ subtitle: cat /etc/issue
             <a href="https://learn.deeplearning.ai/accomplishments/94d9b080-7dc4-49b9-80ad-23278a61f235?usp=sharing">    
                 <p class="card-title">ChatGPT Prompt Engineering for Developers</p>
             </a>    
-        </div> 
-    </td>
-    
-    <td style="border: none; padding: 10px;">
-        <div data-iframe-width="200" data-iframe-height="180">
             <a href="https://learn.deeplearning.ai/accomplishments/638176bb-c6f1-491a-82f9-06be792f3641?usp=sharing">    
                 <p class="card-title">Understanding and Applying Text Embeddings</p>
-            </a>    
-        </div> 
-    </td>
-    
-    <td style="border: none; padding: 10px;">
-        <div data-iframe-width="200" data-iframe-height="180">
+            </a>
             <a href="https://learn.deeplearning.ai/accomplishments/d2158a99-41c2-4cef-a35d-c29aa9ebd831?usp=sharing">    
                 <p class="card-title">LLMOps</p>
             </a>    
-        </div> 
-    </td>
-    
-    <td style="border: none; padding: 10px;">
-        <div data-iframe-width="200" data-iframe-height="180">
             <a href="https://learn.deeplearning.ai/accomplishments/2c155268-5f29-421a-8926-9de84f89795a?usp=sharing">    
                 <p class="card-title">Building Applications with Vector Databases</p>
             </a>    
