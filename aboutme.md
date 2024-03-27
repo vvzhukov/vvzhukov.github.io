@@ -88,7 +88,6 @@ subtitle: cat /etc/issue
 <tr>
     <td style="border: none; padding: 10px;">
         <img alt="DLAI Logo" loading="lazy" width="680" height="320" decoding="async" data-nimg="1" class="mx-auto" srcset="https://learn.deeplearning.ai/_next/image?url=%2Fassets%2Fdlai-celebration-bg.png&amp;w=750&amp;q=75 1x, /_next/image?url=%2Fassets%2Fdlai-celebration-bg.png&amp;w=1920&amp;q=75 2x" src="https://learn.deeplearning.ai/_next/image?url=%2Fassets%2Fdlai-celebration-bg.png&amp;w=1920&amp;q=75" style="color: transparent;">
-        <figure><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-8 w-8"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"></path></svg></figure>
     </td>
         
     <td style="border: none; padding: 10px;">
