@@ -127,7 +127,7 @@ subtitle: cat /etc/issue
 </table>  
 
 **CV for more details**
-<object data="{{ site.url }}{{ site.baseurl }}/docs/VitaliiZhukov_CV_SE.pdf#toolbar=0&navpanes=0&scrollbar=0" width="1000" height="1050" type="application/pdf"></object>  
+<object data="{{ site.url }}{{ site.baseurl }}/docs/VitaliiZhukov_CV.pdf#toolbar=0&navpanes=0&scrollbar=0" width="1000" height="1050" type="application/pdf"></object>  
 
 
 **Teacher & Mentor**  
