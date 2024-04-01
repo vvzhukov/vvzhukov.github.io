@@ -73,7 +73,14 @@ subtitle: cat /etc/issue
         </div>  
       </td>
 
+      <td style="border: none; padding: 10px;">    
+        <div data-iframe-width="200" data-iframe-height="180">         
+        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8517828"><img alt="Badge for Analyze and Visualize Looker Data" src="https://cdn.qwiklabs.com/ACwJL7ufdElDdpOHD%2BAgxIiz65FvHpjg3%2FDQGk5UxfI%3D" width="200" height="180">
+        </a>
+        </div>  
+      </td>
 
+ 
     </tr>
 </table>
 
