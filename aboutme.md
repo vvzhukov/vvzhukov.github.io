@@ -79,8 +79,20 @@ subtitle: cat /etc/issue
         </a>
         </div>  
       </td>
-
+    </tr>
  
+    <tr>
+      <td style="border: none; padding: 10px;">    
+        <div data-iframe-width="200" data-iframe-height="180">         
+        <a href="https://www.cloudskillsboost.google/public_profiles/0079760a-1cca-494d-ad93-473f6589ef09/badges/8561123"><img alt="Badge for Applying Advanced LookML Concepts in Looker" src="https://cdn.qwiklabs.com/vgDnRJbPu8wnueHXAqEcIxIS6bc1UJgu0ftg8svuiT0%3D" width="200" height="180">
+        </a>
+        </div>  
+      </td>
+      
+      <td style="border: none; padding: 10px;">    
+      </td>
+      <td style="border: none; padding: 10px;">     
+      </td>
     </tr>
 </table>
 
