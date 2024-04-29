@@ -28,8 +28,7 @@ version to a different stable version, you need to run your tuning jobs again be
 ## Gemini stable version
 
 To use the stable version of a Gemini model, append the three digit version number to the model with a hyphen (-). For example, to specify the stable gemini-1.0-pro model that's version six, append -006 to the model's name:  
-https://us-central1-aiplatform.googleapis.com/v1/*  
-*/projects/my_project/locations/us-central1/publishers/google/models/gemini-1.0-pro-006   
+[https://us-central1-aiplatform.googleapis.com/v1/projects/my_project/locations/us-central1/publishers/google/models/gemini-1.0-pro-006]   
 The following stable model versions are available for generally available Gemini models:  
 
 | Gemini 1.0 Pro model	| Release date	| Discontinuation date |
@@ -45,8 +44,7 @@ The following stable model versions are available for generally available Gemini
 The auto-updated version of a Gemini model points to the most recent stable version. When a new stable version is released, the auto-updated version points to the new version. 
 This means that if you specify the auto-updated version of a Gemini model in your code, it could behave differently without notice when the next stable version is released. 
 Because of this, use a auto-updated version with caution if you tune your model.  For example, the following uses the auto-updated version of the gemini-1.0-pro-vision model:
-https://us-central1-aiplatform.googleapis.com/v1/*  
-*/projects/my_project/locations/us-central1/publishers/google/models/gemini-1.0-pro-vision   
+[https://us-central1-aiplatform.googleapis.com/v1/projects/my_project/locations/us-central1/publishers/google/models/gemini-1.0-pro-vision]  
 
 # Gemini auto-updated models
 The following table shows the available auto-updated Gemini model versions and the stable version each references.
@@ -141,9 +139,9 @@ The latest version of a model is updated periodically and includes incremental u
 output over time for a given prompt. The latest version of a model is not guaranteed to be stable.
 
 To use the stable version of a language model, append the three digit version number to the model. For example, to specify the stable text-bison model that's version six, append @006 to the model's name:  
-https://us-central1-aiplatform.googleapis.com/v1/projects/my_project/locations/us-central1/publishers/google/models/text-bison@006   
+[https://us-central1-aiplatform.googleapis.com/v1/projects/my_project/locations/us-central1/publishers/google/models/text-bison@006]   
 To use the latest version of a model, don't append anything to the model name. For example, the following uses the latest version of the codechat-bison model:  
-https://us-central1-aiplatform.googleapis.com/v1/projects/my_project/locations/us-central1/publishers/google/models/codechat-bison  
+[https://us-central1-aiplatform.googleapis.com/v1/projects/my_project/locations/us-central1/publishers/google/models/codechat-bison]  
 
 Important: If you want to call the latest version of textembedding-gecko models, you must add @latest as a suffix. For example, textembedding-gecko@latest.  
 
