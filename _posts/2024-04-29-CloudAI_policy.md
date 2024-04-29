@@ -138,7 +138,7 @@ The following stable model versions are available for generally available Genera
 The latest version of a model is updated periodically and includes incremental updates and improvements. These changes might result in subtle differences in the 
 output over time for a given prompt. The latest version of a model is not guaranteed to be stable.
 
-To use the stable version of a language model, append the three digit version number to the model. For example, to specify the stable text-bison model that's version six, append @006 to the model's name:
+To use the stable version of a language model, append the three digit version number to the model. For example, to specify the stable text-bison model that's version six, append @006 to the model's name:  
 https://us-central1-aiplatform.googleapis.com/v1/projects/my_project/locations/us-central1/publishers/google/models/text-bison@006   
 To use the latest version of a model, don't append anything to the model name. For example, the following uses the latest version of the codechat-bison model:  
 https://us-central1-aiplatform.googleapis.com/v1/projects/my_project/locations/us-central1/publishers/google/models/codechat-bison  
