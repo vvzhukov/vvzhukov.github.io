@@ -65,11 +65,11 @@ The following table shows the available preview Gemini model versions and the pr
 
 | Model name	| Preview name	| Discontinuation date |
 | -------- | ------- | ------- |
-| Gemini 1.5 Pro model	| gemini-1.5-pro-preview-0409	| To be updated to a stable version |
+| Gemini 1.5 Pro model	| gemini-1.5-pro-preview-0409	| To be updated to a stable version |  
 
 
 ## PaLM stable model versions  
-The following stable model versions are available for generally available Generative AI models:
+The following stable model versions are available for generally available Generative AI models:  
 
 |chat-bison model	| Release date	| Discontinuation date |
 | -------- | ------- | ------- |
@@ -158,5 +158,5 @@ The following table shows the identifiers for the latest available Generative AI
 
 
 # References
-[Model versioning by Google](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versioning)
+[Model versioning by Google](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versioning)  
 [Google Cloud Support](https://console.cloud.google.com/support/cases?project=sound-groove-415918)
