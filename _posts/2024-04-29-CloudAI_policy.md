@@ -28,7 +28,8 @@ version to a different stable version, you need to run your tuning jobs again be
 ## Gemini stable version
 
 To use the stable version of a Gemini model, append the three digit version number to the model with a hyphen (-). For example, to specify the stable gemini-1.0-pro model that's version six, append -006 to the model's name:  
-https://us-central1-aiplatform.googleapis.com/v1/projects/my_project/locations/us-central1/publishers/google/models/gemini-1.0-pro-006  
+https://us-central1-aiplatform.googleapis.com/v1/*  
+*/projects/my_project/locations/us-central1/publishers/google/models/gemini-1.0-pro-006   
 The following stable model versions are available for generally available Gemini models:  
 
 | Gemini 1.0 Pro model	| Release date	| Discontinuation date |
@@ -44,7 +45,8 @@ The following stable model versions are available for generally available Gemini
 The auto-updated version of a Gemini model points to the most recent stable version. When a new stable version is released, the auto-updated version points to the new version. 
 This means that if you specify the auto-updated version of a Gemini model in your code, it could behave differently without notice when the next stable version is released. 
 Because of this, use a auto-updated version with caution if you tune your model.  For example, the following uses the auto-updated version of the gemini-1.0-pro-vision model:
-https://us-central1-aiplatform.googleapis.com/v1/projects/my_project/locations/us-central1/publishers/google/models/gemini-1.0-pro-vision  
+https://us-central1-aiplatform.googleapis.com/v1/*  
+*/projects/my_project/locations/us-central1/publishers/google/models/gemini-1.0-pro-vision   
 
 # Gemini auto-updated models
 The following table shows the available auto-updated Gemini model versions and the stable version each references.
@@ -66,65 +68,65 @@ The following table shows the available preview Gemini model versions and the pr
 | Model name	| Preview name	| Discontinuation date |
 | -------- | ------- | ------- |
 | Gemini 1.5 Pro model	| gemini-1.5-pro-preview-0409	| To be updated to a stable version |  
-
-
+  
+  
 ## PaLM stable model versions  
 The following stable model versions are available for generally available Generative AI models:  
-
+  
 |chat-bison model	| Release date	| Discontinuation date |
 | -------- | ------- | ------- |
 | chat-bison@002	| December 6, 2023	| October 9, 2024 |
 | chat-bison@001	| July 10, 2023	| July 6, 2024 |  
-
-
+  
+  
 | chat-bison-32k model	| Release date	| Discontinuation date |
 | -------- | ------- | ------- |
 | chat-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |  
-
+  
 | code-bison model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | code-bison@002 |	December 6, 2023 |	October 9, 2024 |
 | code-bison@001 |	June 29, 2023 |	July 6, 2024 |  
-
-
+  
+  
 | code-bison-32k model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | code-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |  
-
-
+  
+  
 | codechat-bison model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | codechat-bison@002 |	December 6, 2023 |	October 9, 2024 |
 | codechat-bison@001 |	June 29, 2023 |	July 6, 2024 |  
-
-
+  
+  
 | codechat-bison-32k model |	Release date	| Discontinuation date |
 | -------- | ------- | ------- |
 | codechat-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |  
-
-
+  
+  
 | code-gecko model |	Release date |	Discontinuation date | 
 | -------- | ------- | ------- |
 | code-gecko@002 |	December 6, 2023 |	October 9, 2024 |
 | code-gecko@001 |	June 29, 2023 |	July 6, 2024 |  
-
-
+  
+  
 | text-bison model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | text-bison@002 |	December 6, 2023 |	October 9, 2024 |
 | text-bison@001 |	June 7, 2023 |	July 6, 2024 |  
-
-
+  
+  
 | text-bison-32k model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | text-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |  
-
-
+  
+  
 | text-unicorn model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | text-unicorn@001 |	November 30, 2023 |	No earlier than November 30, 2024 |  
-
-
+  
+  
 | textembedding-gecko model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | textembedding-gecko@003 |	December 12, 2023	| Not applicable |
@@ -143,9 +145,11 @@ https://us-central1-aiplatform.googleapis.com/v1/projects/my_project/locations/u
 To use the latest version of a model, don't append anything to the model name. For example, the following uses the latest version of the codechat-bison model:  
 https://us-central1-aiplatform.googleapis.com/v1/projects/my_project/locations/us-central1/publishers/google/models/codechat-bison  
 
-Important: If you want to call the latest version of textembedding-gecko models, you must add @latest as a suffix. For example, textembedding-gecko@latest.
-PaLM latest models
-The following table shows the identifiers for the latest available Generative AI model versions:
+Important: If you want to call the latest version of textembedding-gecko models, you must add @latest as a suffix. For example, textembedding-gecko@latest.  
+
+# PaLM latest models  
+The following table shows the identifiers for the latest available Generative AI model versions:  
+
 | AI model | ID |
 | -------- | ------- |
 | PaLM 2 for Text (text-bison) models	text-bison | text-bison-32k |
@@ -153,7 +157,7 @@ The following table shows the identifiers for the latest available Generative AI
 | Codey for Code Generation (code-bison) models	code-bison | code-bison-32k |
 | Codey for Code Chat (codechat-bison) models	codechat-bison | codechat-bison-32k |
 | Codey for Code Completion (code-gecko) models	code-gecko | textembedding-gecko@latest |
-| Embeddings for Text (textembedding-gecko models)	|  textembedding-gecko-multilingual@latest| 
+| Embeddings for Text (textembedding-gecko models)	|  textembedding-gecko-multilingual@latest|   
 
 
 
