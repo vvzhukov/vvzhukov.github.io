@@ -36,7 +36,7 @@ The following stable model versions are available for generally available Gemini
 |gemini-1.0-pro-001 |	February 15, 2024	| February 15, 2025 |
 |gemini-1.0-pro-002	| April 9, 2024	| No earlier than April 9, 2025 |
 
-| Gemini 1.0 Pro Vision model	| Release date	 | Discontinuation date |
+| Gemini 1.0 Pro Vision model	| Release date | Discontinuation date |
 | -------- | ------- | ------- |
 |gemini-1.0-pro-vision-001 |	February 15, 2024 |	February 15, 2025 |  
   
@@ -52,7 +52,8 @@ The following table shows the available auto-updated Gemini model versions and t
 | Model name |	Auto-updated name | Referenced stable version |
 | -------- | ------- | ------- |
 | Gemini 1.0 Pro Vision model |	gemini-1.0-pro-vision	| gemini-1.0-pro-vision-001 |
-| Gemini 1.0 Pro model	| gemini-1.0-pro	| gemini-1.0-pro-002 |  
+| Gemini 1.0 Pro model	| gemini-1.0-pro	| gemini-1.0-pro-002 |   
+
 Note: gemini-pro is an alias for gemini-1.0-pro.  
 
 # Gemini preview version
@@ -73,44 +74,53 @@ The following stable model versions are available for generally available Genera
 |chat-bison model	| Release date	| Discontinuation date |
 | -------- | ------- | ------- |
 | chat-bison@002	| December 6, 2023	| October 9, 2024 |
-| chat-bison@001	| July 10, 2023	| July 6, 2024 |
+| chat-bison@001	| July 10, 2023	| July 6, 2024 |  
+
 
 | chat-bison-32k model	| Release date	| Discontinuation date |
 | -------- | ------- | ------- |
 | chat-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |
 | code-bison model |	Release date	Discontinuation date |
 | code-bison@002 |	December 6, 2023	October 9, 2024 |
-| code-bison@001 |	June 29, 2023	July 6, 2024 |
+| code-bison@001 |	June 29, 2023	July 6, 2024 |  
+
 
 | code-bison-32k model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
-| code-bison-32k@002 |	December 4, 2023 |	October 9, 2024
+| code-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |  
+
 
 | codechat-bison model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | codechat-bison@002 |	December 6, 2023 |	October 9, 2024 |
-| codechat-bison@001 |	June 29, 2023 |	July 6, 2024 |
+| codechat-bison@001 |	June 29, 2023 |	July 6, 2024 |  
+
 
 | codechat-bison-32k model |	Release date	| Discontinuation date |
 | -------- | ------- | ------- |
-| codechat-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |
+| codechat-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |  
 
-| code-gecko model |	Release date |	Discontinuation date |
+
+| code-gecko model |	Release date |	Discontinuation date | 
 | -------- | ------- | ------- |
 | code-gecko@002 |	December 6, 2023 |	October 9, 2024 |
-| code-gecko@001 |	June 29, 2023 |	July 6, 2024 |
+| code-gecko@001 |	June 29, 2023 |	July 6, 2024 |  
+
 
 | text-bison model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | text-bison@002	December 6, 2023 |	October 9, 2024 |
-| text-bison@001	June 7, 2023 |	July 6, 2024 |
+| text-bison@001	June 7, 2023 |	July 6, 2024 |  
+
 
 | text-bison-32k model |	Release date |	Discontinuation date |
-| text-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |
+| text-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |  
+
 
 | text-unicorn model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
-| text-unicorn@001 |	November 30, 2023 |	No earlier than November 30, 2024 |
+| text-unicorn@001 |	November 30, 2023 |	No earlier than November 30, 2024 |  
+
 
 | textembedding-gecko model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
@@ -119,7 +129,7 @@ The following stable model versions are available for generally available Genera
 | textembedding-gecko-multilingual@001 |	November 2, 2023 |	Not applicable |
 | textembedding-gecko@001 |	June 7, 2023 |	October 9, 2024 |
 | text-embedding-preview-0409 |	April 9, 2024 |	To be updated to a stable version. |
-| text-multilingual-embedding-preview-0409 |	April 9, 2024 |	To be updated to a stable version. |
+| text-multilingual-embedding-preview-0409 |	April 9, 2024 |	To be updated to a stable version. |  
 
 ##PaLM latest version
 The latest version of a model is updated periodically and includes incremental updates and improvements. These changes might result in subtle differences in the 
