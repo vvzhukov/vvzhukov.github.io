@@ -116,6 +116,7 @@ The following stable model versions are available for generally available Genera
 
 
 | text-bison-32k model |	Release date |	Discontinuation date |
+| -------- | ------- | ------- |
 | text-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |  
 
 
@@ -145,6 +146,8 @@ https://us-central1-aiplatform.googleapis.com/v1/projects/my_project/locations/u
 Important: If you want to call the latest version of textembedding-gecko models, you must add @latest as a suffix. For example, textembedding-gecko@latest.
 PaLM latest models
 The following table shows the identifiers for the latest available Generative AI model versions:
+| AI model | ID |
+| -------- | ------- |
 | PaLM 2 for Text (text-bison) models	text-bison | text-bison-32k |
 | PaLM 2 for Chat (chat-bison) models	chat-bison | chat-bison-32k |
 | Codey for Code Generation (code-bison) models	code-bison | code-bison-32k |
