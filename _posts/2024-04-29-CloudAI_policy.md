@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lifecycle policy for stable Google Generative AI models.
+title: Google Gen AI models lifecycle
 subtitle: New model Lifecycle Policy in Cloud AI.
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
