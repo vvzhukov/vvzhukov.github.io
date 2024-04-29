@@ -34,8 +34,10 @@ The following stable model versions are available for generally available Gemini
 | Gemini 1.0 Pro model	| Release date	| Discontinuation date |
 | -------- | ------- | ------- |
 |gemini-1.0-pro-001 |	February 15, 2024	| February 15, 2025 |
-|gemini-1.0-pro-002	| April 9, 2024	| No earlier than April 9, 2025 |
-
+|gemini-1.0-pro-002	| April 9, 2024	| No earlier than April 9, 2025 |  
+  
+---  
+  
 | Gemini 1.0 Pro Vision model	| Release date | Discontinuation date |
 | -------- | ------- | ------- |
 |gemini-1.0-pro-vision-001 |	February 15, 2024 |	February 15, 2025 |  
@@ -76,54 +78,65 @@ The following stable model versions are available for generally available Genera
 | chat-bison@002	| December 6, 2023	| October 9, 2024 |
 | chat-bison@001	| July 10, 2023	| July 6, 2024 |  
   
+---  
   
 | chat-bison-32k model	| Release date	| Discontinuation date |
 | -------- | ------- | ------- |
 | chat-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |  
+  
+---  
   
 | code-bison model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | code-bison@002 |	December 6, 2023 |	October 9, 2024 |
 | code-bison@001 |	June 29, 2023 |	July 6, 2024 |  
   
+---  
   
 | code-bison-32k model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | code-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |  
   
+---  
   
 | codechat-bison model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | codechat-bison@002 |	December 6, 2023 |	October 9, 2024 |
 | codechat-bison@001 |	June 29, 2023 |	July 6, 2024 |  
   
+---  
   
 | codechat-bison-32k model |	Release date	| Discontinuation date |
 | -------- | ------- | ------- |
 | codechat-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |  
-  
+
+---  
   
 | code-gecko model |	Release date |	Discontinuation date | 
 | -------- | ------- | ------- |
 | code-gecko@002 |	December 6, 2023 |	October 9, 2024 |
 | code-gecko@001 |	June 29, 2023 |	July 6, 2024 |  
-  
+
+---  
   
 | text-bison model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | text-bison@002 |	December 6, 2023 |	October 9, 2024 |
 | text-bison@001 |	June 7, 2023 |	July 6, 2024 |  
   
+---  
   
 | text-bison-32k model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | text-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |  
   
+---  
   
 | text-unicorn model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
 | text-unicorn@001 |	November 30, 2023 |	No earlier than November 30, 2024 |  
   
+---  
   
 | textembedding-gecko model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
