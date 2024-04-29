@@ -134,7 +134,7 @@ The following stable model versions are available for generally available Genera
 | text-embedding-preview-0409 |	April 9, 2024 |	To be updated to a stable version. |
 | text-multilingual-embedding-preview-0409 |	April 9, 2024 |	To be updated to a stable version. |  
 
-##PaLM latest version
+## PaLM latest version  
 The latest version of a model is updated periodically and includes incremental updates and improvements. These changes might result in subtle differences in the 
 output over time for a given prompt. The latest version of a model is not guaranteed to be stable.
 
@@ -158,5 +158,5 @@ The following table shows the identifiers for the latest available Generative AI
 
 
 # References
-[Model versioning by Google](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versioning)  
-[Google Cloud Support](https://console.cloud.google.com/support/cases?project=sound-groove-415918)
+1. [Model versioning by Google](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versioning)  
+2. [Google Cloud Support](https://console.cloud.google.com/support/cases?project=sound-groove-415918)
