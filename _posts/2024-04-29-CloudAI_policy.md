@@ -79,10 +79,12 @@ The following stable model versions are available for generally available Genera
 
 | chat-bison-32k model	| Release date	| Discontinuation date |
 | -------- | ------- | ------- |
-| chat-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |
-| code-bison model |	Release date	Discontinuation date |
-| code-bison@002 |	December 6, 2023	October 9, 2024 |
-| code-bison@001 |	June 29, 2023	July 6, 2024 |  
+| chat-bison-32k@002 |	December 4, 2023 |	October 9, 2024 |  
+
+| code-bison model |	Release date |	Discontinuation date |
+| -------- | ------- | ------- |
+| code-bison@002 |	December 6, 2023 |	October 9, 2024 |
+| code-bison@001 |	June 29, 2023 |	July 6, 2024 |  
 
 
 | code-bison-32k model |	Release date |	Discontinuation date |
