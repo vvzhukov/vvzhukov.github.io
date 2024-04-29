@@ -111,8 +111,8 @@ The following stable model versions are available for generally available Genera
 
 | text-bison model |	Release date |	Discontinuation date |
 | -------- | ------- | ------- |
-| text-bison@002	December 6, 2023 |	October 9, 2024 |
-| text-bison@001	June 7, 2023 |	July 6, 2024 |  
+| text-bison@002 |	December 6, 2023 |	October 9, 2024 |
+| text-bison@001 |	June 7, 2023 |	July 6, 2024 |  
 
 
 | text-bison-32k model |	Release date |	Discontinuation date |
