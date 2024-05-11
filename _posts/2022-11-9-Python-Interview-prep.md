@@ -30,8 +30,7 @@ List of used resources:
 
 **Data structures**  
 Hash set, map: [implementation](https://docs.google.com/document/d/1vG6sD1L0phvNqfElF2qiq7Uto1XT_dMiLXJZXNCS-n8/edit)  
-Stacks: [implementation using 2 stacks](https://docs.google.com/document/d/11fkHGH_O2q8k5SyfD6nLWw43k3esZCiL_esMsHVZFP8/edit)  
-Queues: [priority queue implementation](https://docs.google.com/document/d/1A1j0g4stoAHPws4NJNdPAJvOi_y2SuKV2ExIs4O36kE/edit) collections.deque, heapq.heapify  
+Queues: [implementation using 2 stacks](https://docs.google.com/document/d/11fkHGH_O2q8k5SyfD6nLWw43k3esZCiL_esMsHVZFP8/edit), [priority queue implementation](https://docs.google.com/document/d/1A1j0g4stoAHPws4NJNdPAJvOi_y2SuKV2ExIs4O36kE/edit) collections.deque, heapq.heapify  
 Binary trees: [implementation, BST](https://docs.google.com/document/d/1SsGOBHjdXXhQpD_3kJhCEnu_flM5pKnRjeaNVCeXAdk/edit). [Max path](https://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/)  
 n-ary trees: [level traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/discuss/148877/Python-5-lines-BFS-solution)  
 Trie\-trees: [implementation](https://docs.google.com/document/d/1D-K6KWLxO77qWlLRfI-zYC16--JX2kGbyo7ViQga84c/edit)  
