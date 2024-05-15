@@ -92,6 +92,37 @@ between the std_dev_one_loop() and std_dev_two_loops() outputs.
 
 *precision could be higher, was not able to capture  
 
+R code used to generate random records
+```R
+# control random for reproducabiliuty
+set.seed(1001)
+
+# Normal
+data_norm_1k <- rnorm(10^3)
+data_norm_1m <- rnorm(10^6)
+data_norm_1b <- rnorm(10^9)
+# Poisson
+data_pois_1k <- rpois(10^3,c(3,4,5))
+data_pois_1m <- rpois(10^6,c(3,4,5))
+data_pois_1b <- rpois(10^9,c(3,4,5))
+# Binom
+data_binom_1k <- rbinom(10^3, size=1, prob=0.2)
+data_binom_1m <- rbinom(10^6, size=1, prob=0.2)
+data_binom_1b <- rbinom(10^9, size=1, prob=0.2)
+# Chi-Square
+data_chi_sq_1k <- rchisq(n=10^3, df=5)
+data_chi_sq_1m <- rchisq(n=10^6, df=5)
+data_chi_sq_1b <- rchisq(n=10^9, df=5)
+# Exponential
+data_exp_1k <- rexp(n=10^3)
+data_exp_1m <- rexp(n=10^6)
+data_exp_1b <- rexp(n=10^9)
+# F
+data_F_1k <- rf(10^3, df1 = 10, df2 = 20)
+data_F_1m <- rf(10^6, df1 = 10, df2 = 20)
+data_F_1b <- rf(10^9, df1 = 10, df2 = 20)
+```
+
 ## 5. Results
 
 Based on the results we may conclude that optimized method std_dev_one_loop() have reasonable precision +-10^3 on thousands of records,
