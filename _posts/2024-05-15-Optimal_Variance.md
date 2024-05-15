@@ -81,9 +81,9 @@ We generated the random data, and reproduced the experiments 10 times to avoid p
 |---|---|---|---|---|---|---|---|---|
 | thousand records | 0.0005 | 0.001084 | 0.000198 | 0.001524 | 0.0004965 | 0.000311 | 0.00064 | 0.00092 |
 | million records | 1.00E-06 | 1.00E-06 | 2.00E-07 | 1.00E-06 | 5.00E-07 | 3.00E-07 | 1.00E-06 | 2.00E-07 |
-| billion records | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* |  
+| billion records | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* |  
 
-*precision could be higher, was not able to capture  
+*precision could be higher, was not able to capture (64 bit floating limitation). 
 
 R code used to generate random records
 ```R
