@@ -129,3 +129,4 @@ Outliers did not impact the accuracy. Also in this post we have not studied the 
  https://www.strchr.com/standard_deviation_in_one_pass
  https://www.xnumber.com/xnumber/russian_calcs.htm
  https://mathworld.wolfram.com/StandardDeviation.html
+ https://www.johndcook.com/blog/2008/09/28/theoretical-explanation-for-numerical-results/
