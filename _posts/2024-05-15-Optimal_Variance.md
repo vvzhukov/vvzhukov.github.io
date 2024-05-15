@@ -124,9 +124,8 @@ high precision **±1E-06** on million records and extremely high precision **±1
 Outliers did not impact the accuracy. Also in this post we have not studied the large numbers impact (our max outlier was 4SD from mean). That could be a major limitation for the described technique and we might come back to this problem to study it more.
 
 
-# 6. References
+## 6. References
 
- https://www.strchr.com/standard_deviation_in_one_pass
- https://www.xnumber.com/xnumber/russian_calcs.htm
- https://mathworld.wolfram.com/StandardDeviation.html
- https://www.johndcook.com/blog/2008/09/28/theoretical-explanation-for-numerical-results/
+1. https://www.strchr.com/standard_deviation_in_one_pass
+2. https://www.xnumber.com/xnumber/russian_calcs.htm
+3. https://www.johndcook.com/blog/2008/09/28/theoretical-explanation-for-numerical-results/
