@@ -69,7 +69,7 @@ def std_dev_one_loop(a):
 ```
 Now lets study and discuss potential limitations of such optimization.  
 
-## 4. Studying precision for different data samples
+## 4. Studying optimization impact on precision for different data samples
 
 We will check precision for different data sizes (thousand, million, and billion records), 
 distributions (Normal, Poisson, Binomial, Chi-Square, Exponential,F) and outliers (Normal distribution, 5%, 10% outliers (±4SD)).  
