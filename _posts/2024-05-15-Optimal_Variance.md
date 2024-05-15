@@ -12,7 +12,7 @@ comments: true
 
 ## 1. Introduction
 Lately during the interview I have reviewed an interesting problem about the optimization of the standard deviation calculation. Problem was well-known and was reviewed in an old Soviet book 
-about [programmable calculators](https://www.xnumber.com/xnumber/russian_calcs.htm).  In this post we will review the problem, its solution in Python and do a small study of the solution boundaries in terms of precision for different data. 
+about [programmable calculators](https://www.xnumber.com/xnumber/russian_calcs.htm)[1].  In this post we will review the problem, its solution in Python and do a small study of the solution boundaries in terms of precision for different data. 
 
 ## 2. Problem description
 Standard deviation of a probability distribution is defined as the square root of the variance σ². Where variance is the expected value of the squared deviation from the mean of a random variable.
@@ -119,7 +119,7 @@ Outliers did not impact the accuracy. Also in this post we have not studied the 
 
 
 ## 6. References
-
-1. https://www.strchr.com/standard_deviation_in_one_pass
-2. https://www.xnumber.com/xnumber/russian_calcs.htm
-3. https://www.johndcook.com/blog/2008/09/28/theoretical-explanation-for-numerical-results/
+1. Финк Л. Папа, мама, я и микрокалькулятор. — М.: Радио и связь, 1988)
+2. https://www.strchr.com/standard_deviation_in_one_pass
+3. https://www.xnumber.com/xnumber/russian_calcs.htm
+4. https://www.johndcook.com/blog/2008/09/28/theoretical-explanation-for-numerical-results/
