@@ -77,11 +77,11 @@ distributions (Normal, Poisson, Binomial, Chi-Square, Exponential,F) and outlier
 We generated the random data, and reproduced the experiments 10 times to avoid potential random bias. You may find experiment results in the table below. Numbers dipict average absolute error between the *std_dev_one_loop()* and *std_dev_two_loops()* functions outputs.  
 
   
-| | Normal | Poisson | Binomial | Chi-Squared | Exponential | F | Normal+Outliers 5% | Normal+Outliers 10% |
+| Records | Normal | Poisson | Binomial | Chi-Squared | Exponential | F | Normal+Outliers 5% | Normal+Outliers 10% |
 |---|---|---|---|---|---|---|---|---|
-| thousand records | 0.0005 | 0.001084 | 0.000198 | 0.001524 | 0.0004965 | 0.000311 | 0.00064 | 0.00092 |
-| million records | 1.00E-06 | 1.00E-06 | 2.00E-07 | 1.00E-06 | 5.00E-07 | 3.00E-07 | 1.00E-06 | 2.00E-07 |
-| billion records | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* |  
+| Thousand 1e03 | 0.0005 | 0.001084 | 0.000198 | 0.001524 | 0.0004965 | 0.000311 | 0.00064 | 0.00092 |
+| Million 1e06 | 1.00E-06 | 1.00E-06 | 2.00E-07 | 1.00E-06 | 5.00E-07 | 3.00E-07 | 1.00E-06 | 2.00E-07 |
+| Billion 1e09 | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* | 1.00E-8* |  
 
 *precision could be higher, was not able to capture (64 bit floating limitation). 
 
