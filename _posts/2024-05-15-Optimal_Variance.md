@@ -26,23 +26,21 @@ import math
 def std_dev_two_loops(a):
     n = len(a)
     sum = 0
-	sq_diff_sum = 0
+    sq_diff_sum = 0
 	
-	if n == 0:
+    if n == 0:
         return 0
     
     for i in range(n):
-        sum += a[i]
-		
+        sum += a[i]		
     mean = sum / n
     
     for i in range(n):
         diff = a[i] - mean
         sq_diff_sum += diff * diff
+    variance = sq_diff_sum / n
     
-	variance = sq_diff_sum / n
-    
-	return math.sqrt(variance)
+    return math.sqrt(variance)
 ```
 But here we need to loop over the data twice and the algorithm complexity will be O(n²). 
 Is there a way to solve it in O(n)?
@@ -57,7 +55,7 @@ import math
 
 def std_dev_one_loop(a):
     n = len(a)
-	sum = 0
+    sum = 0
     sq_sum = 0
 	
     if n == 0:
@@ -66,12 +64,9 @@ def std_dev_one_loop(a):
     for i in range(n):
         sum += a[i]
         sq_sum += a[i] * a[i]
-    
-	mean = sum / n
-    
-	variance = sq_sum / n - mean * mean
-    
-	return math.sqrt(variance)
+    mean = sum / n
+    variance = sq_sum / n - mean * mean
+    return math.sqrt(variance)
 ```
 
 ## 4. Studying precision for different data samples
