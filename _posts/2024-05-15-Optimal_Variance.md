@@ -53,6 +53,10 @@ $s_x^2 = \frac{1}{N} \sum_{i=1}^N (x_i - \bar{x})^2 = \frac{1}{N} \sum_{i=1}^N (
 $= \frac{1}{N} \sum_{i=1}^N x_i^2 - \frac{2\bar{x}}{N} \sum_{i=1}^N x_i + \frac{N \bar{x}^2}{N}$
 $=  \frac{1}{N} \sum_{i=1}^N x_i^2 - 2 \bar{x}^2 + \bar{x}^2 = \frac{1}{N} \sum_{i=1}^N x_i^2 - \bar{x}^2$  
 
+$$ s_x^2 = \frac{1}{N} \sum_{i=1}^N (x_i - \bar{x})^2 = \frac{1}{N} \sum_{i=1}^N (x_i^2 - 2 \bar{x} x_i + \bar{x}^2 ) = $$  
+$$= \frac{1}{N} \sum_{i=1}^N x_i^2 - \frac{2 \bar{x}}{N} \sum_{i=1}^N x_i + \frac{N \bar{x}^2}{N} = $$  
+$$ = \left(\frac{1}{N} \sum_{i=1}^N x_i^2 \right) - 2 \bar{x}^2 + \bar{x}^2 = \left(\frac{1}{N} \sum_{i=1}^N x_i^2 \right) - \bar{x}^2 $  
+
 <p>
     $s_x^2 = \frac{1}{N} \sum_{i=1}^N (x_i - \bar{x})^2 = \frac{1}{N} \sum_{i=1}^N (x_i^2 - 2 \bar{x} x_i + \bar{x}^2)$
     $= \frac{1}{N} \sum_{i=1}^N x_i^2 - \frac{2\bar{x}}{N} \sum_{i=1}^N x_i + \frac{N \bar{x}^2}{N}$
