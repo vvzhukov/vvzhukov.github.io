@@ -79,9 +79,8 @@ def std_dev_one_loop(a):
 
 Now lets check precision for different data sizes (thousand, million, and billion records), 
 distributions (Normal, Poisson, Binomial, Chi-Square, Exponential,F) and outliers (normal distribution, 5%, 10% ouliers (4SD+)). 
-
-You may find experiment results in the table below. Numbers dipict absolute error 
-between the std_dev_one_loop() and std_dev_two_loops() functions outputs.
+We generated the random data, and reproduced the experiments 10 times to avoid potential random bias.  
+You may find experiment results in the table below. Numbers dipict average absolute error between the std_dev_one_loop() and std_dev_two_loops() functions outputs.
 
   
 | | Normal | Poisson | Binomial | Chi-Squared | Exponential | F | Normal+Outliers 5% | Normal+Outliers 10% |
