@@ -83,12 +83,14 @@ distributions (Normal, Poisson, Binomial, Chi-Square, Exponential,F) and outlier
 You may find experiment results in the table below. Numbers dipect absolute error 
 between the std_dev_one_loop() and std_dev_two_loops() outputs.
 
+  
 | | Normal | Poisson | Binomial | Chi-Squared | Exponential | F | Normal+Outliers 5% | Normal+Outliers 10% |
 |---|---|---|---|---|---|---|---|---|
 | 1 thousand records | 0.0005 | 0.001084 | 0.000198 | 0.001524 | 0.0004965 | 0.000311 | 0.00064 | 0.00092 |
 | 1 million records | 1.00E-06 | 1.00E-06 | 2.00E-07 | 1.00E-06 | 5.00E-07 | 3.00E-07 | 1.00E-06 | 2.00E-07 |
-| 1 billion records | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* |
-*precision could be higher, was not able to capture
+| 1 billion records | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* |  
+
+*precision could be higher, was not able to capture  
 
 ## 5. Results
 
