@@ -90,30 +90,24 @@ R code used to generate random records
 # control random for reproducabiliuty
 set.seed(1001)
 
+# 'n' Below is the sample size (10^3, 10^6, and 10^9)
 # Normal
-data_norm_1k <- rnorm(10^3)
-data_norm_1m <- rnorm(10^6)
-data_norm_1b <- rnorm(10^9)
+data_norm <- rnorm(n)
+
 # Poisson
-data_pois_1k <- rpois(10^3,c(3,4,5))
-data_pois_1m <- rpois(10^6,c(3,4,5))
-data_pois_1b <- rpois(10^9,c(3,4,5))
+data_pois <- rpois(n,c(3,4,5))
+
 # Binom
-data_binom_1k <- rbinom(10^3, size=1, prob=0.2)
-data_binom_1m <- rbinom(10^6, size=1, prob=0.2)
-data_binom_1b <- rbinom(10^9, size=1, prob=0.2)
+data_binom <- rbinom(n, size=1, prob=0.2)
+
 # Chi-Square
-data_chi_sq_1k <- rchisq(n=10^3, df=5)
-data_chi_sq_1m <- rchisq(n=10^6, df=5)
-data_chi_sq_1b <- rchisq(n=10^9, df=5)
+data_chi_sq <- rchisq(n, df=5)
+
 # Exponential
-data_exp_1k <- rexp(n=10^3)
-data_exp_1m <- rexp(n=10^6)
-data_exp_1b <- rexp(n=10^9)
+data_exp <- rexp(n)
+
 # F
-data_F_1k <- rf(10^3, df1 = 10, df2 = 20)
-data_F_1m <- rf(10^6, df1 = 10, df2 = 20)
-data_F_1b <- rf(10^9, df1 = 10, df2 = 20)
+data_F <- rf(n, df1 = 10, df2 = 20)
 ```
 All calculations were performed on the Linux VM with 20 logical processors @3.3Ghz and 32Gb of RAM.
 
