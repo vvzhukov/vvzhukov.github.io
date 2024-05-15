@@ -51,7 +51,13 @@ Is there a way to solve it in O(n)?
 First lets rewrite the formula:  
 $s_x^2 = \frac{1}{N} \sum_{i=1}^N (x_i - \bar{x})^2 = \frac{1}{N} \sum_{i=1}^N (x_i^2 - 2 \bar{x} x_i + \bar{x}^2)$
 $= \frac{1}{N} \sum_{i=1}^N x_i^2 - \frac{2\bar{x}}{N} \sum_{i=1}^N x_i + \frac{N \bar{x}^2}{N}$
-$=  \frac{1}{N} \sum_{i=1}^N x_i^2 - 2 \bar{x}^2 + \bar{x}^2 = \frac{1}{N} \sum_{i=1}^N x_i^2 - \bar{x}^2$
+$=  \frac{1}{N} \sum_{i=1}^N x_i^2 - 2 \bar{x}^2 + \bar{x}^2 = \frac{1}{N} \sum_{i=1}^N x_i^2 - \bar{x}^2$  
+
+<p>
+    \( s_x^2 = \frac{1}{N} \sum_{i=1}^N (x_i - \bar{x})^2 = \frac{1}{N} \sum_{i=1}^N (x_i^2 - 2 \bar{x} x_i + \bar{x}^2) \)<br>
+    \( = \frac{1}{N} \sum_{i=1}^N x_i^2 - \frac{2\bar{x}}{N} \sum_{i=1}^N x_i + \frac{N \bar{x}^2}{N} \)<br>
+    \( = \frac{1}{N} \sum_{i=1}^N x_i^2 - 2 \bar{x}^2 + \bar{x}^2 = \frac{1}{N} \sum_{i=1}^N x_i^2 - \bar{x}^2 \)
+</p>
 
 ```python
 import math
