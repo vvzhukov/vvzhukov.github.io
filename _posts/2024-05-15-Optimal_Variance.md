@@ -73,6 +73,12 @@ Now lets study and discuss potential limitations of such optimization.
 
 We will check precision for different data sizes (thousand, million, and billion records), 
 distributions (Normal, Poisson, Binomial, Chi-Square, Exponential,F) and outliers (Normal distribution, 5%, 10% outliers (±4SD)).  
+Distribution parameters are following:  
+Normal - Mean:0; SD:1;   
+Poisson - Lambda vector:(3,4,5);  
+Binomial - Number of trials:1; Probability of success on each trial:0.2;  
+Chi-Square - Degrees of freedom:5; Non-centrality parameter:0;   
+Exponential - Vector of rates:1.  
 
 We generated the random data, and reproduced the experiments 10 times to avoid potential random bias. You may find experiment results in the table below. Numbers dipict average absolute error between the *std_dev_one_loop()* and *std_dev_two_loops()* functions outputs.  
 
