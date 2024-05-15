@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Standard deviation in one pass and its impact on precision
-subtitle: Lets do a small research of the optimization and its potential weaknesses
+subtitle: Optimization and its potential weaknesses study
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [Stats, Python, R, Algorithms]
