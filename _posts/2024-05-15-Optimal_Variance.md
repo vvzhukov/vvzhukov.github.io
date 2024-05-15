@@ -72,9 +72,9 @@ Now lets study and discuss potential limitations of such optimization.
 ## 4. Studying precision for different data samples
 
 Now lets check precision for different data sizes (thousand, million, and billion records), 
-distributions (Normal, Poisson, Binomial, Chi-Square, Exponential,F) and outliers (normal distribution, 5%, 10% ouliers (4SD+)). 
-We generated the random data, and reproduced the experiments 10 times to avoid potential random bias.  
-You may find experiment results in the table below. Numbers dipict average absolute error between the std_dev_one_loop() and std_dev_two_loops() functions outputs.
+distributions (Normal, Poisson, Binomial, Chi-Square, Exponential,F) and outliers (Normal distribution, 5%, 10% ouliers (4SD+)).  
+
+We generated the random data, and reproduced the experiments 10 times to avoid potential random bias. You may find experiment results in the table below. Numbers dipict average absolute error between the *std_dev_one_loop()* and *std_dev_two_loops()* functions outputs.  
 
   
 | | Normal | Poisson | Binomial | Chi-Squared | Exponential | F | Normal+Outliers 5% | Normal+Outliers 10% |
@@ -115,13 +115,13 @@ data_F_1k <- rf(10^3, df1 = 10, df2 = 20)
 data_F_1m <- rf(10^6, df1 = 10, df2 = 20)
 data_F_1b <- rf(10^9, df1 = 10, df2 = 20)
 ```
-All calculations were performed on the Linux VM with 20 logical processors and 32Gb of RAM.
+All calculations were performed on the Linux VM with 20 logical processors @3.3Ghz and 32Gb of RAM.
 
 ## 5. Results
 
 Based on the results we may conclude that optimized method std_dev_one_loop() have reasonable precision +-10^3 on thousands of records,
-high precision +-10^6 on million records and extremely high precision on billion records. 
-Independently of the type of the distribution and outliers. Also in this post we have not studied the large numbers impact (our max outlier was 4SD from mean). That could be a major limitation for the described technique.
+high precision +-10^6 on million records and extremely high precision on billion records. The worst preciesion was registered for the Poisson and Chi-Squared destribution.
+Outliers did not impact the accuracy. Also in this post we have not studied the large numbers impact (our max outlier was 4SD from mean). That could be a major limitation for the described technique and we might come back to this problem to study it more.
 
 
 # 6. References
