@@ -14,7 +14,7 @@ comments: true
 Lately during the interview I have reviewed an interesting problem about the optimization of the standard deviation calculation. Problem was well-known and was reviewed in an old Soviet book 
 about [programmable calculators](https://www.xnumber.com/xnumber/russian_calcs.htm).  In this post we will review the problem, its solution in Python and do a small study of the solution boundaries in terms of precision for different data. 
 
-### 2. Problem description
+## 2. Problem description
 Standard deviation of a probability distribution is defined as the square root of the variance σ². Where variance is the expected value of the squared deviation from the mean of a random variable.
 Typical way to calculate it is to do two loops over the data:
 
