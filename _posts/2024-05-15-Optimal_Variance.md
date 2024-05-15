@@ -109,7 +109,13 @@ data_exp <- rexp(n)
 # F
 data_F <- rf(n, df1 = 10, df2 = 20)
 ```
-All calculations were performed on the Linux VM with 20 logical processors @3.3Ghz and 32Gb of RAM.
+**Note** for those who is willing to reproduce.   
+All calculations were performed on the Linux VM with 4 logical processors @3.3Ghz and 32Gb of RAM.  
+Python 3.9.13, R 4.2.2.  
+Data generation (1b records) avg. timings: 25.756s  
+Data processing (1b records, std_dev_two_loops(a)) avg. timings: 41.480s    
+Data processing (1b records, std_dev_one_loop(a)) avg. timings: 34.319s     
+Data processing (1b records, std(a) from R standard lib) avg. timings: 2.583s  
 
 ## 5. Results
 
