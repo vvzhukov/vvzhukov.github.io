@@ -119,8 +119,8 @@ All calculations were performed on the Linux VM with 20 logical processors @3.3G
 
 ## 5. Results
 
-Based on the results we may conclude that optimized method std_dev_one_loop() have reasonable precision ±10^3 on thousands of records,
-high precision ±10^6 on million records and extremely high precision on billion records. The worst preciesion was registered for the Poisson and Chi-Squared destribution.
+Based on the results we may conclude that optimized method *std_dev_one_loop()* have reasonable precision **±1E-3** on thousands of records,
+high precision **±1E-06** on million records and extremely high precision **±1E-08** or higher on billion records. The worst preciesion was registered for the Poisson and Chi-Squared destribution.
 Outliers did not impact the accuracy. Also in this post we have not studied the large numbers impact (our max outlier was 4SD from mean). That could be a major limitation for the described technique and we might come back to this problem to study it more.
 
 
