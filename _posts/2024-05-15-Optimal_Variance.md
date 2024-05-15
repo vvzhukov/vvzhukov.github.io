@@ -40,8 +40,7 @@ def std_dev_two_loops(a):
     
     return math.sqrt(variance)
 ```
-But here we need to loop over the data twice and the algorithm complexity will be O(n²). 
-Is there a way to solve it in O(n)?
+But here we need to loop over the data twice and for the large data samples we might want to limit it to a single loop.
 
 ## 3. Solution
 First lets rewrite the formula: 
