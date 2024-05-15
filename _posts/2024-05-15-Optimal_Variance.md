@@ -77,18 +77,18 @@ def std_dev_one_loop(a):
 
 ## 4. Studying precision for different data samples
 
-Check precision for different data sizes (thousand, million, and billion records), 
+Now lets check precision for different data sizes (thousand, million, and billion records), 
 distributions (Normal, Poisson, Binomial, Chi-Square, Exponential,F) and outliers (normal distribution, 5%, 10% ouliers (4SD+)). 
 
-You may find experiment results in the table below. Numbers dipect absolute error 
-between the std_dev_one_loop() and std_dev_two_loops() outputs.
+You may find experiment results in the table below. Numbers dipict absolute error 
+between the std_dev_one_loop() and std_dev_two_loops() functions outputs.
 
   
 | | Normal | Poisson | Binomial | Chi-Squared | Exponential | F | Normal+Outliers 5% | Normal+Outliers 10% |
 |---|---|---|---|---|---|---|---|---|
-| 1 thousand records | 0.0005 | 0.001084 | 0.000198 | 0.001524 | 0.0004965 | 0.000311 | 0.00064 | 0.00092 |
-| 1 million records | 1.00E-06 | 1.00E-06 | 2.00E-07 | 1.00E-06 | 5.00E-07 | 3.00E-07 | 1.00E-06 | 2.00E-07 |
-| 1 billion records | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* |  
+| thousand records | 0.0005 | 0.001084 | 0.000198 | 0.001524 | 0.0004965 | 0.000311 | 0.00064 | 0.00092 |
+| million records | 1.00E-06 | 1.00E-06 | 2.00E-07 | 1.00E-06 | 5.00E-07 | 3.00E-07 | 1.00E-06 | 2.00E-07 |
+| billion records | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* | 1.00E-08* |  
 
 *precision could be higher, was not able to capture  
 
