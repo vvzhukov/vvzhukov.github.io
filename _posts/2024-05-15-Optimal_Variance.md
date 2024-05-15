@@ -48,20 +48,9 @@ But here we need to loop over the data twice and the algorithm complexity will b
 Is there a way to solve it in O(n)?
 
 ## 3. Solution
-First lets rewrite the formula:  
-$s_x^2 = \frac{1}{N} \sum_{i=1}^N (x_i - \bar{x})^2 = \frac{1}{N} \sum_{i=1}^N (x_i^2 - 2 \bar{x} x_i + \bar{x}^2)$
-$= \frac{1}{N} \sum_{i=1}^N x_i^2 - \frac{2\bar{x}}{N} \sum_{i=1}^N x_i + \frac{N \bar{x}^2}{N}$
-$=  \frac{1}{N} \sum_{i=1}^N x_i^2 - 2 \bar{x}^2 + \bar{x}^2 = \frac{1}{N} \sum_{i=1}^N x_i^2 - \bar{x}^2$  
+First lets rewrite the formula: 
 
-$$ s_x^2 = \frac{1}{N} \sum_{i=1}^N (x_i - \bar{x})^2 = \frac{1}{N} \sum_{i=1}^N (x_i^2 - 2 \bar{x} x_i + \bar{x}^2 ) = $$  
-$$= \frac{1}{N} \sum_{i=1}^N x_i^2 - \frac{2 \bar{x}}{N} \sum_{i=1}^N x_i + \frac{N \bar{x}^2}{N} = $$  
-$$ = \left(\frac{1}{N} \sum_{i=1}^N x_i^2 \right) - 2 \bar{x}^2 + \bar{x}^2 = \left(\frac{1}{N} \sum_{i=1}^N x_i^2 \right) - \bar{x}^2 $  
-
-<p>
-    $s_x^2 = \frac{1}{N} \sum_{i=1}^N (x_i - \bar{x})^2 = \frac{1}{N} \sum_{i=1}^N (x_i^2 - 2 \bar{x} x_i + \bar{x}^2)$
-    $= \frac{1}{N} \sum_{i=1}^N x_i^2 - \frac{2\bar{x}}{N} \sum_{i=1}^N x_i + \frac{N \bar{x}^2}{N}$
-    $=  \frac{1}{N} \sum_{i=1}^N x_i^2 - 2 \bar{x}^2 + \bar{x}^2 = \frac{1}{N} \sum_{i=1}^N x_i^2 - \bar{x}^2$  
-</p>
+![Formula for STD](https://github.com/vvzhukov/vvzhukov.github.io/blob/master/assets/img/Opt_STD_CodeCogsEqn.png?raw=true)  
 
 ```python
 import math
