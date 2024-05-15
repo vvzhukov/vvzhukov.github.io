@@ -46,7 +46,8 @@ Is there a way to solve it in O(n)?
 ## 3. Solution
 First lets rewrite the formula: 
 
-![Formula for STD](https://github.com/vvzhukov/vvzhukov.github.io/blob/master/assets/img/Opt_STD_CodeCogsEqn.png?raw=true)  
+![Formula for STD](https://github.com/vvzhukov/vvzhukov.github.io/blob/master/assets/img/Opt_STD_CodeCogsEqn.png?raw=true)   
+
 And implement it in Python:  
 
 ```python
@@ -67,6 +68,7 @@ def std_dev_one_loop(a):
     variance = sq_sum / n - mean * mean
     return math.sqrt(variance)
 ```
+Now lets study and discuss potential limitations of such optimization.  
 
 ## 4. Studying precision for different data samples
 
