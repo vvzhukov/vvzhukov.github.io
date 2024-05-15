@@ -13,7 +13,7 @@ comments: true
 ## 1. Introduction
 Lately during the interview I have reviewed an interesting problem about the optimization of the standard deviation calculation. Problem was well-known and was reviewed in an old Soviet book 
 about [programmable calculators](https://www.xnumber.com/xnumber/russian_calcs.htm).  
-In this post we will review the problem, its solution in Python and do a small study of the solution boundaries in terms of precision for different data. This post also could be a good illustration of multiple samples of billion data processing.
+In this post we will review the problem, its solution in Python and do a small study of the solution boundaries in terms of precision for different data. 
 
 ### 2. Problem description
 Standard deviation of a probability distribution is defined as the square root of the variance σ².
