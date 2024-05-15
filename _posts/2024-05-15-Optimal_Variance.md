@@ -72,7 +72,7 @@ Now lets study and discuss potential limitations of such optimization.
 ## 4. Studying precision for different data samples
 
 Now lets check precision for different data sizes (thousand, million, and billion records), 
-distributions (Normal, Poisson, Binomial, Chi-Square, Exponential,F) and outliers (Normal distribution, 5%, 10% ouliers (4SD+)).  
+distributions (Normal, Poisson, Binomial, Chi-Square, Exponential,F) and outliers (Normal distribution, 5%, 10% outliers (±4SD)).  
 
 We generated the random data, and reproduced the experiments 10 times to avoid potential random bias. You may find experiment results in the table below. Numbers dipict average absolute error between the *std_dev_one_loop()* and *std_dev_two_loops()* functions outputs.  
 
@@ -119,8 +119,8 @@ All calculations were performed on the Linux VM with 20 logical processors @3.3G
 
 ## 5. Results
 
-Based on the results we may conclude that optimized method std_dev_one_loop() have reasonable precision +-10^3 on thousands of records,
-high precision +-10^6 on million records and extremely high precision on billion records. The worst preciesion was registered for the Poisson and Chi-Squared destribution.
+Based on the results we may conclude that optimized method std_dev_one_loop() have reasonable precision ±10^3 on thousands of records,
+high precision ±10^6 on million records and extremely high precision on billion records. The worst preciesion was registered for the Poisson and Chi-Squared destribution.
 Outliers did not impact the accuracy. Also in this post we have not studied the large numbers impact (our max outlier was 4SD from mean). That could be a major limitation for the described technique and we might come back to this problem to study it more.
 
 
