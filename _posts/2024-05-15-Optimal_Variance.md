@@ -47,6 +47,7 @@ Is there a way to solve it in O(n)?
 First lets rewrite the formula: 
 
 ![Formula for STD](https://github.com/vvzhukov/vvzhukov.github.io/blob/master/assets/img/Opt_STD_CodeCogsEqn.png?raw=true)  
+And implement it in Python:  
 
 ```python
 import math
@@ -113,6 +114,7 @@ data_F_1k <- rf(10^3, df1 = 10, df2 = 20)
 data_F_1m <- rf(10^6, df1 = 10, df2 = 20)
 data_F_1b <- rf(10^9, df1 = 10, df2 = 20)
 ```
+All calculations were performed on the Linux VM with 20 logical processors and 32Gb of RAM.
 
 ## 5. Results
 
