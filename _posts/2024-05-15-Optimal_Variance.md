@@ -71,7 +71,7 @@ Now lets study and discuss potential limitations of such optimization.
 
 ## 4. Studying precision for different data samples
 
-Now lets check precision for different data sizes (thousand, million, and billion records), 
+We will check precision for different data sizes (thousand, million, and billion records), 
 distributions (Normal, Poisson, Binomial, Chi-Square, Exponential,F) and outliers (Normal distribution, 5%, 10% outliers (±4SD)).  
 
 We generated the random data, and reproduced the experiments 10 times to avoid potential random bias. You may find experiment results in the table below. Numbers dipict average absolute error between the *std_dev_one_loop()* and *std_dev_two_loops()* functions outputs.  
