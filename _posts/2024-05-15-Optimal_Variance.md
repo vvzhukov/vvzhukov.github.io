@@ -78,7 +78,8 @@ Normal - Mean:0; SD:1;
 Poisson - Lambda vector:(3,4,5);  
 Binomial - Number of trials:1; Probability of success on each trial:0.2;  
 Chi-Square - Degrees of freedom:5; Non-centrality parameter:0;   
-Exponential - Vector of rates:1.  
+Exponential - Vector of rates:1;  
+F - Degrees of freedom:(10,20), Non-centrality parameter: central F.
 
 We generated the random data, and reproduced the experiments 10 times to avoid potential random bias. You may find experiment results in the table below. Numbers dipict average absolute error between the *std_dev_one_loop()* and *std_dev_two_loops()* functions outputs.  
 
