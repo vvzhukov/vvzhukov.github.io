@@ -110,6 +110,7 @@ Asynchronous programming allows for non-blocking operations, where tasks can run
 ### Pros
 - Efficiency: Excellent for I/O-bound tasks, allowing other tasks to proceed while waiting.
 - Scalability: Can handle many tasks concurrently without the overhead of threads or processes.
+
 ### Cons
 - Complexity: Managing asynchronous code can be tricky due to callbacks and the event loop.
 - Less Effective for CPU-bound Tasks: Not as useful for CPU-intensive tasks compared to threading and multiprocessing.
