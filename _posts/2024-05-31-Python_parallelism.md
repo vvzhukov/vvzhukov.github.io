@@ -16,9 +16,7 @@ If you've ever considered speeding up your application by running some routines 
 making your code faster and more efficient. This post will walk you through threading, multiprocessing, and asynchronous programming in Python, and briefly review how parallelism techniques are used in 
 popular libraries focused on machine learning (ML) and large language models (LLMs).  
 
-But before diving in, it's worth noting that Python has the Global Interpreter Lock (GIL), which can limit the performance gains from parallelism in some scenarios. We'll explore how each parallelism 
-technique handles the GIL and manages resources to maximize performance. Additionally, we'll touch on environment variables like `OMP_NUM_THREADS`, `MPI_NUM_THREADS`, `MKL_NUM_THREADS`, and 
-`OPENBLAS_NUM_THREADS`, which control the number of threads used by various parallel computing libraries.  
+It is worth mentioning that on a high level of abstraction, Python converts the source code to bytecode using the interpreter and then executes the bytecode using the Python Virtual Machine, which translates it into machine code instructions for the processor to execute. Global Interpreter Lock (GIL) is a component of the Python virtual machine, specifically in the CPython implementation, which is the reference implementation of Python. The GIL is a mutex (or a lock) that protects access to Python objects, preventing multiple native threads from executing Python bytecodes at once in CPython. This ensures that only one thread executes in the Python interpreter at any given time, making memory management and execution safe in a multi-threaded environment. GIL can limit the performance gains from parallelism in some scenarios. We'll explore how each parallelism technique handles the GIL and manages resources to maximize performance. Additionally, we'll touch on environment variables like `OMP_NUM_THREADS`, `MPI_NUM_THREADS`, `MKL_NUM_THREADS`, and `OPENBLAS_NUM_THREADS`, which control the number of threads used by various parallel computing libraries.  
 
 ## Threading  
 
