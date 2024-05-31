@@ -239,7 +239,7 @@ In this PyTorch example, the model is trained on a GPU if available. Here's how 
 - Complexity: More complex setup and debugging.
 - Resource Management
 
-# Conclusion & When to use parallelism
+## Conclusion & Best practices
 
 There are a lot of techniques to implement simultanious task execution in python. Just be sure that you are not introducing any additional bottlenecks and not overcomplicating the task.
 Here is a list of general recommendations that might help you to master parallelism and multitasking:  
