@@ -4,7 +4,7 @@ title: Parallelism in Python
 subtitle: Recap of MultiThreading, MultiProcessing, Async
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [Stats, Python, R, Algorithms]
+tags: [Python, Parallelism, Threads, Processes, Async]
 comments: true
 ---
 
