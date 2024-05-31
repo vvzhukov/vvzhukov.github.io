@@ -238,3 +238,40 @@ In this PyTorch example, the model is trained on a GPU if available. Here's how 
 ### Cons:
 - Complexity: More complex setup and debugging.
 - Resource Management
+
+# Conclusion & When to use parallelism
+
+There are a lot of techniques to implement simultanious task execution in python. Just be sure that you are not introducing any additional bottlenecks and not overcomplicating the task.
+Here is a list of general recommendations that might help you to master parallelism and multitasking:  
+1. Look for waits in your single-task program.  
+If your single-task program must wait for something (such as user input or messages arriving over a network), then your program is a candidate for multitasking.   
+
+2. Look for naturally occurring multiple independent tasks in your program.  
+For example, if your program is serving several independent users at the same time, then your program is a candidate for multitasking.  
+
+3. You must have a good reason to multitask, otherwise don’t multitask because multitasking will gain your program additional complexity.  
+
+4. Consider using interrupt handlers to build messages (and other packets) before handing them off to a waiting task. That technique alone can drastically improve performance.  
+Do not forget that you should be able to control the interrupt handlers to use this technique.  
+
+5. Running out of memory can often be cured with multitasking. And Processes are often used to group tasks to deal with memory issues and other resource sharing problems while maintaining smooth overall performance.  
+
+6. There are a lot of techniques, for instance a “assembly-line processing”. Processing starts off with a unit (packet/object) of processing by a first task. When that first task is done with its processing, it queues the packet into a fifo queue and signals a second task to being it’s processing. Then the first task continues processing the next thing or waits for the next thing, while the second task does its processing, and more tasks are added to the assembly line as required. All the multiple tasks run concurrently, and the programmer use different priorities for the various tasks to fine tune the concurrently running tasks in the assembly line. And if you are running on a multi-core processor with a good operating system, your program will automatically run faster without doing anything more because you will be using the multiple cores in parallel. Such assembly-line processing gives the programmer a ton of flexibility, especially if the programmer has a large network of computers at his beck-and-call to do some of the work.  
+
+7. Consider using Watch-Dog Timer tasks whose only job is to make sure the other tasks haven’t frozen.  
+
+8. A well-designed multitasking program will often be much easier to develop and maintain than a complex single task program. And multitasking programs are much more flexible, independent, reliable, and upgradable. But only if multitasking is appropriate.  
+
+9. There are a lot of mechanisms necessary to safely synchronize tasks, but most 2 frequently used pairs that allow you to do almost everything are lock and unlock, and signal and wait. You also will need to use tons of memory blocks from the operating system (OS) and fifo queues and then you must return your memory blocks when done. It’s cheap and fast to do with memory managers of most modern OS.  
+
+10. When debugging multitasking programs: As you step through your code always ask yourself: What would happen if the current task suspended and another task begins running. And the appropriate response is “Oh Shit.”
+As you gain experience multitasking, that what-if question will always be running concurrently in your mind as you design.  
+
+Thank you for reading and stay tuned!  
+
+
+# References
+1. https://medium.com/@ayushkumar0509/how-python-code-gets-converted-into-machine-code-9c21734899aa
+2. https://docs.python.org/3/library/asyncio.html
+3. https://docs.python.org/3/library/threading.html
+1. https://www.quora.com/What-are-the-rules-of-thumb-for-deciding-when-to-use-multiple-threads-in-your-computer-program
