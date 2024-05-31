@@ -236,6 +236,6 @@ In this PyTorch example, the model is trained on a GPU if available. Here's how 
 - Scalability: Ability to handle larger datasets and more complex models.
 - Resource Utilization: Efficient use of available hardware resources (GPUs, TPUs).
 
-## Cons:
+### Cons:
 - Complexity: More complex setup and debugging.
 - Resource Management
