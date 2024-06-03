@@ -120,6 +120,10 @@ Asynchronous programming allows for non-blocking operations, where tasks can run
 ```python
 import asyncio
 
+async def delayed_hello(n): #
+    asyncio.sleep(n)
+    return "Hello there!"
+
 async def print_numbers():
     for i in range(5):
         print(i)
@@ -127,9 +131,13 @@ async def print_numbers():
 
 # Running the async function
 async def main():
-    await asyncio.gather(print_numbers(), print_numbers())
+    await asyncio.gather(print_numbers(), print_numbers())  # Run awaitable objects in the aws sequence concurrently.
+    hello_str = await delayed_hello(2) # promise
+    task1 = asyncio.create_task(
+        delayed_hello(4))
+    await task1
 
-asyncio.run(main())
+asyncio.run(main())  # Run the top-level entry point “main()” function
 ```
 This example uses asyncio to run the print_numbers function concurrently. The await keyword pauses the function execution, allowing other tasks to run.
 
