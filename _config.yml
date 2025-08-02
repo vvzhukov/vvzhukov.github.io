@@ -17,8 +17,8 @@ navbar-links:
    Contacts: "contacts"
    Links: "links"
    Teaching: "teaching"
-   Portfolio: "iportfolio"
-   About: "aboutme"
+#   Portfolio: "iportfolio"
+#   About: "aboutme"
    Blog: "https://vvzhukov.github.io"
    
   #Resources:
