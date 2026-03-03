@@ -232,8 +232,7 @@ Choose Metaflow if your pain is ML experimentation friction.
 # Final Thought
 
 The biggest mistake teams make is picking an orchestrator based on popularity instead of who will write the pipelines.
-Platform engineers and data scientists have very different needs.
-Choose the tool that matches your team’s cognitive load.
+Platform engineers and data scientists have very different needs. Choose the tool that matches your team’s cognitive load.
 Otherwise, you’ll spend more time orchestrating the orchestrator than actually shipping value.
 
 For those who made it that far here is a wonderful short video from the October's TLMC about the [Metaflow as a baseplate for Agentic Systems](https://www.youtube.com/watch?v=V7oAHreFbE8).
