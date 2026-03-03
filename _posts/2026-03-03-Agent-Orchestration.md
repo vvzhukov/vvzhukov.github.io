@@ -23,7 +23,8 @@ The four big names you’ll keep running into:
 
 They all orchestrate workflows. They absolutely do not think about workflows the same way.  
 I’ve personally worked with Prefect and Metaflow, read a lot about Airflow and researched about Dagster.  
-The rest comes from documentation, production usage patterns, and community experience.
+The rest comes from documentation, production usage patterns, and community experience. 
+Everything below is just a synthesis of my own experience YMMV!
 
 Let’s break this down properly.
 
@@ -31,7 +32,7 @@ Let’s break this down properly.
 
 ## The Real Difference: Mental Models
 
-Before performance, before features — understand the philosophy.
+Before performance, before features - understand the philosophy.
 
 | Tool      | Core Abstraction | Primary User |
 |------------|------------------|---------------|
@@ -40,17 +41,20 @@ Before performance, before features — understand the philosophy.
 | Dagster   | Data assets      | Data platform / analytics engineers |
 | Metaflow  | Step-based ML flows | Data scientists |
 
-This difference explains most of the friction teams experience.
+That would be partially clear from their own definitions:  
+> Airflow is a platform created by the community to programmatically author, schedule and monitor workflows.  
+> Prefect: Orchestrate workflows. Build AI applications. Open-source foundations, production-ready platforms.  
+> Dagster: Data orchestrator for the whole development lifecycle, with integrated lineage and observability, a
+declarative programming model, and best-in-class testability.  
+> Metaflow: A framework for real-life ML, AI, and data science.   
+This difference explains most of the friction teams experience.  
 
 ---
 
 ## Apache Airflow
 
-Airflow is the OG enterprise orchestrator.
-
-It’s mature. It’s stable. It’s everywhere.
-
-If your company has production ETL pipelines, Airflow is probably running somewhere.
+Airflow is the OG enterprise orchestrator. It’s mature. It’s stable. It’s everywhere.  
+If your company has production ETL pipelines, Airflow is probably running somewhere.  
 
 ### Strengths
 
@@ -61,43 +65,33 @@ If your company has production ETL pipelines, Airflow is probably running somewh
 - Enterprise adoption
 
 ### Where It Gets Heavy
-
 Deploying a pipeline often involves:
-
 - Building a CLI application  
 - Dockerizing it  
 - Pushing to ECR  
 - Updating a DAG in another repository  
 - Deploying to your Airflow cluster  
-
 That’s perfectly reasonable for production ETL.
 
-But for data scientists experimenting with models?
-
-It’s a lot of overhead.
+But what about developer prototyping a new product or a data scientist experimenting with models?  
+It’s a lot of overhead.  
 
 ### Data Sharing
 
 - Uses XComs
 - Limited to small JSON-sized objects
 - Large artifacts require explicit external storage (e.g., S3)
-
 Airflow shines when pipelines are stable, long-lived, and mission-critical.
-
-It’s less pleasant when pipelines are experimental or ML-heavy.
+It’s less pleasant when pipelines are experimental or ML-heavy.  
 
 ---
 
 ## Prefect
 
-Prefect feels like someone looked at Airflow and said:
-
+Prefect feels like someone looked at Airflow and said:  
 > “What if orchestration just felt like writing Python?”
-
-And then actually did it.
-
-Workflows are just Python functions decorated as flows and tasks.
-
+And then actually did it.  
+Workflows are just Python functions decorated as flows and tasks.  
 ```python
 @flow
 def pipeline():
@@ -106,6 +100,8 @@ def pipeline():
     evaluate(model)  
 
 ```
+Tones of features, very *native* implementation (of course if you are mostly writing in Python like myself.
+
 ## Prefect
 
 ### Strengths
@@ -128,11 +124,8 @@ If Airflow feels like enterprise middleware, Prefect feels like a developer tool
 
 ## Dagster
 
-Dagster changes the unit of thinking.
-
-Instead of focusing on tasks, Dagster focuses on **data assets**.
-
-Tables, models, outputs — these are first-class citizens.
+Dagster changes the unit of thinking.  Instead of focusing on tasks, Dagster focuses on **data assets**.
+Tables, models, outputs - these are first-class citizens. What does it mean? In most orchestration tools, the core unit of work is a task - a function to run, a query to execute, a job to trigger. Dagster shifts the focus from tasks to data assets. Tables, feature sets, trained models, reports, and other durable outputs are treated as first-class citizens in the system. Instead of primarily modeling execution order, Dagster models how data products are created, how they depend on one another, and how they should be validated. This asset-centric approach means lineage, data quality checks, and dependency tracking are built into the graph itself rather than layered on afterward. The result is an orchestration model that reflects business data flow - from raw data to cleaned tables to models and dashboards - making it especially powerful for teams managing complex data ecosystems where correctness, governance, and observability matter as much as execution reliability.
 
 ### Strengths
 
@@ -148,22 +141,14 @@ Dagster is particularly strong for:
 - Teams using dbt  
 - Environments where data correctness and lineage matter deeply  
 
-It introduces a more opinionated model than Prefect, but in exchange you get serious governance capabilities.
-
-Dagster is excellent when understanding data relationships matters more than just running tasks.
+It introduces a more opinionated model than Prefect, but in exchange you get serious governance capabilities. Dagster is excellent when understanding data relationships matters more than just running tasks.
 
 ---
 
 ## Metaflow
 
-Metaflow
-
 Metaflow was built at Netflix for ML workflows.
-
-And it feels like it.
-
-The philosophy is simple:
-
+And it feels like it. The philosophy is simple:
 Let data scientists write Python. Handle the infrastructure automatically.
 
 A typical Metaflow pipeline is a Python class with steps:
@@ -188,10 +173,7 @@ Assign something to self.variable, and it’s persisted.
 
 self.train_data = data
 
-That’s it.
-
-No manual S3 wiring.
-No explicit metadata storage.
+That’s it. No manual S3 wiring. No explicit metadata storage.
 
 You can later query:
 - Who ran the pipeline
@@ -203,22 +185,17 @@ Reproducibility becomes trivial.
 
 ### 2. Parallel ML Is Native
 
-Need to train multiple models in parallel?
-Use foreach.
-
+Need to train multiple models in parallel? Use foreach.
 Each iteration runs on its own compute instance (AWS Batch, Kubernetes, etc.).
-
 Horizontal scaling becomes simple.
 
 Vertical scaling?
 Use resource decorators to allocate CPU/GPU.
-
 Much cleaner than parameterized DAG gymnastics.
 
 ### 3. Task Communication Is Seamless
 
 Unlike Airflow’s XCom limitation, Metaflow can pass large objects between steps because everything sits in the artifact store.
-
 Local and cloud execution share the same mental model.
 
 ### Performance & Scaling Comparison
@@ -259,9 +236,10 @@ Platform engineers and data scientists have very different needs.
 Choose the tool that matches your team’s cognitive load.
 Otherwise, you’ll spend more time orchestrating the orchestrator than actually shipping value.
 
+For those who made it that far here is a wonderful short video from the October's TLMC about the [Metaflow as a baseplate for Agentic Systems](https://www.youtube.com/watch?v=V7oAHreFbE8).
 
 # References
-1. https://medium.com/@ayushkumar0509/how-python-code-gets-converted-into-machine-code-9c21734899aa
-2. https://docs.python.org/3/library/asyncio.html
-3. https://docs.python.org/3/library/threading.html
-1. https://www.quora.com/What-are-the-rules-of-thumb-for-deciding-when-to-use-multiple-threads-in-your-computer-program
+1. https://www.prefect.io/prefect/open-source
+2. https://metaflow.org
+3. https://dagster.io
+4. https://airflow.apache.org
