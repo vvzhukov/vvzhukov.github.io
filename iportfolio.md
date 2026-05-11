@@ -13,7 +13,7 @@ Data descriptive, visualizations: ggplot2, ggpubr, matplotlib
 Models: TensorFlow/Keras, SKlearn, Seaborn plm, lme4  
 APIs & Cloud solutions: GoogleCloud, VertexAI, OpenAI, BigQuery  
 
-- [Human performance research](https://github.com/vvzhukov/Modeling-of-Competitive-Human-Performance)  
+- [Human performance research](https://github.com/UH-CPL/Patterns-of-Optimal-Human-Performance)  
   R (ggplot2, igraph, moments, poweRlaw, car, MASS, STAND, EnvStats, pander)    
 - [Affective and cognitive sciences research](https://github.com/vvzhukov/Convergence-in-Affective-and-Cognitive-Sciences)  
   R (dplyr, stats, forecast, sjPlot, tidyverse, wordcloud2, networkD3, superml, lsa)  
